@@ -43,6 +43,15 @@
   const uhr = (d) => (d.getHours() || d.getMinutes() ? `${zwei(d.getHours())}:${zwei(d.getMinutes())} Uhr` : "Uhrzeit offen");
   const tagesbeginn = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
 
+  // Pokalspiele ohne Uhrzeit haben im Ergebnisdienst nur einen Stichtag ("zu spielen bis")
+  const terminOffen = (s) => s.pokal && !s.ergebnis && !s.d.getHours() && !s.d.getMinutes();
+  const terminKurz = (s) => (terminOffen(s)
+    ? { tag: `bis ${tagKurz(s.d)}`, zeit: "Termin offen" }
+    : { tag: tagKurz(s.d), zeit: `${s.zeitOffen ? "ca. " : ""}${uhr(s.d)}` });
+  const terminLang = (s) => (terminOffen(s)
+    ? `Termin noch offen – zu spielen bis ${tagLang(s.d)}`
+    : `${tagLang(s.d)}, ${s.zeitOffen ? "ca. " : ""}${uhr(s.d)}`);
+
   function relativ(d) {
     const tage = Math.round((tagesbeginn(d) - tagesbeginn(new Date())) / 864e5);
     if (tage === 0) return "Heute";
@@ -54,22 +63,28 @@
   const teamById = (id) => D.teams.find((t) => t.id === id);
   const ligaVon = (team) => D.ligen[team.liga];
 
-  // Alle Spiele einer Mannschaft, angereichert aus Sicht von TuS Brake
-  function spieleVon(team) {
-    return ligaVon(team).spiele
+  // Alle Liga- und Pokalspiele einer Mannschaft, angereichert aus Sicht von TuS Brake
+  function spieleVon(team, { mitPokal = true } = {}) {
+    const liga = ligaVon(team);
+    const wettbewerbe = [{ name: liga.name, spiele: liga.spiele, pokal: false }];
+    if (mitPokal) {
+      (D.pokale || []).filter((p) => p.gruppe === team.gruppe)
+        .forEach((p) => wettbewerbe.push({ name: p.name, spiele: p.spiele, pokal: true }));
+    }
+    return wettbewerbe.flatMap((w) => w.spiele
       .filter((s) => s.heim === team.kurz || s.gast === team.kurz)
       .map((s) => {
         const heim = s.heim === team.kurz;
         const e = s.ergebnis;
         return {
-          ...s, team, heim, d: datum(s.datum),
+          ...s, team, heim, d: datum(s.datum), wettbewerb: w.name, pokal: w.pokal,
           gegner: heim ? s.gast : s.heim,
           // In unteren Ligen wird an Spieltagen oft in fremden Hallen gespielt –
           // "Heimspiel" heißt hier: Spiel in unserer eigenen Halle.
           zuhause: s.halle ? s.halle.name === HEIMHALLE_NAME : heim,
           sieg: e ? (heim ? e.saetze[0] > e.saetze[1] : e.saetze[1] > e.saetze[0]) : null,
         };
-      })
+      }))
       .sort((a, b) => a.d - b.d);
   }
   const heuteStart = tagesbeginn(new Date());
@@ -78,7 +93,7 @@
   function alleSpiele() {
     const gesehen = new Set();
     return D.teams.flatMap(spieleVon)
-      .filter((s) => { const k = `${s.team.liga}-${s.nr}`; return !gesehen.has(k) && gesehen.add(k); })
+      .filter((s) => { const k = `${s.wettbewerb}-${s.team.gruppe}-${s.nr}`; return !gesehen.has(k) && gesehen.add(k); })
       .sort((a, b) => a.d - b.d);
   }
 
@@ -120,13 +135,14 @@
 
   function spielZeile(s, { mitTeam = true } = {}) {
     const h = s.halle;
+    const termin = terminKurz(s);
     const ort = h
       ? `<div class="spiel__ort">📍 ${esc(h.name)}, ${esc(h.ort)} · <a href="${routeLink(h)}" target="_blank" rel="noopener">Route</a></div>`
       : "";
     return `<li class="spiel">
-      <div class="spiel__datum"><strong>${tagKurz(s.d)}</strong><span>${s.zeitOffen ? "ca. " : ""}${uhr(s.d)}</span></div>
+      <div class="spiel__datum"><strong>${termin.tag}</strong><span>${termin.zeit}</span></div>
       <div class="spiel__mitte">
-        ${mitTeam ? `<a class="spiel__team" href="#/team/${s.team.id}">${esc(s.team.name)} · ${esc(ligaVon(s.team).name)}</a>` : ""}
+        ${mitTeam || s.pokal ? `<a class="spiel__team" href="#/team/${s.team.id}">${s.pokal ? `<span class="pokal-marke">Pokal</span>` : ""}${mitTeam ? `${esc(s.team.name)} · ` : ""}${esc(s.wettbewerb)}${s.runde ? ` · ${esc(s.runde)}` : ""}</a>` : ""}
         <div class="spiel__paarung">${paarung(s)}</div>
         ${!s.ergebnis ? ort : ""}
       </div>
@@ -139,7 +155,7 @@
     liste.length ? `<ul class="spiele">${liste.map((s) => spielZeile(s, opt)).join("")}</ul>` : `<p class="leer">Keine Spiele vorhanden.</p>`;
 
   function formPunkte(team, n = 5) {
-    const letzte = spieleVon(team).filter((s) => s.ergebnis).slice(-n);
+    const letzte = spieleVon(team, { mitPokal: false }).filter((s) => s.ergebnis).slice(-n);
     if (!letzte.length) return `<span class="form__label">Noch keine Ergebnisse</span>`;
     return `<span class="form__label">Form</span>` + letzte
       .map((s) => `<span class="form__punkt form__punkt--${s.sieg ? "s" : "n"}" title="${tagKurz(s.d)} ${esc(s.gegner)}: ${s.ergebnis.saetze.join(":")}">${s.sieg ? "S" : "N"}</span>`)
@@ -195,14 +211,14 @@
     const naechstesHTML = naechstes ? `
       <div class="naechstes">
         <div class="naechstes__label"><span>Nächstes Spiel</span><span class="naechstes__countdown">${relativ(naechstes.d)}</span></div>
-        <div class="naechstes__team"><a href="#/team/${naechstes.team.id}">${esc(naechstes.team.name)}</a> · ${esc(ligaVon(naechstes.team).name)}</div>
+        <div class="naechstes__team"><a href="#/team/${naechstes.team.id}">${esc(naechstes.team.name)}</a> · ${esc(naechstes.wettbewerb)}${naechstes.runde ? ` · ${esc(naechstes.runde)}` : ""}</div>
         <div class="naechstes__paarung">
           <div class="${naechstes.heim ? "ist-brake" : ""}">${esc(naechstes.heim ? naechstes.team.kurz : naechstes.gegner)}</div>
           <span class="vs">VS</span>
           <div class="${naechstes.heim ? "" : "ist-brake"}">${esc(naechstes.heim ? naechstes.gegner : naechstes.team.kurz)}</div>
         </div>
         <div class="naechstes__info">
-          <span>${tagLang(naechstes.d)}, ${naechstes.zeitOffen ? "ca. " : ""}${uhr(naechstes.d)}</span>
+          <span>${terminLang(naechstes)}</span>
           ${naechstes.halle ? `<span>📍 ${esc(naechstes.halle.name)} · ${adresse(naechstes.halle)}</span>` : ""}
         </div>
         <div class="naechstes__aktionen">
@@ -260,7 +276,7 @@
       ${z ? `<div class="team-karte__werte"><span><b>${z.punkte}</b> Punkte</span><span><b>${z.siege}:${z.spiele - z.siege}</b> Spiele</span><span><b>${esc(z.saetze)}</b> Sätze</span></div>` : ""}
       <div class="form">${formPunkte(team)}</div>
       <div class="team-karte__next">${next
-        ? `Nächstes Spiel: <b>${tagKurz(next.d)}</b> gegen <b>${esc(next.gegner)}</b>`
+        ? `Nächstes Spiel: <b>${terminKurz(next).tag}</b> gegen <b>${esc(next.gegner)}</b>${next.pokal ? " (Pokal)" : ""}`
         : "Keine weiteren Spiele angesetzt"}</div>
     </a>`;
   }
@@ -272,6 +288,7 @@
     const z = tabellenzeile(team);
     const spiele = spieleVon(team);
     const kommend = spiele.filter(istKommend);
+    const pokal = spiele.filter((s) => s.pokal);
     const next = kommend[0];
     const training = TRAININGSPLAN.filter((t) => t.team === team.id);
 
@@ -279,8 +296,9 @@
       <div class="karte">
         <div class="halle-kopf">
           <div class="naechstes__label" style="color:var(--text-2)"><span>Nächstes Spiel</span><span style="color:var(--akzent)">${relativ(next.d)}</span></div>
-          <h3 style="margin-top:8px">${next.zuhause ? "Heimspiel" : "Auswärtsspiel"} gegen ${esc(next.gegner)}</h3>
-          <p>${tagLang(next.d)}, ${next.zeitOffen ? "ca. " : ""}${uhr(next.d)}${next.halle ? `<br>📍 <b>${esc(next.halle.name)}</b><br>${adresse(next.halle)}` : ""}</p>
+          <h3 style="margin-top:8px">${next.pokal ? `${esc(next.runde || "Pokalspiel")}` : next.zuhause ? "Heimspiel" : "Auswärtsspiel"} gegen ${esc(next.gegner)}</h3>
+          ${next.pokal ? `<p class="hinweis" style="margin:2px 0 0">${esc(next.wettbewerb)}</p>` : ""}
+          <p>${terminLang(next)}${next.halle ? `<br>📍 <b>${esc(next.halle.name)}</b><br>${adresse(next.halle)}` : ""}</p>
           ${next.halle ? `<a class="knopf knopf--rand" href="${routeLink(next.halle)}" target="_blank" rel="noopener">Route planen ↗</a>` : ""}
         </div>
         ${kartenEmbed(next.halle)}
@@ -322,6 +340,7 @@
           <div class="tabs" role="group" aria-label="Spiele filtern">
             <button type="button" data-filter="kommend" aria-pressed="true">Kommende (${kommend.length})</button>
             <button type="button" data-filter="ergebnisse" aria-pressed="false">Ergebnisse (${spiele.filter((s) => s.ergebnis).length})</button>
+            ${pokal.length ? `<button type="button" data-filter="pokal" aria-pressed="false">Pokal (${pokal.length})</button>` : ""}
             <button type="button" data-filter="alle" aria-pressed="false">Alle (${spiele.length})</button>
           </div>
           <div class="karte" id="team-spiele"></div>
@@ -334,7 +353,8 @@
 
     const ziel = document.getElementById("team-spiele");
     const zeige = (f) => {
-      const liste = f === "kommend" ? kommend : f === "ergebnisse" ? spiele.filter((s) => s.ergebnis).reverse() : spiele;
+      const liste = f === "kommend" ? kommend : f === "ergebnisse" ? spiele.filter((s) => s.ergebnis).reverse()
+        : f === "pokal" ? pokal : spiele;
       ziel.innerHTML = spielListe(liste, { mitTeam: false });
     };
     filterKnoepfe(main.querySelector(".tabs"), zeige);
@@ -361,6 +381,7 @@
             <button type="button" data-filter="heim" aria-pressed="false">Nur Heimspiele</button>
             <button type="button" data-filter="Damen" aria-pressed="false">Damen</button>
             <button type="button" data-filter="Herren" aria-pressed="false">Herren</button>
+            ${(D.pokale || []).length ? `<button type="button" data-filter="pokal" aria-pressed="false">Pokal</button>` : ""}
             <button type="button" data-filter="ergebnisse" aria-pressed="false">Ergebnisse</button>
           </div>
           <div id="spielplan"></div>
@@ -371,6 +392,7 @@
       let liste = alle.filter(istKommend);
       if (f === "heim") liste = liste.filter((s) => s.zuhause);
       if (f === "Damen" || f === "Herren") liste = liste.filter((s) => s.team.gruppe === f);
+      if (f === "pokal") liste = alle.filter((s) => s.pokal);
       if (f === "ergebnisse") liste = alle.filter((s) => s.ergebnis || s.d < heuteStart).reverse();
       if (!liste.length) { ziel.innerHTML = `<div class="karte"><p class="leer">Keine Spiele gefunden.</p></div>`; return; }
       const tage = new Map();
@@ -428,7 +450,7 @@
                 <div>
                   <b>${esc(halle.name)}</b>
                   <small>${adresse(halle)}</small>
-                  <small>${spiele.map((s) => `${tagKurz(s.d)} ${uhr(s.d)} · <a href="#/team/${s.team.id}">${esc(s.team.name)}</a> gegen ${esc(s.gegner)}`).join("<br>")}</small>
+                  <small>${spiele.map((s) => `${terminKurz(s).tag} ${terminKurz(s).zeit} · <a href="#/team/${s.team.id}">${esc(s.team.name)}</a> gegen ${esc(s.gegner)}`).join("<br>")}</small>
                 </div>
                 <a class="knopf knopf--rand" href="${routeLink(halle)}" target="_blank" rel="noopener">Route ↗</a>
               </li>`).join("")}</ul>` : `<p class="leer">Keine Auswärtsspiele angesetzt.</p>`}
@@ -528,6 +550,21 @@
     document.querySelector(".menu-knopf").setAttribute("aria-expanded", "false");
     window.scrollTo(0, 0);
   }
+
+  // Hell/Dunkel: Wahl wird gespeichert; ohne Wahl gilt die Systemeinstellung
+  function themeSetzen(t, speichern) {
+    document.documentElement.dataset.theme = t;
+    if (speichern) { try { localStorage.setItem("theme", t); } catch (e) { /* privat */ } }
+    document.querySelector(".theme-knopf").setAttribute("aria-label", t === "dark" ? "Helles Design aktivieren" : "Dunkles Design aktivieren");
+  }
+  document.querySelector(".theme-knopf").addEventListener("click", () =>
+    themeSetzen(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true));
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    let gewaehlt = null;
+    try { gewaehlt = localStorage.getItem("theme"); } catch (err) { /* privat */ }
+    if (!gewaehlt) themeSetzen(e.matches ? "dark" : "light", false);
+  });
+  themeSetzen(document.documentElement.dataset.theme, false);
 
   document.querySelector(".menu-knopf").addEventListener("click", (e) => {
     const nav = document.querySelector(".nav");

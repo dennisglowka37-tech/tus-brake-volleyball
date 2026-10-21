@@ -5,6 +5,8 @@ oder den ganzen Ordner auf einen beliebigen Webspace hochladen.
 
 ## Seiten
 - **Übersicht** – nächstes Spiel, alle Mannschaften mit Liga, Platz, Form, letzte Ergebnisse
+- **Pokalspiele** (Kreis-, Bezirks- und WVV-Pokal) erscheinen mit Runde in allen Spiellisten, mit eigenem Filter
+- **Hell/Dunkel** – Umschalter oben rechts; ohne Wahl gilt die Systemeinstellung
 - **Mannschaft** (z. B. `#/team/herren-1`) – Tabelle, nächstes Spiel mit Karte, alle Spiele, Training
 - **Spielplan** – alle Spiele aller Teams nach Tagen, filterbar (Heim, Damen, Herren, Ergebnisse)
 - **Hallen** – Heimhalle und alle Auswärtshallen mit Adresse und Routenlink
@@ -34,7 +36,7 @@ Schlägt ein Abruf fehl, bleibt die bisherige `data/spieldaten.js` unverändert 
 Live-Seite: https://dennisglowka37-tech.github.io/tus-brake-volleyball/
 
 **Neue Saison:** In `scripts/daten_aktualisieren.py` die Liste `MANNSCHAFTEN`
-(Liga-URL und Teamname) sowie `SAISON` anpassen.
+(Liga-URL und Teamname), `POKALE` (Pokal-URLs) sowie `SAISON` anpassen.
 **Trainingszeiten** stehen in `js/app.js` (`TRAININGSPLAN`).
 
 ## Struktur

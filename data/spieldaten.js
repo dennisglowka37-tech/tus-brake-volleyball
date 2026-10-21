@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-22T01:32",
+ "stand": "2026-10-22T01:45",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -9675,6 +9675,310 @@ window.SPIELDATEN = {
    "team": "TuS Brake IV",
    "kurz": "TuS Brake IV",
    "liga": 6
+  }
+ ],
+ "pokale": [
+  {
+   "name": "Kreispokal Gütersloh/Bielefeld",
+   "gruppe": "Damen",
+   "url": "https://ergebnisdienst.volleyball.nrw/cms/home/erwachsene/pokal/kreispokal.xhtml?LeaguePresenter.view=matches&LeaguePresenter.matchSeriesId=116021652",
+   "spiele": [
+    {
+     "datum": "2026-10-06T19:00",
+     "zeitOffen": false,
+     "nr": "1",
+     "heim": "TuS Brake",
+     "gast": "GTV II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       107,
+       91
+      ],
+      "details": [
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        15,
+        9
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-09T19:00",
+     "zeitOffen": false,
+     "nr": "4",
+     "heim": "TuS Brake II",
+     "gast": "GTV III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       39
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        25,
+        6
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-09-28T19:45",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "TuS Brake III",
+     "gast": "SV Ubbedissen",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       60
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        26,
+        24
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-11-01T00:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 4",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 0.0,
+      "lng": 0.0
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-01T00:00",
+     "zeitOffen": false,
+     "nr": "10",
+     "heim": "SC Halle II",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sporthalle Masch 2",
+      "strasse": "Wasserwerkstr. 1",
+      "plz": "33790",
+      "ort": "Halle",
+      "lat": 52.0494991,
+      "lng": 8.3530929
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-01T00:00",
+     "zeitOffen": false,
+     "nr": "12",
+     "heim": "Bielefelder TG",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Ceciliengymnasium",
+      "strasse": "Niedermühlenkamp 5",
+      "plz": "33604",
+      "ort": "Bielefeld",
+      "lat": 52.01603,
+      "lng": 8.54841
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    }
+   ]
+  },
+  {
+   "name": "Kreispokal Gütersloh/Bielefeld",
+   "gruppe": "Herren",
+   "url": "https://ergebnisdienst.volleyball.nrw/cms/home/erwachsene/pokal/kreispokal.xhtml?LeaguePresenter.view=matches&LeaguePresenter.matchSeriesId=116021644",
+   "spiele": [
+    {
+     "datum": "2026-10-09T20:15",
+     "zeitOffen": false,
+     "nr": "3",
+     "heim": "TuS Brake III",
+     "gast": "DJK Grün-Weiß Rheda",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       55,
+       75
+      ],
+      "details": [
+       [
+        18,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        14,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-09T00:00",
+     "zeitOffen": false,
+     "nr": "5",
+     "heim": "TuS Viktoria 1910 Rietberg e.V.",
+     "gast": "Tus Brake IV",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       77,
+       51
+      ],
+      "details": [
+       [
+        25,
+        13
+       ],
+       [
+        27,
+        25
+       ],
+       [
+        25,
+        13
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-10T12:00",
+     "zeitOffen": false,
+     "nr": "6",
+     "heim": "Spvg. Steinhagen II",
+     "gast": "TuS Brake II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       76,
+       96
+      ],
+      "details": [
+       [
+        14,
+        25
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        21,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-11-01T00:00",
+     "zeitOffen": false,
+     "nr": "11",
+     "heim": "TuS Brake II",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    }
+   ]
   }
  ]
 };

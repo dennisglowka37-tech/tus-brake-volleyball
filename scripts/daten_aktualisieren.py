@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Holt die aktuellen Tabellen, Spielpläne, Ergebnisse und Hallen aller
-TuS-Brake-Mannschaften aus dem WVV-Ergebnisdienst (SAMS) und schreibt
+Holt die aktuellen Tabellen, Spielpläne, Ergebnisse, Pokalspiele und Hallen
+aller TuS-Brake-Mannschaften aus dem WVV-Ergebnisdienst (SAMS) und schreibt
 sie nach data/spieldaten.js, das von der Homepage geladen wird.
 
 Aufruf (aus dem Projektordner):
@@ -40,6 +40,24 @@ MANNSCHAFTEN = [
      "liga": ERW + "bezirksligen/bezirksligen_frauen/bezirksliga_16_frauen.xhtml"},
     {"id": "damen-4", "name": "4. Damen", "gruppe": "Damen", "team": "TuS Brake IV",
      "liga": ERW + "kreisligen/alle_kreisligen.xhtml?LeaguePresenter.matchSeriesId=116018721"},
+]
+
+POKAL = ERW + "pokal/"
+# Pokalwettbewerbe, in denen Brake-Teams spielen (können). Spiele werden automatisch
+# herausgefiltert; Wettbewerbe ohne Brake-Beteiligung tauchen auf der Seite nicht auf.
+POKALE = [
+    {"name": "Kreispokal Gütersloh/Bielefeld", "gruppe": "Damen",
+     "url": POKAL + "kreispokal.xhtml?LeaguePresenter.matchSeriesId=116021652"},
+    {"name": "Kreispokal Gütersloh/Bielefeld", "gruppe": "Herren",
+     "url": POKAL + "kreispokal.xhtml?LeaguePresenter.matchSeriesId=116021644"},
+    {"name": "Bezirkspokal Westfalen-Ost", "gruppe": "Damen",
+     "url": POKAL + "bezirkspokal_w.-ost.xhtml?LeaguePresenter.matchSeriesId=116021158"},
+    {"name": "Bezirkspokal Westfalen-Ost", "gruppe": "Herren",
+     "url": POKAL + "bezirkspokal_w.-ost.xhtml?LeaguePresenter.matchSeriesId=116021135"},
+    {"name": "WVV-Pokal", "gruppe": "Damen",
+     "url": POKAL + "wvv_pokal_frauen.xhtml?LeaguePresenter.matchSeriesId=116021073"},
+    {"name": "WVV-Pokal", "gruppe": "Herren",
+     "url": POKAL + "wvv_pokal_maenner.xhtml?LeaguePresenter.matchSeriesId=116021102"},
 ]
 
 ZIEL = Path(__file__).resolve().parent.parent / "data" / "spieldaten.js"
@@ -109,6 +127,49 @@ def halle(lid, cache):
     return info
 
 
+def spiele_aus_tabelle(tabelle, hallen):
+    spiele = []
+    kopf = None
+    for roh, z in zeilen(tabelle):
+        if z and z[0] == "Datum":
+            kopf = z
+            continue
+        if not z or not datum_iso(z[0]):
+            continue
+        lid = re.search(r"locationId=(\d+)", roh)
+        sg = z[kopf.index("Schiedsger.")] if kopf and "Schiedsger." in kopf else ""
+        spiele.append({
+            "datum": datum_iso(z[0]),
+            "zeitOffen": "(*)" in z[0],
+            "nr": z[1], "heim": z[2], "gast": z[3],
+            "ergebnis": ergebnis(z[4]),
+            "halle": halle(lid.group(1), hallen) if lid else None,
+            "schiri": sg if sg not in ("-", "") else "",
+        })
+    return spiele
+
+
+def pokal_laden(pokal, teams, hallen):
+    """Nur die Spiele mit Brake-Beteiligung, Teamnamen auf die Liga-Kurznamen vereinheitlicht."""
+    basis, q = pokal["url"].split("?")
+    seite = laden(f"{basis}?LeaguePresenter.view=matches&{q}&playingScheduleMode=full")
+    namen = {t["team"].lower(): t["kurz"] for t in teams if t["gruppe"] == pokal["gruppe"]}
+    spiele = []
+    # Jede Runde (Achtelfinale, Viertelfinale, …) steht in einem eigenen Block
+    for block in seite.split('class="samsCompetitionScheduleGroup"')[1:]:
+        runde = re.search(r'samsContentBoxHeader">(.*?)</div>', block, re.S)
+        runde = text(runde.group(1)) if runde else ""
+        for t in re.findall(r'<table class="samsDataTable[^"]*">(.*?)</table>', block, re.S):
+            for sp in spiele_aus_tabelle(t, hallen):
+                heim, gast = namen.get(sp["heim"].lower()), namen.get(sp["gast"].lower())
+                if not (heim or gast):
+                    continue
+                sp["heim"], sp["gast"] = heim or sp["heim"], gast or sp["gast"]
+                spiele.append({**sp, "runde": runde})
+    return {"name": pokal["name"], "gruppe": pokal["gruppe"],
+            "url": f"{basis}?LeaguePresenter.view=matches&{q}", "spiele": spiele}
+
+
 def liga_laden(url, hallen):
     seite = laden(url)
     if "matchSeriesId=" in url:
@@ -136,25 +197,7 @@ def liga_laden(url, hallen):
         })
 
     sp_seite = laden(f"{basis}?LeaguePresenter.view=matches&{q}&playingScheduleMode=full")
-    spiele = []
-    kopf = None
-    for roh, z in zeilen(erste_tabelle(sp_seite)):
-        if z and z[0] == "Datum":
-            kopf = z
-            continue
-        if not z or not datum_iso(z[0]):
-            continue
-        lid = re.search(r"locationId=(\d+)", roh)
-        sg = z[kopf.index("Schiedsger.")] if kopf and "Schiedsger." in kopf else ""
-        e = ergebnis(z[4])
-        spiele.append({
-            "datum": datum_iso(z[0]),
-            "zeitOffen": "(*)" in z[0],
-            "nr": z[1], "heim": z[2], "gast": z[3],
-            "ergebnis": e,
-            "halle": halle(lid.group(1), hallen) if lid else None,
-            "schiri": sg if sg not in ("-", "") else "",
-        })
+    spiele = spiele_aus_tabelle(erste_tabelle(sp_seite), hallen)
     return {"name": name, "url": f"{basis}?LeaguePresenter.view=resultTable&{q}",
             "tabelle": tabelle, "spiele": spiele}
 
@@ -173,12 +216,19 @@ def main():
         teams.append({**{k: m[k] for k in ("id", "name", "gruppe", "team")},
                       "kurz": kurz[0] if kurz else m["team"],
                       "liga": list(ligen).index(m["liga"])})
+    pokale = []
+    for p in POKALE:
+        print(f"Lade {p['name']} ({p['gruppe']}) …", file=sys.stderr)
+        pokal = pokal_laden(p, teams, hallen)
+        if pokal["spiele"]:
+            pokale.append(pokal)
     daten = {
         "saison": SAISON,
         "stand": datetime.now().strftime("%Y-%m-%dT%H:%M"),
         "quelle": BASE,
         "ligen": list(ligen.values()),
         "teams": teams,
+        "pokale": pokale,
     }
     ZIEL.parent.mkdir(parents=True, exist_ok=True)
     ZIEL.write_text("// Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.\n"
