@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TuS Brake Volleyball</title>
+  <meta name="description" content="Volleyball beim TuS Brake in Bielefeld: Ligen, Tabellen, Spielpläne, Ergebnisse und Hallen aller Damen- und Herrenmannschaften.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="kopf">
+    <div class="kopf__innen">
+      <a class="marke" href="#/" aria-label="Startseite">
+        <img src="assets/tus-brake-logo.png" alt="" width="44" height="44">
+        <span><strong>TuS Brake</strong><small>Volleyball · Bielefeld</small></span>
+      </a>
+      <button class="menu-knopf" aria-expanded="false" aria-controls="hauptnav">
+        <span class="sr">Menü</span><span class="menu-knopf__strich"></span>
+      </button>
+      <nav id="hauptnav" class="nav" aria-label="Hauptnavigation">
+        <a href="#/">Übersicht</a>
+        <a href="#/spielplan">Spielplan</a>
+        <a href="#/hallen">Hallen</a>
+        <a href="#/training">Training</a>
+        <a href="#/kontakt">Kontakt</a>
+      </nav>
+    </div>
+    <div class="teamleiste" id="teamleiste" aria-label="Mannschaften"></div>
+  </header>
+
+  <main id="inhalt" tabindex="-1"></main>
+
+  <footer class="fuss">
+    <div class="fuss__innen">
+      <div>
+        <strong>TuS Brake von 1896 e.V. – Volleyballabteilung</strong><br>
+        Geschäftsstelle: Lohrenkamp 37, 33729 Bielefeld<br>
+        <a href="mailto:volleyball@tus-brake.de">volleyball@tus-brake.de</a>
+      </div>
+      <div class="fuss__daten" id="datenstand"></div>
+    </div>
+  </footer>
+
+  <script src="data/spieldaten.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
