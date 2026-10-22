@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-22T01:45",
+ "stand": "2026-10-22T23:00",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -662,23 +662,6 @@ window.SPIELDATEN = {
      "schiri": ""
     },
     {
-     "datum": "2026-10-24T18:30",
-     "zeitOffen": false,
-     "nr": "17",
-     "heim": "Spvg. Steinhagen",
-     "gast": "Soester TV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hörmann Sportzentrum",
-      "strasse": "Am Cronsbach 12",
-      "plz": "33803",
-      "ort": "Steinhagen",
-      "lat": 52.0022996,
-      "lng": 8.4274412
-     },
-     "schiri": ""
-    },
-    {
      "datum": "2026-10-25T11:00",
      "zeitOffen": false,
      "nr": "18",
@@ -856,12 +839,12 @@ window.SPIELDATEN = {
      "gast": "TV Emsdetten",
      "ergebnis": null,
      "halle": {
-      "name": "Pelizaeus-Gymnasium",
-      "strasse": "Gierswall 2",
+      "name": "Fürstenberg Halle",
+      "strasse": "Ledeburstr. 8",
       "plz": "33102",
       "ort": "Paderborn",
-      "lat": 51.72085,
-      "lng": 8.76208
+      "lat": 51.720278,
+      "lng": 8.746611
      },
      "schiri": ""
     },
@@ -1066,6 +1049,23 @@ window.SPIELDATEN = {
       "ort": "Stemwede",
       "lat": 52.3721968,
       "lng": 8.4461435
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-12-05T14:00",
+     "zeitOffen": false,
+     "nr": "17",
+     "heim": "Spvg. Steinhagen",
+     "gast": "Soester TV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Hörmann Sportzentrum",
+      "strasse": "Am Cronsbach 12",
+      "plz": "33803",
+      "ort": "Steinhagen",
+      "lat": 52.0022996,
+      "lng": 8.4274412
      },
      "schiri": ""
     },
