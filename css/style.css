@@ -2,7 +2,8 @@
 :root {
   --navy: #071933;
   --navy-2: #00345c;
-  --blau: #005ea8;
+  --blau: #0069b4;        /* TuS-Brake-Blau */
+  --blau-dunkel: #005ea8; /* Hover */
   --hellblau: #1895f5;
   --gelb: #ffc629;
 
@@ -112,15 +113,16 @@ main:focus { outline: none; }
   color: #d6e4f3; text-decoration: none; font-weight: 600; font-size: .95rem;
   padding: 8px 12px; border-radius: 999px;
 }
-.nav a:hover { background: rgba(255, 255, 255, .08); color: #fff; }
+.nav a:hover { background: var(--blau-dunkel); color: #fff; }
 .nav a[aria-current="page"] { background: var(--blau); color: #fff; }
+.nav a[aria-current="page"]:hover { background: var(--blau-dunkel); }
 .menu-knopf { display: none; }
 .theme-knopf {
   flex: none; width: 40px; height: 40px; border-radius: 999px; cursor: pointer;
   display: grid; place-items: center; color: #fff;
   background: transparent; border: 1px solid rgba(255, 255, 255, .25);
 }
-.theme-knopf:hover { background: rgba(255, 255, 255, .08); }
+.theme-knopf:hover { background: var(--blau-dunkel); border-color: var(--blau-dunkel); }
 .theme-knopf svg { width: 20px; height: 20px; }
 .theme-knopf .icon-sonne { display: none; }
 :root[data-theme="dark"] .theme-knopf .icon-sonne { display: block; }
@@ -138,7 +140,7 @@ main:focus { outline: none; }
   padding: 5px 12px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .18);
   white-space: nowrap;
 }
-.teamleiste a:hover { border-color: rgba(255, 255, 255, .5); }
+.teamleiste a:hover { background: var(--blau-dunkel); border-color: var(--blau-dunkel); }
 .teamleiste a[aria-current="page"] { background: var(--gelb); color: var(--navy); border-color: var(--gelb); }
 
 /* ---------- Grundlayout ---------- */
@@ -313,6 +315,7 @@ table.tabelle { width: 100%; border-collapse: collapse; font-size: .93rem; font-
 }
 .tabs button:hover { color: var(--text); border-color: var(--text-2); }
 .tabs button[aria-pressed="true"] { background: var(--blau); border-color: var(--blau); color: #fff; }
+.tabs button[aria-pressed="true"]:hover { background: var(--blau-dunkel); border-color: var(--blau-dunkel); color: #fff; }
 
 /* ---------- Karte / Halle ---------- */
 .karte-map { width: 100%; height: 260px; border: 0; display: block; border-radius: 0 0 var(--radius) var(--radius); background: var(--flaeche-2); }
@@ -325,6 +328,15 @@ table.tabelle { width: 100%; border-collapse: collapse; font-size: .93rem; font-
 .hallen-liste small { color: var(--text-2); display: block; }
 
 /* ---------- Training / Kontakt ---------- */
+.training-raster { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; align-items: start; }
+.training-karte { padding: 18px 20px 6px; }
+.training-karte h3 { font-size: 1.1rem; padding-bottom: 10px; border-bottom: 2px solid var(--blau); }
+.training-liste { list-style: none; margin: 0; padding: 0; }
+.training-liste li { padding: 12px 0; border-top: 1px solid var(--linie); display: grid; gap: 6px; }
+.training-liste li:first-child { border-top: 0; }
+.training-zeit { display: grid; grid-template-columns: 36px 116px 1fr; gap: 8px; align-items: center; font-size: .93rem; font-variant-numeric: tabular-nums; }
+.training-ort { color: var(--text-2); }
+.tag-chip { display: inline-grid; place-items: center; height: 24px; border-radius: 6px; background: var(--flaeche-2); color: var(--akzent); font-weight: 700; font-size: .78rem; }
 .info-liste { list-style: none; margin: 0; padding: 0; }
 .info-liste li { padding: 12px 18px; border-top: 1px solid var(--linie); display: grid; grid-template-columns: 170px 1fr; gap: 12px; }
 .info-liste li:first-child { border-top: 0; }
@@ -342,7 +354,7 @@ table.tabelle { width: 100%; border-collapse: collapse; font-size: .93rem; font-
 /* ---------- Responsiv ---------- */
 @media (max-width: 900px) {
   .hero__innen { grid-template-columns: 1fr; padding-top: 28px; }
-  .zweispaltig, .zweispaltig--breit-links { grid-template-columns: 1fr; }
+  .zweispaltig, .zweispaltig--breit-links, .training-raster { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
   .menu-knopf {
@@ -368,6 +380,8 @@ table.tabelle { width: 100%; border-collapse: collapse; font-size: .93rem; font-
   .spiel__rechts { grid-area: rechts; flex-direction: row; align-items: center; }
   .spiel__rechts .saetze { display: none; }
   .info-liste li { grid-template-columns: 1fr; gap: 2px; }
+  .training-zeit { grid-template-columns: 36px 1fr; }
+  .training-ort { grid-column: 2; margin-top: -6px; font-size: .85rem; }
   .langname { display: none; }
   .kurzname { display: inline; }
   .tabelle .opt { display: none; }

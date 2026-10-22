@@ -12,20 +12,21 @@
   const SPORTHALLE = "Sporthalle Brake";
   const MILSE = "Turnhalle Milse";
   const WALDHOF = "Gymnasium Am Waldhof";
+  const TRAININGSBEREICHE = ["Damen", "Herren", "Jugend", "Hobbys & Mixed"];
   const TRAININGSPLAN = [
-    { gruppe: "1. Herren", team: "herren-1", zeiten: [["Mo", "20:20–22:00", SPORTHALLE], ["Fr", "20:30–22:00", SPORTHALLE]] },
-    { gruppe: "2. Herren", team: "herren-2", zeiten: [["Di", "20:00–22:00", WALDHOF], ["Fr", "20:30–22:00", SPORTHALLE]] },
-    { gruppe: "1. Damen", team: "damen-1", zeiten: [["Mo", "18:45–20:15", SPORTHALLE], ["Mi", "20:15–22:00", SPORTHALLE]] },
-    { gruppe: "2. Damen", team: "damen-2", zeiten: [["Mo", "18:45–20:15", SPORTHALLE], ["Fr", "20:15–22:00", SPORTHALLE]] },
-    { gruppe: "3. Damen", team: "damen-3", zeiten: [["Mo", "20:15–22:00", SPORTHALLE], ["Fr", "19:00–20:30", SPORTHALLE]] },
-    { gruppe: "4. Damen", team: "damen-4", zeiten: [["Mo", "17:15–18:45", SPORTHALLE], ["Fr", "19:00–20:30", SPORTHALLE]] },
-    { gruppe: "4. Damen / Perspektivgruppe", team: "damen-4", zeiten: [["Sa", "11:30–13:00", MILSE]] },
-    { gruppe: "Leistungsmixed", zeiten: [["Mi", "20:15–22:00", SPORTHALLE]] },
-    { gruppe: "Hobbies", zeiten: [["Mo", "20:30–22:00", SPORTHALLE], ["Mi", "20:00–22:00", MILSE]] },
-    { gruppe: "U15 / U16 / U18 männlich", zeiten: [["Mo", "17:15–18:45", SPORTHALLE], ["Fr", "19:00–20:30", MILSE]] },
-    { gruppe: "U13 / U14 mixed", zeiten: [["Fr", "16:00–17:00", SPORTHALLE], ["Sa", "10:00–11:30", MILSE]] },
-    { gruppe: "U12 / U13 mixed", zeiten: [["Fr", "16:00–17:00", SPORTHALLE]] },
-    { gruppe: "Minis (Grundschulkinder)", zeiten: [["Fr", "16:00–17:00", SPORTHALLE]] },
+    { bereich: "Damen", gruppe: "1. Damen", team: "damen-1", zeiten: [["Mo", "18:45–20:15", SPORTHALLE], ["Mi", "20:15–22:00", SPORTHALLE]] },
+    { bereich: "Damen", gruppe: "2. Damen", team: "damen-2", zeiten: [["Mo", "18:45–20:15", SPORTHALLE], ["Fr", "20:15–22:00", SPORTHALLE]] },
+    { bereich: "Damen", gruppe: "3. Damen", team: "damen-3", zeiten: [["Mo", "20:15–22:00", SPORTHALLE], ["Fr", "19:00–20:30", SPORTHALLE]] },
+    { bereich: "Damen", gruppe: "4. Damen", team: "damen-4", zeiten: [["Mo", "17:15–18:45", SPORTHALLE], ["Fr", "19:00–20:30", SPORTHALLE]] },
+    { bereich: "Damen", gruppe: "4. Damen / Perspektivgruppe", team: "damen-4", zeiten: [["Sa", "11:30–13:00", MILSE]] },
+    { bereich: "Herren", gruppe: "1. Herren", team: "herren-1", zeiten: [["Mo", "20:20–22:00", SPORTHALLE], ["Fr", "20:30–22:00", SPORTHALLE]] },
+    { bereich: "Herren", gruppe: "2. Herren", team: "herren-2", zeiten: [["Di", "20:00–22:00", WALDHOF], ["Fr", "20:30–22:00", SPORTHALLE]] },
+    { bereich: "Jugend", gruppe: "U15 / U16 / U18 männlich", zeiten: [["Mo", "17:15–18:45", SPORTHALLE], ["Fr", "19:00–20:30", MILSE]] },
+    { bereich: "Jugend", gruppe: "U13 / U14 mixed", zeiten: [["Fr", "16:00–17:00", SPORTHALLE], ["Sa", "10:00–11:30", MILSE]] },
+    { bereich: "Jugend", gruppe: "U12 / U13 mixed", zeiten: [["Fr", "16:00–17:00", SPORTHALLE]] },
+    { bereich: "Jugend", gruppe: "Minis (Grundschulkinder)", zeiten: [["Fr", "16:00–17:00", SPORTHALLE]] },
+    { bereich: "Hobbys & Mixed", gruppe: "Hobbys", zeiten: [["Mo", "20:30–22:00", SPORTHALLE], ["Mi", "20:00–22:00", MILSE]] },
+    { bereich: "Hobbys & Mixed", gruppe: "Leistungsmixed", zeiten: [["Mi", "20:15–22:00", SPORTHALLE]] },
   ];
 
   const HEIMHALLE_NAME = "Grundschule Brake";
@@ -464,13 +465,19 @@
       <div class="seite">
         <section class="abschnitt">
           <div class="abschnitt__kopf"><h2>Trainingszeiten</h2><span class="hinweis">Stand: August 2026</span></div>
-          <div class="karte">
-            <ul class="info-liste">
-              ${TRAININGSPLAN.map((t) => `<li>
-                <b>${t.team ? `<a href="#/team/${t.team}">${esc(t.gruppe)}</a>` : esc(t.gruppe)}</b>
-                <span>${t.zeiten.map(([tag, zeit, ort]) => `${tag} ${zeit} Uhr · ${esc(ort)}`).join("<br>")}</span>
-              </li>`).join("")}
-            </ul>
+          <div class="training-raster">
+            ${TRAININGSBEREICHE.map((b) => `
+              <div class="karte training-karte">
+                <h3>${esc(b)}</h3>
+                <ul class="training-liste">
+                  ${TRAININGSPLAN.filter((t) => t.bereich === b).map((t) => `<li>
+                    <b>${t.team ? `<a href="#/team/${t.team}">${esc(t.gruppe)}</a>` : esc(t.gruppe)}</b>
+                    ${t.zeiten.map(([tag, zeit, ort]) => `<div class="training-zeit">
+                      <span class="tag-chip">${tag}</span><span>${zeit} Uhr</span><span class="training-ort">${esc(ort)}</span>
+                    </div>`).join("")}
+                  </li>`).join("")}
+                </ul>
+              </div>`).join("")}
           </div>
           <p class="hinweis" style="margin-top:12px">„Sporthalle Brake“ = Sporthalle der Grundschule Brake, Am Bohnenkamp 15. Lust auf ein Probetraining? Schreib uns vorher kurz an <a href="mailto:volleyball@tus-brake.de">volleyball@tus-brake.de</a>.</p>
         </section>
