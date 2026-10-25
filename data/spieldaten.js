@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-22T23:00",
+ "stand": "2026-10-25T23:06",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -20,36 +20,46 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "RC Sorpesee",
+     "kurz": "RC Sorpesee",
+     "status": "rel-auf",
+     "spiele": 4,
+     "siege": 3,
+     "saetze": "11:6",
+     "punkte": 9
+    },
+    {
+     "platz": 3,
      "team": "Spvg. Steinhagen",
      "kurz": "Spvg. Steinhagen",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 3,
      "siege": 3,
      "saetze": "9:3",
      "punkte": 8
     },
     {
-     "platz": 3,
-     "team": "Telekom Post SV Bielefeld III",
-     "kurz": "Telekom Post SV Bielefeld III",
-     "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "7:3",
-     "punkte": 6
-    },
-    {
      "platz": 4,
-     "team": "RC Sorpesee",
-     "kurz": "RC Sorpesee",
+     "team": "TV Pivitsheide",
+     "kurz": "Pivitsheide",
      "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "8:6",
-     "punkte": 6
+     "spiele": 4,
+     "siege": 3,
+     "saetze": "10:8",
+     "punkte": 7
     },
     {
      "platz": 5,
+     "team": "Telekom Post SV Bielefeld III",
+     "kurz": "Telekom Post SV Bielefeld III",
+     "status": "",
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "7:6",
+     "punkte": 6
+    },
+    {
+     "platz": 6,
      "team": "Soester TV",
      "kurz": "Soester TV",
      "status": "",
@@ -57,16 +67,6 @@ window.SPIELDATEN = {
      "siege": 2,
      "saetze": "6:5",
      "punkte": 5
-    },
-    {
-     "platz": 6,
-     "team": "TV Pivitsheide",
-     "kurz": "Pivitsheide",
-     "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "7:7",
-     "punkte": 4
     },
     {
      "platz": 7,
@@ -93,9 +93,9 @@ window.SPIELDATEN = {
      "team": "TV Emsdetten",
      "kurz": "TV Emsdetten",
      "status": "ab",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "2:9",
+     "saetze": "3:12",
      "punkte": 0
     },
     {
@@ -667,15 +667,31 @@ window.SPIELDATEN = {
      "nr": "18",
      "heim": "RC Sorpesee",
      "gast": "Telekom Post SV Bielefeld III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Freie Schule am See",
-      "strasse": "Ringstraße 51",
-      "plz": "59846",
-      "ort": "Sundern",
-      "lat": 51.35443,
-      "lng": 7.95204
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       59
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        21
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -684,15 +700,35 @@ window.SPIELDATEN = {
      "nr": "16",
      "heim": "Pivitsheide",
      "gast": "TV Emsdetten",
-     "ergebnis": null,
-     "halle": {
-      "name": "Christian-Dietrich-Grabbe-Gymnasium (Halle neu)",
-      "strasse": "Georg-Weerth-Str. 17",
-      "plz": "32756",
-      "ort": "Detmold",
-      "lat": 51.9330569,
-      "lng": 8.8846664
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       93,
+       85
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        21
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -5363,10 +5399,10 @@ window.SPIELDATEN = {
      "team": "OTSV Pr. Oldendorf",
      "kurz": "OTSV Pr. Oldendorf",
      "status": "auf",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:0",
-     "punkte": 9
+     "spiele": 4,
+     "siege": 4,
+     "saetze": "12:2",
+     "punkte": 11
     },
     {
      "platz": 2,
@@ -5380,6 +5416,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 3,
+     "team": "TuS Bonneberg",
+     "kurz": "TuS Bonneberg",
+     "status": "",
+     "spiele": 3,
+     "siege": 2,
+     "saetze": "8:5",
+     "punkte": 6
+    },
+    {
+     "platz": 4,
      "team": "SSV Pr. Ströhen",
      "kurz": "SSV Pr. Ströhen",
      "status": "",
@@ -5389,17 +5435,17 @@ window.SPIELDATEN = {
      "punkte": 6
     },
     {
-     "platz": 4,
-     "team": "TuS Bonneberg",
-     "kurz": "TuS Bonneberg",
+     "platz": 5,
+     "team": "TuS Brake",
+     "kurz": "TuS Brake",
      "status": "",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 2,
-     "saetze": "6:2",
+     "saetze": "6:5",
      "punkte": 5
     },
     {
-     "platz": 5,
+     "platz": 6,
      "team": "BTW Bünde",
      "kurz": "BTW Bünde",
      "status": "",
@@ -5409,24 +5455,14 @@ window.SPIELDATEN = {
      "punkte": 3
     },
     {
-     "platz": 6,
+     "platz": 7,
      "team": "MTV Hausberge",
      "kurz": "MTV Hausberge",
-     "status": "",
+     "status": "rel-ab",
      "spiele": 3,
      "siege": 1,
      "saetze": "4:7",
      "punkte": 3
-    },
-    {
-     "platz": 7,
-     "team": "TuS Brake",
-     "kurz": "TuS Brake",
-     "status": "rel-ab",
-     "spiele": 2,
-     "siege": 1,
-     "saetze": "3:5",
-     "punkte": 2
     },
     {
      "platz": 8,
@@ -5443,9 +5479,9 @@ window.SPIELDATEN = {
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "TPSV Bielefeld III",
      "status": "ab",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 0,
-     "saetze": "0:6",
+     "saetze": "0:9",
      "punkte": 0
     }
    ],
@@ -5888,32 +5924,72 @@ window.SPIELDATEN = {
      "nr": "13",
      "heim": "OTSV Pr. Oldendorf",
      "gast": "TuS Bonneberg",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle am Markt",
-      "strasse": "Marktstr. 5",
-      "plz": "32361",
-      "ort": "Preußisch Oldendorf",
-      "lat": 52.30439,
-      "lng": 8.4982
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       98,
+       97
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        14
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        15,
+        11
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TPSV Bielefeld III"
     },
     {
      "datum": "2026-10-25T12:15",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "14",
      "heim": "TPSV Bielefeld III",
      "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle am Markt",
-      "strasse": "Marktstr. 5",
-      "plz": "32361",
-      "ort": "Preußisch Oldendorf",
-      "lat": 52.30439,
-      "lng": 8.4982
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       47,
+       75
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "OTSV Pr. Oldendorf"
     },
     {
@@ -6910,18 +6986,18 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
-     "team": "SV Blau-Weiß Sande III",
-     "kurz": "SV Blau-Weiß Sande III",
+     "team": "Bielefelder TG",
+     "kurz": "Bielefelder TG",
      "status": "auf",
-     "spiele": 2,
-     "siege": 2,
-     "saetze": "6:0",
-     "punkte": 6
+     "spiele": 3,
+     "siege": 3,
+     "saetze": "9:2",
+     "punkte": 8
     },
     {
      "platz": 2,
-     "team": "VfJ Helmern",
-     "kurz": "VfJ Helmern",
+     "team": "SV Blau-Weiß Sande III",
+     "kurz": "SV Blau-Weiß Sande III",
      "status": "rel-auf",
      "spiele": 2,
      "siege": 2,
@@ -6930,8 +7006,8 @@ window.SPIELDATEN = {
     },
     {
      "platz": 3,
-     "team": "Bielefelder TG",
-     "kurz": "Bielefelder TG",
+     "team": "VfJ Helmern",
+     "kurz": "VfJ Helmern",
      "status": "",
      "spiele": 2,
      "siege": 2,
@@ -6940,22 +7016,22 @@ window.SPIELDATEN = {
     },
     {
      "platz": 4,
+     "team": "SV Ubbedissen",
+     "kurz": "SV Ubbedissen",
+     "status": "",
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "8:9",
+     "punkte": 6
+    },
+    {
+     "platz": 5,
      "team": "TV Büren",
      "kurz": "TV Büren",
      "status": "",
      "spiele": 3,
      "siege": 2,
      "saetze": "6:5",
-     "punkte": 5
-    },
-    {
-     "platz": 5,
-     "team": "SV Ubbedissen",
-     "kurz": "SV Ubbedissen",
-     "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "6:6",
      "punkte": 5
     },
     {
@@ -7386,19 +7462,43 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-10-24T15:00",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "16",
      "heim": "Bielefelder TG",
      "gast": "SV Ubbedissen",
-     "ergebnis": null,
-     "halle": {
-      "name": "Riemeke-Sporthalle",
-      "strasse": "Riemekestr. 130a",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.71616,
-      "lng": 8.72813
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       109,
+       95
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        15,
+        12
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SC GW Paderborn II"
     },
     {
@@ -8794,23 +8894,6 @@ window.SPIELDATEN = {
      "schiri": "TPSV Bielefeld V"
     },
     {
-     "datum": "2026-10-17T14:00",
-     "zeitOffen": false,
-     "nr": "11",
-     "heim": "Gütersloher TV III",
-     "gast": "TuS Brake IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Ost",
-      "strasse": "Am Anger 54",
-      "plz": "33332",
-      "ort": "Gütersloh",
-      "lat": 51.900581,
-      "lng": 8.4086823
-     },
-     "schiri": "Wiedenbrücker TV"
-    },
-    {
      "datum": "2026-10-17T14:15",
      "zeitOffen": false,
      "nr": "10",
@@ -8995,6 +9078,23 @@ window.SPIELDATEN = {
       "lng": 0.0
      },
      "schiri": "TPSV Bielefeld V"
+    },
+    {
+     "datum": "2026-11-20T19:00",
+     "zeitOffen": false,
+     "nr": "11",
+     "heim": "Gütersloher TV III",
+     "gast": "TuS Brake IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Schulzentrum Ost",
+      "strasse": "Am Anger 54",
+      "plz": "33332",
+      "ort": "Gütersloh",
+      "lat": 51.900581,
+      "lng": 8.4086823
+     },
+     "schiri": ""
     },
     {
      "datum": "2026-11-28T14:00",
