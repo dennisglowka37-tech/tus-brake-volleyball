@@ -21,14 +21,20 @@ python3 scripts/daten_aktualisieren.py
 ```
 
 Das Skript schreibt `data/spieldaten.js` neu (nur Python-Standardbibliothek nötig).
-Auf diesem Rechner ist dafür ein Cronjob eingerichtet (`crontab -l`), der täglich um
-6:00, 14:00 und 20:00 Uhr `scripts/cron_aktualisieren.sh` ausführt. Das Skript lädt die Daten neu
-und committet und pusht `data/spieldaten.js` nach GitHub, wenn es neue Spieldaten gibt.
-GitHub Pages veröffentlicht die Seite danach automatisch. Die Ausgaben landen in
-`logs/aktualisierung.log`.
+Auf diesem Rechner ist dafür ein systemd-User-Timer eingerichtet
+(`~/.config/systemd/user/volleyball-aktualisieren.timer` und `.service`), der täglich um
+6:00, 14:00 und 20:00 Uhr `scripts/cron_aktualisieren.sh` ausführt. War der Rechner zu der
+Zeit aus, wird der Lauf nach dem nächsten Anmelden nachgeholt (`Persistent=true`). Das Skript
+lädt die Daten neu und committet und pusht `data/spieldaten.js` nach GitHub, wenn es neue
+Spieldaten gibt. GitHub Pages veröffentlicht die Seite danach automatisch. Die Ausgaben landen
+in `logs/aktualisierung.log`.
 
-```
-0 6,14,20 * * * /home/dennis/Dokumente/Volleyball/scripts/cron_aktualisieren.sh >> /home/dennis/Dokumente/Volleyball/logs/aktualisierung.log 2>&1
+Gepusht wird per SSH mit einem Deploy-Key (`~/.ssh/tus_brake_deploy`, Host-Alias
+`github-tus-brake` in `~/.ssh/config`), damit der Timer nicht vom Schlüsselbund abhängt.
+
+```bash
+systemctl --user list-timers volleyball-aktualisieren.timer   # nächster Lauf
+systemctl --user start volleyball-aktualisieren.service       # sofort ausführen
 ```
 
 Schlägt ein Abruf fehl, bleibt die bisherige `data/spieldaten.js` unverändert und es wird nichts gepusht.
