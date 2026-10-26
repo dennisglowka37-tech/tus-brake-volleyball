@@ -1,11 +1,13 @@
 /* TuS Brake Volleyball – Homepage
  * Rendert alle Seiten aus window.SPIELDATEN (data/spieldaten.js).
- * Navigation über den Hash: #/, #/team/<id>, #/spielplan, #/hallen, #/training, #/kontakt
+ * Abgeschlossene Saisons kommen aus window.HISTORIE (data/historie.js).
+ * Navigation über den Hash: #/, #/team/<id>, #/spielplan, #/historie, #/hallen, #/training, #/kontakt
  */
 (function () {
   "use strict";
 
   const D = window.SPIELDATEN;
+  const H = window.HISTORIE;
   const main = document.getElementById("inhalt");
 
   // Trainingsplan (Quelle: tus-brake.de, Stand August 2026)
@@ -102,6 +104,41 @@
     return ligaVon(team).tabelle.find((z) => z.kurz === team.kurz || z.team === team.team);
   }
   const teamsSortiert = () => [...D.teams].sort((a, b) => (a.gruppe === b.gruppe ? 0 : a.gruppe === "Damen" ? -1 : 1));
+
+  /* ---------- Historie ---------- */
+  const GRUPPEN = ["Damen", "Herren", "Mixed"];
+  const EBENEN = ["Oberliga", "Verbandsliga", "Landesliga", "Bezirksliga", "Bezirksklasse", "Kreisliga"];
+  const ebene = (liga) => { const i = EBENEN.findIndex((e) => liga.startsWith(e)); return i < 0 ? EBENEN.length : i; };
+  const ROEMISCH = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8 };
+  // "Landesliga 8 Frauen" → "Landesliga 8", "Kreisliga Gütersloh/Bielefeld Frauen" → "Kreisliga"
+  const ligaKurz = (liga) => liga.replace(/ (Männer|Frauen)$/, "").replace(/^Kreisliga .*/, "Kreisliga");
+
+  // Laufende Saison (aus den Spieldaten) und alle abgeschlossenen (aus dem WVV-Archiv), neueste zuerst.
+  // Im Archiv heißt die Erste "TuS Brake", die Zweite "TuS Brake II" usw. Stehen dort zwei gleichnamige
+  // Teams (kommt vor), bekommt das in der tieferen Liga die nächste freie Nummer.
+  function historieSaisons() {
+    const laufend = {
+      saison: D.saison, laufend: true,
+      teams: teamsSortiert().map((t) => {
+        const liga = ligaVon(t);
+        return { ...tabellenzeile(t), id: t.id, name: t.name, gruppe: t.gruppe, liga: liga.name, url: liga.url, von: liga.tabelle.length };
+      }),
+    };
+    const frueher = (H ? H.saisons : []).filter((s) => s.saison !== D.saison).map((s) => ({
+      saison: s.saison,
+      teams: GRUPPEN.flatMap((g) => {
+        let letzte = 0;
+        return s.teams.filter((t) => t.gruppe === g)
+          .map((t) => ({ ...t, nr: ROEMISCH[(t.team.match(/ ([IVX]+)$/) || [])[1]] || 1 }))
+          .sort((a, b) => a.nr - b.nr || ebene(a.liga) - ebene(b.liga))
+          .map((t) => {
+            letzte = Math.max(t.nr, letzte + 1);
+            return { ...t, id: `${g.toLowerCase()}-${letzte}`, name: `${letzte}. ${g}` };
+          });
+      }),
+    }));
+    return [laufend, ...frueher];
+  }
 
   function routeLink(h) {
     if (!h) return "#";
@@ -200,6 +237,39 @@
     </div>`;
   }
 
+  function saisonZusatz(t) {
+    const st = { auf: "Aufstiegsplatz", "rel-auf": "Relegationsplatz (Aufstieg)", "rel-ab": "Relegationsplatz (Abstieg)", ab: "Abstiegsplatz" }[t.status];
+    const teile = st ? [`<span class="hist-status hist-status--${t.status}">${st}</span>`] : [];
+    (t.relegation || []).forEach((r) => teile.push(
+      `<a href="${esc(r.url)}" target="_blank" rel="noopener">Relegation: ${r.platz}. von ${r.von}</a>`));
+    return teile.length ? `<div class="hist-zusatz">${teile.join("")}</div>` : "";
+  }
+
+  function verlaufZelle(t) {
+    if (!t) return `<td class="verlauf-leer">–</td>`;
+    const titel = `${t.platz ? `Platz ${t.platz} von ${t.von}` : "noch ohne Platzierung"} · ${t.liga}`;
+    return `<td><a class="verlauf" href="${esc(t.url)}" target="_blank" rel="noopener" title="${esc(titel)}">
+      <span class="verlauf__platz ${t.status ? `verlauf__platz--${t.status}` : ""}">${t.platz ? `${t.platz}.` : "–"}</span>
+      <span class="verlauf__liga">${esc(ligaKurz(t.liga))}</span>
+    </a></td>`;
+  }
+
+  const mannschaftLink = (t) => (D.teams.some((x) => x.id === t.id) ? `<a href="#/team/${t.id}">${esc(t.name)}</a>` : esc(t.name));
+
+  function saisonTabelle(s, teams) {
+    if (!teams.length) return `<div class="karte"><p class="leer">In dieser Saison gab es hier keine Mannschaft im Ligabetrieb.</p></div>`;
+    return `<div class="karte"><div class="tabelle-wrap"><table class="tabelle">
+        <thead><tr><th>Pl.</th><th>Mannschaft</th><th>Liga</th><th class="z opt">Sätze</th><th class="r">Pkt.</th></tr></thead>
+        <tbody>${teams.map((t) => `<tr class="${t.status ? "st-" + t.status : ""}">
+          <td class="pl">${t.platz ? `${t.platz}.` : "–"}<small class="hist-von"> von ${t.von}</small></td>
+          <td>${mannschaftLink(t)}</td>
+          <td><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(ligaKurz(t.liga))}</a>${saisonZusatz(t)}</td>
+          <td class="z opt">${esc(t.saetze)}</td>
+          <td class="r pkt">${t.punkte ?? ""}</td>
+        </tr>`).join("")}</tbody>
+      </table></div></div>`;
+  }
+
   /* ---------- Seiten ---------- */
   function seiteStart() {
     const alle = alleSpiele();
@@ -292,6 +362,8 @@
     const pokal = spiele.filter((s) => s.pokal);
     const next = kommend[0];
     const training = TRAININGSPLAN.filter((t) => t.team === team.id);
+    const bisher = historieSaisons().slice(1)
+      .map((s) => ({ saison: s.saison, t: s.teams.find((t) => t.id === team.id) })).filter((x) => x.t);
 
     const nextHTML = next ? `
       <div class="karte">
@@ -349,6 +421,13 @@
         <section class="abschnitt">
           <div class="abschnitt__kopf"><h2>Training</h2></div>
           <div class="karte">${trainingHTML}</div>
+        </section>
+        <section class="abschnitt">
+          <div class="abschnitt__kopf"><h2>Bisherige Saisons</h2><a href="#/historie">Ganze Historie →</a></div>
+          <div class="karte">${bisher.length
+            ? `<ul class="info-liste">${bisher.map(({ saison, t }) => `<li><b>${esc(saison)}</b><span>
+                ${t.platz}. von ${t.von} · <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(ligaKurz(t.liga))}</a>${saisonZusatz(t)}</span></li>`).join("")}</ul>`
+            : `<p class="leer">Im WVV-Archiv gibt es für die ${esc(team.name)} noch keine abgeschlossene Saison.</p>`}</div>
         </section>
       </div>`;
 
@@ -408,6 +487,69 @@
     };
     filterKnoepfe(main.querySelector(".tabs"), zeige);
     zeige("kommend");
+  }
+
+  function seiteHistorie() {
+    const saisons = historieSaisons();
+    const reihen = new Map();
+    saisons.forEach((s) => s.teams.forEach((t) => reihen.has(t.id) || reihen.set(t.id, t)));
+    const mannschaften = [...reihen.values()]
+      .sort((a, b) => GRUPPEN.indexOf(a.gruppe) - GRUPPEN.indexOf(b.gruppe) || parseInt(a.name) - parseInt(b.name));
+
+    // Vorauswahl: die zuletzt abgeschlossene Saison
+    let gruppe = "alle", saison = saisons.length > 1 ? 1 : 0;
+
+    main.innerHTML = `
+      <div class="seite">
+        <section class="abschnitt">
+          <div class="abschnitt__kopf"><h2>Historie</h2><span class="hinweis">Seit Saison ${esc(saisons[saisons.length - 1].saison)} · Quelle: WVV-Archiv</span></div>
+          <div class="tabs" id="historie-gruppe" role="group" aria-label="Mannschaften filtern">
+            <button type="button" data-filter="alle" aria-pressed="true">Alle</button>
+            <button type="button" data-filter="Damen" aria-pressed="false">Damen</button>
+            <button type="button" data-filter="Herren" aria-pressed="false">Herren</button>
+          </div>
+          ${H ? "" : `<p class="hinweis">Ältere Saisons fehlen noch – bitte <code>python3 scripts/historie_laden.py</code> ausführen.</p>`}
+        </section>
+        <section class="abschnitt">
+          <div class="abschnitt__kopf"><h2>Weg der Mannschaften</h2><span class="hinweis">Platz und Liga je Saison</span></div>
+          <div id="historie-verlauf"></div>
+        </section>
+        <section class="abschnitt">
+          <div class="abschnitt__kopf"><h2>Abschlusstabellen</h2></div>
+          <div class="tabs" id="historie-saison" role="group" aria-label="Saison wählen">
+            ${saisons.map((s, i) => `<button type="button" data-filter="${i}" aria-pressed="${i === saison}">${esc(s.saison)}${s.laufend ? " (läuft)" : ""}</button>`).join("")}
+          </div>
+          <div id="historie-saisontabelle"></div>
+        </section>
+      </div>`;
+
+    const passt = (t) => gruppe === "alle" || t.gruppe === gruppe;
+    const zeigeVerlauf = () => {
+      const gruppen = GRUPPEN.filter((g) => (gruppe === "alle" || g === gruppe) && mannschaften.some((m) => m.gruppe === g));
+      document.getElementById("historie-verlauf").innerHTML = `
+        <div class="karte"><div class="tabelle-wrap"><table class="tabelle verlauf-tabelle">
+          <thead><tr><th>Mannschaft</th>${saisons.map((s) => `<th>${esc(s.saison)}${s.laufend ? ` <span class="laufend">läuft</span>` : ""}</th>`).join("")}</tr></thead>
+          ${gruppen.map((g) => `<tbody>
+            <tr class="verlauf-gruppe"><th colspan="${saisons.length + 1}">${esc(g)}</th></tr>
+            ${mannschaften.filter((m) => m.gruppe === g).map((m) => `<tr>
+              <th scope="row">${mannschaftLink(m)}</th>
+              ${saisons.map((s) => verlaufZelle(s.teams.find((t) => t.id === m.id))).join("")}
+            </tr>`).join("")}
+          </tbody>`).join("")}
+        </table></div>
+        <div class="legende">
+          <span><i style="background:var(--auf)"></i>Aufstiegsplatz</span>
+          <span><i style="background:var(--ab)"></i>Abstiegsplatz</span>
+          <span>– noch nicht im Ligabetrieb</span>
+        </div></div>`;
+    };
+    const zeigeSaison = () => {
+      document.getElementById("historie-saisontabelle").innerHTML = saisonTabelle(saisons[saison], saisons[saison].teams.filter(passt));
+    };
+    filterKnoepfe(document.getElementById("historie-gruppe"), (f) => { gruppe = f; zeigeVerlauf(); zeigeSaison(); });
+    filterKnoepfe(document.getElementById("historie-saison"), (f) => { saison = Number(f); zeigeSaison(); });
+    zeigeVerlauf();
+    zeigeSaison();
   }
 
   function seiteHallen() {
@@ -544,6 +686,7 @@
     const teile = pfad.split("/").filter(Boolean);
     if (teile[0] === "team") seiteTeam(teile[1]);
     else if (teile[0] === "spielplan") seiteSpielplan();
+    else if (teile[0] === "historie") seiteHistorie();
     else if (teile[0] === "hallen") seiteHallen();
     else if (teile[0] === "training") seiteTraining();
     else if (teile[0] === "kontakt") seiteKontakt();
@@ -551,7 +694,7 @@
     else seiteNichtGefunden();
 
     markiereNavigation(pfad);
-    const titel = teile[0] === "team" && teamById(teile[1]) ? teamById(teile[1]).name : { spielplan: "Spielplan", hallen: "Hallen", training: "Training", kontakt: "Kontakt" }[teile[0]];
+    const titel = teile[0] === "team" && teamById(teile[1]) ? teamById(teile[1]).name : { spielplan: "Spielplan", historie: "Historie", hallen: "Hallen", training: "Training", kontakt: "Kontakt" }[teile[0]];
     document.title = titel ? `${titel} · TuS Brake Volleyball` : "TuS Brake Volleyball";
     document.querySelector(".nav").classList.remove("offen");
     document.querySelector(".menu-knopf").setAttribute("aria-expanded", "false");
