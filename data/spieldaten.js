@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-25T23:06",
+ "stand": "2026-10-27T18:15",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -7077,23 +7077,6 @@ window.SPIELDATEN = {
    ],
    "spiele": [
     {
-     "datum": "2026-09-26T15:00",
-     "zeitOffen": false,
-     "nr": "3",
-     "heim": "VoR Paderborn IV",
-     "gast": "SV Höxter",
-     "ergebnis": null,
-     "halle": {
-      "name": "Fürstenberg Halle",
-      "strasse": "Ledeburstr. 8",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.720278,
-      "lng": 8.746611
-     },
-     "schiri": "VfJ Helmern"
-    },
-    {
      "datum": "2026-09-26T16:00",
      "zeitOffen": false,
      "nr": "1",
@@ -7444,23 +7427,6 @@ window.SPIELDATEN = {
      "schiri": "Bielefelder TG"
     },
     {
-     "datum": "2026-10-24T14:00",
-     "zeitOffen": false,
-     "nr": "15",
-     "heim": "SC GW Paderborn II",
-     "gast": "SV Höxter",
-     "ergebnis": null,
-     "halle": {
-      "name": "Riemeke-Sporthalle",
-      "strasse": "Riemekestr. 130a",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.71616,
-      "lng": 8.72813
-     },
-     "schiri": "Bielefelder TG"
-    },
-    {
      "datum": "2026-10-24T15:00",
      "zeitOffen": false,
      "nr": "16",
@@ -7500,23 +7466,6 @@ window.SPIELDATEN = {
      },
      "halle": null,
      "schiri": "SC GW Paderborn II"
-    },
-    {
-     "datum": "2026-10-24T15:00",
-     "zeitOffen": false,
-     "nr": "13",
-     "heim": "VoR Paderborn IV",
-     "gast": "VfJ Helmern",
-     "ergebnis": null,
-     "halle": {
-      "name": "Fürstenberg Halle",
-      "strasse": "Ledeburstr. 8",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.720278,
-      "lng": 8.746611
-     },
-     "schiri": "TuS Brake II"
     },
     {
      "datum": "2026-10-31T12:00",
@@ -7570,23 +7519,6 @@ window.SPIELDATEN = {
      "schiri": "VfJ Helmern"
     },
     {
-     "datum": "2026-10-31T16:00",
-     "zeitOffen": true,
-     "nr": "20",
-     "heim": "VfJ Helmern",
-     "gast": "SV Blau-Weiß Sande III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle Königsbrügge",
-      "strasse": "Fritz-Reuter-Str. 30",
-      "plz": "33604",
-      "ort": "Bielefeld",
-      "lat": 52.01211,
-      "lng": 8.55439
-     },
-     "schiri": "Bielefelder TG"
-    },
-    {
      "datum": "2026-11-02T18:45",
      "zeitOffen": true,
      "nr": "12",
@@ -7619,6 +7551,40 @@ window.SPIELDATEN = {
       "lng": 8.6674467
      },
      "schiri": "VoR Paderborn IV"
+    },
+    {
+     "datum": "2026-11-06T18:15",
+     "zeitOffen": false,
+     "nr": "13",
+     "heim": "VoR Paderborn IV",
+     "gast": "VfJ Helmern",
+     "ergebnis": null,
+     "halle": {
+      "name": "Fürstenberg Halle",
+      "strasse": "Ledeburstr. 8",
+      "plz": "33102",
+      "ort": "Paderborn",
+      "lat": 51.720278,
+      "lng": 8.746611
+     },
+     "schiri": "TuS Brake II"
+    },
+    {
+     "datum": "2026-11-09T19:30",
+     "zeitOffen": false,
+     "nr": "15",
+     "heim": "SC GW Paderborn II",
+     "gast": "SV Höxter",
+     "ergebnis": null,
+     "halle": {
+      "name": "Bielenberghalle",
+      "strasse": "An der Steinmühle 7",
+      "plz": "37671",
+      "ort": "Höxter",
+      "lat": 51.77478,
+      "lng": 9.37081
+     },
+     "schiri": "Bielefelder TG"
     },
     {
      "datum": "2026-11-14T14:00",
@@ -7687,6 +7653,23 @@ window.SPIELDATEN = {
       "lng": 8.6674467
      },
      "schiri": "SV Blau-Weiß Sande III"
+    },
+    {
+     "datum": "2026-11-20T18:30",
+     "zeitOffen": false,
+     "nr": "3",
+     "heim": "VoR Paderborn IV",
+     "gast": "SV Höxter",
+     "ergebnis": null,
+     "halle": {
+      "name": "Fürstenberg Halle",
+      "strasse": "Ledeburstr. 8",
+      "plz": "33102",
+      "ort": "Paderborn",
+      "lat": 51.720278,
+      "lng": 8.746611
+     },
+     "schiri": "VfJ Helmern"
     },
     {
      "datum": "2026-11-21T14:00",
@@ -7823,6 +7806,23 @@ window.SPIELDATEN = {
       "lng": 8.6354429
      },
      "schiri": "SV Ubbedissen"
+    },
+    {
+     "datum": "2026-12-08T18:30",
+     "zeitOffen": true,
+     "nr": "20",
+     "heim": "VfJ Helmern",
+     "gast": "SV Blau-Weiß Sande III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sporthalle Sande",
+      "strasse": "Dirksfeld 45",
+      "plz": "33106",
+      "ort": "Paderborn",
+      "lat": 51.7593713,
+      "lng": 8.6674467
+     },
+     "schiri": "Bielefelder TG"
     },
     {
      "datum": "2026-12-12T13:00",
