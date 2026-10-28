@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-27T18:15",
+ "stand": "2026-10-28T22:44",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -3237,23 +3237,6 @@ window.SPIELDATEN = {
      "schiri": "TuS Viktoria Rietberg"
     },
     {
-     "datum": "2026-10-17T00:00",
-     "zeitOffen": false,
-     "nr": "9",
-     "heim": "SF Sennestadt",
-     "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hans-Ehrenberg-Schule",
-      "strasse": "Elbeallee 75",
-      "plz": "33689",
-      "ort": "Bielefeld",
-      "lat": 51.9476133,
-      "lng": 8.5867344
-     },
-     "schiri": "TuS Viktoria Rietberg"
-    },
-    {
      "datum": "2026-10-17T13:00",
      "zeitOffen": false,
      "nr": "10",
@@ -3427,6 +3410,23 @@ window.SPIELDATEN = {
       "lng": 8.6354429
      },
      "schiri": "SV Ubbedissen 09"
+    },
+    {
+     "datum": "2026-11-03T19:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "SF Sennestadt",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Hans-Ehrenberg-Schule",
+      "strasse": "Elbeallee 75",
+      "plz": "33689",
+      "ort": "Bielefeld",
+      "lat": 51.9476133,
+      "lng": 8.5867344
+     },
+     "schiri": "TuS Viktoria Rietberg"
     },
     {
      "datum": "2026-11-15T14:00",
