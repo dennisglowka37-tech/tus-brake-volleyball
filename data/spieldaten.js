@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-28T22:44",
+ "stand": "2026-10-30T14:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -8978,23 +8978,6 @@ window.SPIELDATEN = {
      "schiri": "SF Sennestadt III"
     },
     {
-     "datum": "2026-10-31T15:00",
-     "zeitOffen": false,
-     "nr": "15",
-     "heim": "SC Halle III",
-     "gast": "VfB Schloß Holte IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle Ravensberg",
-      "strasse": "Kättkenstraße 14",
-      "plz": "33790",
-      "ort": "Halle",
-      "lat": 52.05639,
-      "lng": 8.36366
-     },
-     "schiri": "SF Sennestadt II"
-    },
-    {
      "datum": "2026-10-31T16:15",
      "zeitOffen": true,
      "nr": "16",
@@ -9010,6 +8993,23 @@ window.SPIELDATEN = {
       "lng": 8.36366
      },
      "schiri": "SC Halle III"
+    },
+    {
+     "datum": "2026-11-07T11:00",
+     "zeitOffen": false,
+     "nr": "15",
+     "heim": "SC Halle III",
+     "gast": "VfB Schloß Holte IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sporthalle Ravensberg",
+      "strasse": "Kättkenstraße 14",
+      "plz": "33790",
+      "ort": "Halle",
+      "lat": 52.05639,
+      "lng": 8.36366
+     },
+     "schiri": "SF Sennestadt II"
     },
     {
      "datum": "2026-11-14T13:00",
