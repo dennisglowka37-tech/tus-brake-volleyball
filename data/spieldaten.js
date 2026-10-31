@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-30T14:01",
+ "stand": "2026-10-31T14:39",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -10,22 +10,22 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
-     "team": "SG Paderborn Volleyball",
-     "kurz": "SG Paderborn Volleyball",
+     "team": "RC Sorpesee",
+     "kurz": "RC Sorpesee",
      "status": "auf",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:2",
-     "punkte": 9
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "14:7",
+     "punkte": 12
     },
     {
      "platz": 2,
-     "team": "RC Sorpesee",
-     "kurz": "RC Sorpesee",
+     "team": "SG Paderborn Volleyball",
+     "kurz": "SG Paderborn Volleyball",
      "status": "rel-auf",
-     "spiele": 4,
+     "spiele": 3,
      "siege": 3,
-     "saetze": "11:6",
+     "saetze": "9:2",
      "punkte": 9
     },
     {
@@ -33,9 +33,9 @@ window.SPIELDATEN = {
      "team": "Spvg. Steinhagen",
      "kurz": "Spvg. Steinhagen",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 3,
-     "saetze": "9:3",
+     "saetze": "10:6",
      "punkte": 8
     },
     {
@@ -737,15 +737,35 @@ window.SPIELDATEN = {
      "nr": "23",
      "heim": "RC Sorpesee",
      "gast": "Spvg. Steinhagen",
-     "ergebnis": null,
-     "halle": {
-      "name": "Freie Schule am See",
-      "strasse": "Ringstraße 51",
-      "plz": "59846",
-      "ort": "Sundern",
-      "lat": 51.35443,
-      "lng": 7.95204
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       97,
+       75
+      ],
+      "details": [
+       [
+        25,
+        13
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        21
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -1990,26 +2010,36 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "TSVE Bielefeld II",
+     "kurz": "TSVE Bielefeld II",
+     "status": "rel-auf",
+     "spiele": 3,
+     "siege": 1,
+     "saetze": "6:6",
+     "punkte": 4
+    },
+    {
+     "platz": 3,
      "team": "SV 1860 Minden II",
      "kurz": "SV 1860 Minden II",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 1,
      "siege": 1,
      "saetze": "3:1",
      "punkte": 3
     },
     {
-     "platz": 3,
-     "team": "TSVE Bielefeld II",
-     "kurz": "TSVE Bielefeld II",
+     "platz": 4,
+     "team": "TuS Bonneberg II",
+     "kurz": "TuS Bonneberg II",
      "status": "",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 1,
-     "saetze": "4:3",
+     "saetze": "6:8",
      "punkte": 3
     },
     {
-     "platz": 4,
+     "platz": 5,
      "team": "TuRa Löhne",
      "kurz": "TuRa Löhne",
      "status": "",
@@ -2017,16 +2047,6 @@ window.SPIELDATEN = {
      "siege": 1,
      "saetze": "3:4",
      "punkte": 3
-    },
-    {
-     "platz": 5,
-     "team": "TuS Bonneberg II",
-     "kurz": "TuS Bonneberg II",
-     "status": "",
-     "spiele": 2,
-     "siege": 0,
-     "saetze": "3:6",
-     "punkte": 1
     },
     {
      "platz": 6,
@@ -2282,15 +2302,39 @@ window.SPIELDATEN = {
      "nr": "10",
      "heim": "TuS Bonneberg II",
      "gast": "TSVE Bielefeld II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Vlotho",
-      "strasse": "Herforder Str. 8",
-      "plz": "32602",
-      "ort": "Vlotho",
-      "lat": 52.16529,
-      "lng": 8.85673
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       100,
+       102
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        15,
+        9
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -2906,23 +2950,23 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "Spvg. Steinhagen II",
+     "kurz": "Spvg. Steinhagen II",
+     "status": "rel-auf",
+     "spiele": 4,
+     "siege": 3,
+     "saetze": "9:6",
+     "punkte": 8
+    },
+    {
+     "platz": 3,
      "team": "TuS Viktoria Rietberg",
      "kurz": "TuS Viktoria Rietberg",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 3,
      "siege": 2,
      "saetze": "8:3",
      "punkte": 7
-    },
-    {
-     "platz": 3,
-     "team": "Spvg. Steinhagen II",
-     "kurz": "Spvg. Steinhagen II",
-     "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "6:6",
-     "punkte": 5
     },
     {
      "platz": 4,
@@ -2956,22 +3000,22 @@ window.SPIELDATEN = {
     },
     {
      "platz": 7,
-     "team": "SF Sennestadt",
-     "kurz": "SF Sennestadt",
-     "status": "",
-     "spiele": 2,
-     "siege": 0,
-     "saetze": "1:6",
-     "punkte": 0
-    },
-    {
-     "platz": 8,
      "team": "Telekom Post SV Bielefeld VI",
      "kurz": "Telekom Post SV Bielefeld VI",
      "status": "",
      "spiele": 2,
      "siege": 0,
      "saetze": "0:6",
+     "punkte": 0
+    },
+    {
+     "platz": 8,
+     "team": "SF Sennestadt",
+     "kurz": "SF Sennestadt",
+     "status": "",
+     "spiele": 3,
+     "siege": 0,
+     "saetze": "1:9",
      "punkte": 0
     }
    ],
@@ -3349,15 +3393,31 @@ window.SPIELDATEN = {
      "nr": "15",
      "heim": "Spvg. Steinhagen II",
      "gast": "SF Sennestadt",
-     "ergebnis": null,
-     "halle": {
-      "name": "Steinhagener Gymnasium",
-      "strasse": "Am Cronsbach 1",
-      "plz": "33803",
-      "ort": "Steinhagen",
-      "lat": 51.99943,
-      "lng": 8.42433
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       53
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        14
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "DJK Grün-Weiß Rheda"
     },
     {
@@ -7036,18 +7096,18 @@ window.SPIELDATEN = {
     },
     {
      "platz": 6,
-     "team": "SV Höxter",
-     "kurz": "SV Höxter",
+     "team": "TuS Brake II",
+     "kurz": "TuS Brake II",
      "status": "",
-     "spiele": 2,
-     "siege": 0,
-     "saetze": "2:6",
-     "punkte": 1
+     "spiele": 3,
+     "siege": 1,
+     "saetze": "5:8",
+     "punkte": 3
     },
     {
      "platz": 7,
-     "team": "TuS Brake II",
-     "kurz": "TuS Brake II",
+     "team": "SV Höxter",
+     "kurz": "SV Höxter",
      "status": "rel-ab",
      "spiele": 2,
      "siege": 0,
@@ -7056,22 +7116,22 @@ window.SPIELDATEN = {
     },
     {
      "platz": 8,
+     "team": "VoR Paderborn IV",
+     "kurz": "VoR Paderborn IV",
+     "status": "ab",
+     "spiele": 2,
+     "siege": 0,
+     "saetze": "2:6",
+     "punkte": 1
+    },
+    {
+     "platz": 9,
      "team": "SC GW Paderborn II",
      "kurz": "SC GW Paderborn II",
      "status": "ab",
      "spiele": 3,
      "siege": 0,
      "saetze": "1:9",
-     "punkte": 0
-    },
-    {
-     "platz": 9,
-     "team": "VoR Paderborn IV",
-     "kurz": "VoR Paderborn IV",
-     "status": "ab",
-     "spiele": 1,
-     "siege": 0,
-     "saetze": "0:3",
      "punkte": 0
     }
    ],
@@ -7473,15 +7533,39 @@ window.SPIELDATEN = {
      "nr": "17",
      "heim": "TuS Brake II",
      "gast": "VoR Paderborn IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
-      "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       108,
+       96
+      ],
+      "details": [
+       [
+        25,
+        27
+       ],
+       [
+        25,
+        12
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        15,
+        11
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SV Höxter"
     },
     {
@@ -8552,23 +8636,23 @@ window.SPIELDATEN = {
     },
     {
      "platz": 5,
-     "team": "Telekom Post SV Bielefeld V",
-     "kurz": "TPSV Bielefeld V",
+     "team": "SF Sennestadt III",
+     "kurz": "SF Sennestadt III",
      "status": "",
      "spiele": 3,
      "siege": 1,
-     "saetze": "3:6",
+     "saetze": "4:6",
      "punkte": 3
     },
     {
      "platz": 6,
-     "team": "SF Sennestadt III",
-     "kurz": "SF Sennestadt III",
+     "team": "Telekom Post SV Bielefeld V",
+     "kurz": "TPSV Bielefeld V",
      "status": "",
-     "spiele": 2,
-     "siege": 0,
-     "saetze": "1:6",
-     "punkte": 0
+     "spiele": 4,
+     "siege": 1,
+     "saetze": "3:9",
+     "punkte": 3
     },
     {
      "platz": 7,
@@ -8949,15 +9033,31 @@ window.SPIELDATEN = {
      "nr": "13",
      "heim": "SF Sennestadt III",
      "gast": "TPSV Bielefeld V",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hans-Ehrenberg-Schule",
-      "strasse": "Elbeallee 75",
-      "plz": "33689",
-      "ort": "Bielefeld",
-      "lat": 51.9476133,
-      "lng": 8.5867344
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       50
+      ],
+      "details": [
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        13
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Brake IV"
     },
     {
@@ -9912,7 +10012,7 @@ window.SPIELDATEN = {
      "runde": "Viertel-Finale"
     },
     {
-     "datum": "2026-11-01T00:00",
+     "datum": "2026-11-02T19:00",
      "zeitOffen": false,
      "nr": "10",
      "heim": "SC Halle II",
@@ -9930,7 +10030,7 @@ window.SPIELDATEN = {
      "runde": "Viertel-Finale"
     },
     {
-     "datum": "2026-11-01T00:00",
+     "datum": "2026-11-09T19:30",
      "zeitOffen": false,
      "nr": "12",
      "heim": "Bielefelder TG",
