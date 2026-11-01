@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-10-31T20:01",
+ "stand": "2026-11-01T10:58",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -4328,33 +4328,33 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
+     "team": "TuRa Löhne II",
+     "kurz": "TuRa Löhne II",
+     "status": "auf",
+     "spiele": 4,
+     "siege": 4,
+     "saetze": "12:5",
+     "punkte": 10
+    },
+    {
+     "platz": 2,
      "team": "1. VC Minden III",
      "kurz": "1. VC Minden III",
-     "status": "auf",
+     "status": "rel-auf",
      "spiele": 3,
      "siege": 3,
      "saetze": "9:3",
      "punkte": 8
     },
     {
-     "platz": 2,
+     "platz": 3,
      "team": "TuS Bonneberg III",
      "kurz": "TuS Bonneberg III",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 4,
      "siege": 3,
      "saetze": "11:7",
      "punkte": 8
-    },
-    {
-     "platz": 3,
-     "team": "TuRa Löhne II",
-     "kurz": "TuRa Löhne II",
-     "status": "",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:4",
-     "punkte": 7
     },
     {
      "platz": 4,
@@ -4381,9 +4381,9 @@ window.SPIELDATEN = {
      "team": "ATSV Espelkamp II",
      "kurz": "ATSV Espelkamp II",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 1,
-     "saetze": "3:8",
+     "saetze": "4:11",
      "punkte": 2
     },
     {
@@ -4929,19 +4929,39 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-10-31T15:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "16",
      "heim": "ATSV Espelkamp II",
      "gast": "TuRa Löhne II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Otto-Michelsohn-Sportzentrum",
-      "strasse": "Königswall 10",
-      "plz": "32423",
-      "ort": "Minden",
-      "lat": 52.2884732,
-      "lng": 8.9101679
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       83,
+       98
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "1. VC Minden III"
     },
     {
