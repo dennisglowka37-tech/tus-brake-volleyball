@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-01T10:58",
+ "stand": "2026-11-03T00:28",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -4328,23 +4328,23 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
+     "team": "1. VC Minden III",
+     "kurz": "1. VC Minden III",
+     "status": "auf",
+     "spiele": 4,
+     "siege": 4,
+     "saetze": "12:3",
+     "punkte": 11
+    },
+    {
+     "platz": 2,
      "team": "TuRa Löhne II",
      "kurz": "TuRa Löhne II",
-     "status": "auf",
+     "status": "rel-auf",
      "spiele": 4,
      "siege": 4,
      "saetze": "12:5",
      "punkte": 10
-    },
-    {
-     "platz": 2,
-     "team": "1. VC Minden III",
-     "kurz": "1. VC Minden III",
-     "status": "rel-auf",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:3",
-     "punkte": 8
     },
     {
      "platz": 3,
@@ -4401,9 +4401,9 @@ window.SPIELDATEN = {
      "team": "TG Herford II",
      "kurz": "TG Herford II",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "0:9",
+     "saetze": "0:12",
      "punkte": 0
     }
    ],
@@ -4916,15 +4916,31 @@ window.SPIELDATEN = {
      "nr": "15",
      "heim": "1. VC Minden III",
      "gast": "TG Herford II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Otto-Michelsohn-Sportzentrum",
-      "strasse": "Königswall 10",
-      "plz": "32423",
-      "ort": "Minden",
-      "lat": 52.2884732,
-      "lng": 8.9101679
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       0
+      ],
+      "details": [
+       [
+        25,
+        0
+       ],
+       [
+        25,
+        0
+       ],
+       [
+        25,
+        0
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "ATSV Espelkamp II"
     },
     {
@@ -7321,10 +7337,10 @@ window.SPIELDATEN = {
      "team": "Bielefelder TG",
      "kurz": "Bielefelder TG",
      "status": "auf",
-     "spiele": 4,
-     "siege": 4,
-     "saetze": "12:3",
-     "punkte": 11
+     "spiele": 5,
+     "siege": 5,
+     "saetze": "15:3",
+     "punkte": 14
     },
     {
      "platz": 2,
@@ -7378,18 +7394,18 @@ window.SPIELDATEN = {
     },
     {
      "platz": 7,
-     "team": "VoR Paderborn IV",
-     "kurz": "VoR Paderborn IV",
+     "team": "SV Höxter",
+     "kurz": "SV Höxter",
      "status": "rel-ab",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 0,
-     "saetze": "2:6",
+     "saetze": "2:9",
      "punkte": 1
     },
     {
      "platz": 8,
-     "team": "SV Höxter",
-     "kurz": "SV Höxter",
+     "team": "VoR Paderborn IV",
+     "kurz": "VoR Paderborn IV",
      "status": "ab",
      "spiele": 3,
      "siege": 0,
@@ -7912,19 +7928,35 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-02T18:45",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "12",
      "heim": "Bielefelder TG",
      "gast": "VoR Paderborn IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle Königsbrügge",
-      "strasse": "Fritz-Reuter-Str. 30",
-      "plz": "33604",
-      "ort": "Bielefeld",
-      "lat": 52.01211,
-      "lng": 8.55439
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       54
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        22
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TV Büren"
     },
     {
@@ -10357,15 +10389,35 @@ window.SPIELDATEN = {
      "nr": "10",
      "heim": "SC Halle II",
      "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle Masch 2",
-      "strasse": "Wasserwerkstr. 1",
-      "plz": "33790",
-      "ort": "Halle",
-      "lat": 52.0494991,
-      "lng": 8.3530929
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       64,
+       92
+      ],
+      "details": [
+       [
+        14,
+        25
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        9,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "",
      "runde": "Viertel-Finale"
     },
@@ -10386,6 +10438,17 @@ window.SPIELDATEN = {
      },
      "schiri": "",
      "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-22T00:00",
+     "zeitOffen": false,
+     "nr": "14",
+     "heim": "Sieger Spiel 12",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": null,
+     "schiri": "",
+     "runde": "Halb-Finale"
     }
    ]
   },
