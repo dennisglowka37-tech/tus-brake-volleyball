@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-03T00:28",
+ "stand": "2026-11-03T11:28",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -6477,6 +6477,23 @@ window.SPIELDATEN = {
      "schiri": "TuS Brake"
     },
     {
+     "datum": "2026-11-19T19:30",
+     "zeitOffen": true,
+     "nr": "30",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TuS Brake",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": ""
+    },
+    {
      "datum": "2026-11-21T14:00",
      "zeitOffen": false,
      "nr": "27",
@@ -6577,23 +6594,6 @@ window.SPIELDATEN = {
       "lng": 8.94201
      },
      "schiri": "SSV Pr. Ströhen"
-    },
-    {
-     "datum": "2026-11-28T16:45",
-     "zeitOffen": true,
-     "nr": "30",
-     "heim": "SSV Pr. Ströhen",
-     "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Portaschule",
-      "strasse": "Zur Porta 73",
-      "plz": "32457",
-      "ort": "Porta Westfalica",
-      "lat": 52.25112,
-      "lng": 8.94201
-     },
-     "schiri": "MTV Hausberge"
     },
     {
      "datum": "2026-11-29T15:00",
