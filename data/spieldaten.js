@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-04T09:32",
+ "stand": "2026-11-04T16:52",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -10604,7 +10604,7 @@ window.SPIELDATEN = {
      "runde": "Achtel-Finale"
     },
     {
-     "datum": "2026-11-01T00:00",
+     "datum": "2026-11-09T20:30",
      "zeitOffen": false,
      "nr": "11",
      "heim": "TuS Brake II",
