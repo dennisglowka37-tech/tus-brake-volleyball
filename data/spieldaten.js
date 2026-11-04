@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-03T20:08",
+ "stand": "2026-11-04T09:32",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -2145,7 +2145,910 @@ window.SPIELDATEN = {
      "punkte": 1
     }
    ],
-   "spiele": []
+   "spiele": [
+    {
+     "datum": "2026-09-27T14:00",
+     "zeitOffen": false,
+     "nr": "1",
+     "heim": "BTW Bünde",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       104,
+       104
+      ],
+      "details": [
+       [
+        25,
+        21
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        13,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-10-03T14:00",
+     "zeitOffen": false,
+     "nr": "4",
+     "heim": "SG Levern-Rahden II",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       95,
+       105
+      ],
+      "details": [
+       [
+        25,
+        22
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        10,
+        25
+       ],
+       [
+        17,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-10-04T15:00",
+     "zeitOffen": false,
+     "nr": "5",
+     "heim": "TSVE Bielefeld II",
+     "gast": "TuRa Löhne",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       49
+      ],
+      "details": [
+       [
+        25,
+        14
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        20
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SV 1860 Minden II"
+    },
+    {
+     "datum": "2026-10-04T16:30",
+     "zeitOffen": false,
+     "nr": "6",
+     "heim": "SV 1860 Minden II",
+     "gast": "BTW Bünde",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       104,
+       91
+      ],
+      "details": [
+       [
+        29,
+        31
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        21
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TSVE Bielefeld II"
+    },
+    {
+     "datum": "2026-10-17T13:00",
+     "zeitOffen": false,
+     "nr": "8",
+     "heim": "TuRa Löhne",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       93,
+       82
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        19
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TSVE Bielefeld II"
+    },
+    {
+     "datum": "2026-10-17T14:30",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TSVE Bielefeld II",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       86,
+       94
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuRa Löhne"
+    },
+    {
+     "datum": "2026-10-31T12:00",
+     "zeitOffen": false,
+     "nr": "10",
+     "heim": "TuS Bonneberg II",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       100,
+       102
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        15,
+        9
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-10-31T14:00",
+     "zeitOffen": false,
+     "nr": "11",
+     "heim": "SV 1860 Minden II",
+     "gast": "TuS Brake II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       88,
+       100
+      ],
+      "details": [
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        25,
+        27
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2026-10-31T15:30",
+     "zeitOffen": false,
+     "nr": "12",
+     "heim": "BTW Bünde",
+     "gast": "TuRa Löhne",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       77,
+       96
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        12,
+        25
+       ],
+       [
+        17,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SV 1860 Minden II"
+    },
+    {
+     "datum": "2026-11-14T13:00",
+     "zeitOffen": false,
+     "nr": "13",
+     "heim": "TuRa Löhne",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-11-14T14:00",
+     "zeitOffen": false,
+     "nr": "14",
+     "heim": "BTW Bünde",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "SV 1860 Minden II"
+    },
+    {
+     "datum": "2026-11-14T15:30",
+     "zeitOffen": true,
+     "nr": "15",
+     "heim": "SV 1860 Minden II",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2026-11-21T13:00",
+     "zeitOffen": false,
+     "nr": "2",
+     "heim": "TuS Bonneberg II",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TSVE Bielefeld II"
+    },
+    {
+     "datum": "2026-11-21T14:30",
+     "zeitOffen": true,
+     "nr": "3",
+     "heim": "TSVE Bielefeld II",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg II"
+    },
+    {
+     "datum": "2026-11-28T14:00",
+     "zeitOffen": false,
+     "nr": "16",
+     "heim": "SV 1860 Minden II",
+     "gast": "TuRa Löhne",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-11-29T15:00",
+     "zeitOffen": false,
+     "nr": "17",
+     "heim": "TuS Brake II",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Bonneberg II"
+    },
+    {
+     "datum": "2026-11-29T16:30",
+     "zeitOffen": true,
+     "nr": "18",
+     "heim": "TuS Bonneberg II",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TSVE Bielefeld II"
+    },
+    {
+     "datum": "2026-12-04T20:30",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "TuS Brake II",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-12-12T14:00",
+     "zeitOffen": true,
+     "nr": "20",
+     "heim": "SG Levern-Rahden II",
+     "gast": "TuRa Löhne",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sport- und Festhalle Levern",
+      "strasse": "Schröttinghauser Str. 25",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.3721968,
+      "lng": 8.4461435
+     },
+     "schiri": "TuS Brake II"
+    },
+    {
+     "datum": "2026-12-12T15:30",
+     "zeitOffen": false,
+     "nr": "21",
+     "heim": "TuS Brake II",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sport- und Festhalle Levern",
+      "strasse": "Schröttinghauser Str. 25",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.3721968,
+      "lng": 8.4461435
+     },
+     "schiri": "SG Levern-Rahden II"
+    },
+    {
+     "datum": "2026-12-13T15:00",
+     "zeitOffen": false,
+     "nr": "19",
+     "heim": "TSVE Bielefeld II",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "TSVE Sporthalle",
+      "strasse": "Am Niedermühlenhof 3",
+      "plz": "33604",
+      "ort": "Bielefeld",
+      "lat": 52.0176812,
+      "lng": 8.5512339
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-12-19T14:00",
+     "zeitOffen": false,
+     "nr": "22",
+     "heim": "SG Levern-Rahden II",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sport- und Festhalle Levern",
+      "strasse": "Schröttinghauser Str. 25",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.3721968,
+      "lng": 8.4461435
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-12-19T14:00",
+     "zeitOffen": false,
+     "nr": "23",
+     "heim": "SV 1860 Minden II",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "TuS Brake II"
+    },
+    {
+     "datum": "2026-12-19T15:30",
+     "zeitOffen": true,
+     "nr": "24",
+     "heim": "TuS Brake II",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "SV 1860 Minden II"
+    },
+    {
+     "datum": "2027-01-17T11:00",
+     "zeitOffen": false,
+     "nr": "25",
+     "heim": "TuS Bonneberg II",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-01-17T14:00",
+     "zeitOffen": false,
+     "nr": "26",
+     "heim": "BTW Bünde",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "TuRa Löhne"
+    },
+    {
+     "datum": "2027-01-17T15:30",
+     "zeitOffen": true,
+     "nr": "27",
+     "heim": "TuRa Löhne",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-01-30T12:00",
+     "zeitOffen": false,
+     "nr": "29",
+     "heim": "TuS Bonneberg II",
+     "gast": "TuRa Löhne",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "SG Levern-Rahden II"
+    },
+    {
+     "datum": "2027-01-30T13:30",
+     "zeitOffen": true,
+     "nr": "30",
+     "heim": "SG Levern-Rahden II",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg II"
+    },
+    {
+     "datum": "2027-01-31T14:00",
+     "zeitOffen": false,
+     "nr": "28",
+     "heim": "BTW Bünde",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-02-14T12:00",
+     "zeitOffen": false,
+     "nr": "31",
+     "heim": "TSVE Bielefeld II",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": null,
+     "halle": {
+      "name": "TSVE Sporthalle",
+      "strasse": "Am Niedermühlenhof 3",
+      "plz": "33604",
+      "ort": "Bielefeld",
+      "lat": 52.0176812,
+      "lng": 8.5512339
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-02-14T14:00",
+     "zeitOffen": false,
+     "nr": "32",
+     "heim": "TuS Brake II",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuRa Löhne"
+    },
+    {
+     "datum": "2027-02-14T15:30",
+     "zeitOffen": true,
+     "nr": "33",
+     "heim": "TuRa Löhne",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake II"
+    },
+    {
+     "datum": "2027-02-20T14:30",
+     "zeitOffen": false,
+     "nr": "35",
+     "heim": "TSVE Bielefeld II",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "TSVE Sporthalle",
+      "strasse": "Am Niedermühlenhof 3",
+      "plz": "33604",
+      "ort": "Bielefeld",
+      "lat": 52.0176812,
+      "lng": 8.5512339
+     },
+     "schiri": "SG Levern-Rahden II"
+    },
+    {
+     "datum": "2027-02-20T15:30",
+     "zeitOffen": false,
+     "nr": "34",
+     "heim": "TuS Brake II",
+     "gast": "TuRa Löhne",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-02-20T16:00",
+     "zeitOffen": true,
+     "nr": "36",
+     "heim": "SG Levern-Rahden II",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "TSVE Sporthalle",
+      "strasse": "Am Niedermühlenhof 3",
+      "plz": "33604",
+      "ort": "Bielefeld",
+      "lat": 52.0176812,
+      "lng": 8.5512339
+     },
+     "schiri": "TSVE Bielefeld II"
+    },
+    {
+     "datum": "2027-03-06T13:00",
+     "zeitOffen": false,
+     "nr": "37",
+     "heim": "TuRa Löhne",
+     "gast": "SV 1860 Minden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-03-07T12:00",
+     "zeitOffen": false,
+     "nr": "38",
+     "heim": "SG Levern-Rahden II",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sport- und Festhalle Levern",
+      "strasse": "Schröttinghauser Str. 25",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.3721968,
+      "lng": 8.4461435
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-03-07T13:30",
+     "zeitOffen": true,
+     "nr": "39",
+     "heim": "BTW Bünde",
+     "gast": "TuS Bonneberg II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sport- und Festhalle Levern",
+      "strasse": "Schröttinghauser Str. 25",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.3721968,
+      "lng": 8.4461435
+     },
+     "schiri": "SG Levern-Rahden II"
+    },
+    {
+     "datum": "2027-03-20T13:00",
+     "zeitOffen": false,
+     "nr": "41",
+     "heim": "TuRa Löhne",
+     "gast": "SG Levern-Rahden II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "TuS Bonneberg II"
+    },
+    {
+     "datum": "2027-03-20T14:00",
+     "zeitOffen": false,
+     "nr": "40",
+     "heim": "SV 1860 Minden II",
+     "gast": "TSVE Bielefeld II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2027-03-20T14:30",
+     "zeitOffen": true,
+     "nr": "42",
+     "heim": "TuS Bonneberg II",
+     "gast": "TuS Brake II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "TuRa Löhne"
+    }
+   ]
   },
   {
    "name": "Bezirksklasse 31 Männer",
@@ -2186,9 +3089,9 @@ window.SPIELDATEN = {
      "team": "TuS Brake III",
      "kurz": "TuS Brake III",
      "status": "",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 1,
-     "saetze": "4:4",
+     "saetze": "5:7",
      "punkte": 3
     },
     {
@@ -2213,22 +3116,22 @@ window.SPIELDATEN = {
     },
     {
      "platz": 7,
+     "team": "SF Sennestadt",
+     "kurz": "SF Sennestadt",
+     "status": "",
+     "spiele": 4,
+     "siege": 1,
+     "saetze": "4:10",
+     "punkte": 3
+    },
+    {
+     "platz": 8,
      "team": "Telekom Post SV Bielefeld VI",
      "kurz": "Telekom Post SV Bielefeld VI",
      "status": "",
      "spiele": 2,
      "siege": 0,
      "saetze": "0:6",
-     "punkte": 0
-    },
-    {
-     "platz": 8,
-     "team": "SF Sennestadt",
-     "kurz": "SF Sennestadt",
-     "status": "",
-     "spiele": 3,
-     "siege": 0,
-     "saetze": "1:9",
      "punkte": 0
     }
    ],
@@ -2726,15 +3629,35 @@ window.SPIELDATEN = {
      "nr": "9",
      "heim": "SF Sennestadt",
      "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hans-Ehrenberg-Schule",
-      "strasse": "Elbeallee 75",
-      "plz": "33689",
-      "ort": "Bielefeld",
-      "lat": 51.9476133,
-      "lng": 8.5867344
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       95,
+       72
+      ],
+      "details": [
+       [
+        25,
+        15
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        13
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Viktoria Rietberg"
     },
     {
@@ -6441,23 +7364,23 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "SV Blau-Weiß Sande III",
+     "kurz": "SV Blau-Weiß Sande III",
+     "status": "rel-auf",
+     "spiele": 3,
+     "siege": 3,
+     "saetze": "9:1",
+     "punkte": 9
+    },
+    {
+     "platz": 3,
      "team": "TV Büren",
      "kurz": "TV Büren",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 4,
      "siege": 3,
      "saetze": "9:5",
      "punkte": 8
-    },
-    {
-     "platz": 3,
-     "team": "SV Blau-Weiß Sande III",
-     "kurz": "SV Blau-Weiß Sande III",
-     "status": "",
-     "spiele": 2,
-     "siege": 2,
-     "saetze": "6:0",
-     "punkte": 6
     },
     {
      "platz": 4,
@@ -6484,9 +7407,9 @@ window.SPIELDATEN = {
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 1,
-     "saetze": "5:8",
+     "saetze": "6:11",
      "punkte": 3
     },
     {
@@ -7058,19 +7981,39 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-03T18:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "14",
      "heim": "TuS Brake II",
      "gast": "SV Blau-Weiß Sande III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Sporthalle Sande",
-      "strasse": "Dirksfeld 45",
-      "plz": "33106",
-      "ort": "Paderborn",
-      "lat": 51.7593713,
-      "lng": 8.6674467
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       87,
+       93
+      ],
+      "details": [
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        26,
+        28
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "VoR Paderborn IV"
     },
     {
