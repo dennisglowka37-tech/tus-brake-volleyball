@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-04T16:52",
+ "stand": "2026-11-05T17:32",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -10296,6 +10296,40 @@ window.SPIELDATEN = {
    "url": "https://ergebnisdienst.volleyball.nrw/cms/home/erwachsene/pokal/kreispokal.xhtml?LeaguePresenter.view=matches&LeaguePresenter.matchSeriesId=116021652",
    "spiele": [
     {
+     "datum": "2026-09-28T19:45",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "TuS Brake III",
+     "gast": "SV Ubbedissen",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       60
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        26,
+        24
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
      "datum": "2026-10-06T19:00",
      "zeitOffen": false,
      "nr": "1",
@@ -10364,40 +10398,6 @@ window.SPIELDATEN = {
        [
         25,
         6
-       ]
-      ]
-     },
-     "halle": null,
-     "schiri": "",
-     "runde": "Achtel-Finale"
-    },
-    {
-     "datum": "2026-09-28T19:45",
-     "zeitOffen": false,
-     "nr": "7",
-     "heim": "TuS Brake III",
-     "gast": "SV Ubbedissen",
-     "ergebnis": {
-      "saetze": [
-       3,
-       0
-      ],
-      "baelle": [
-       76,
-       60
-      ],
-      "details": [
-       [
-        25,
-        16
-       ],
-       [
-        25,
-        20
-       ],
-       [
-        26,
-        24
        ]
       ]
      },
@@ -10498,40 +10498,6 @@ window.SPIELDATEN = {
    "url": "https://ergebnisdienst.volleyball.nrw/cms/home/erwachsene/pokal/kreispokal.xhtml?LeaguePresenter.view=matches&LeaguePresenter.matchSeriesId=116021644",
    "spiele": [
     {
-     "datum": "2026-10-09T20:15",
-     "zeitOffen": false,
-     "nr": "3",
-     "heim": "TuS Brake III",
-     "gast": "DJK Grün-Weiß Rheda",
-     "ergebnis": {
-      "saetze": [
-       0,
-       3
-      ],
-      "baelle": [
-       55,
-       75
-      ],
-      "details": [
-       [
-        18,
-        25
-       ],
-       [
-        23,
-        25
-       ],
-       [
-        14,
-        25
-       ]
-      ]
-     },
-     "halle": null,
-     "schiri": "",
-     "runde": "Achtel-Finale"
-    },
-    {
      "datum": "2026-10-09T00:00",
      "zeitOffen": false,
      "nr": "5",
@@ -10558,6 +10524,40 @@ window.SPIELDATEN = {
        [
         25,
         13
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-09T20:15",
+     "zeitOffen": false,
+     "nr": "3",
+     "heim": "TuS Brake III",
+     "gast": "DJK Grün-Weiß Rheda",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       55,
+       75
+      ],
+      "details": [
+       [
+        18,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        14,
+        25
        ]
       ]
      },
