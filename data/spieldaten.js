@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-05T17:32",
+ "stand": "2026-11-06T20:09",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -7364,16 +7364,26 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "VfJ Helmern",
+     "kurz": "VfJ Helmern",
+     "status": "rel-auf",
+     "spiele": 3,
+     "siege": 3,
+     "saetze": "9:0",
+     "punkte": 9
+    },
+    {
+     "platz": 3,
      "team": "SV Blau-Weiß Sande III",
      "kurz": "SV Blau-Weiß Sande III",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 3,
      "siege": 3,
      "saetze": "9:1",
      "punkte": 9
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "TV Büren",
      "kurz": "TV Büren",
      "status": "",
@@ -7381,16 +7391,6 @@ window.SPIELDATEN = {
      "siege": 3,
      "saetze": "9:5",
      "punkte": 8
-    },
-    {
-     "platz": 4,
-     "team": "VfJ Helmern",
-     "kurz": "VfJ Helmern",
-     "status": "",
-     "spiele": 2,
-     "siege": 2,
-     "saetze": "6:0",
-     "punkte": 6
     },
     {
      "platz": 5,
@@ -7427,9 +7427,9 @@ window.SPIELDATEN = {
      "team": "VoR Paderborn IV",
      "kurz": "VoR Paderborn IV",
      "status": "ab",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "2:9",
+     "saetze": "2:12",
      "punkte": 1
     },
     {
@@ -8022,15 +8022,31 @@ window.SPIELDATEN = {
      "nr": "13",
      "heim": "VoR Paderborn IV",
      "gast": "VfJ Helmern",
-     "ergebnis": null,
-     "halle": {
-      "name": "Fürstenberg Halle",
-      "strasse": "Ledeburstr. 8",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.720278,
-      "lng": 8.746611
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       62,
+       75
+      ],
+      "details": [
+       [
+        21,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Brake II"
     },
     {
