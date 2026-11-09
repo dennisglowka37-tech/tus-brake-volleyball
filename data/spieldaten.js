@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-08T16:33",
+ "stand": "2026-11-09T16:43",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -9407,23 +9407,6 @@ window.SPIELDATEN = {
      "schiri": "VfB Schloß Holte IV"
     },
     {
-     "datum": "2026-10-17T15:15",
-     "zeitOffen": true,
-     "nr": "12",
-     "heim": "Wiedenbrücker TV",
-     "gast": "SF Sennestadt III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Ost",
-      "strasse": "Am Anger 54",
-      "plz": "33332",
-      "ort": "Gütersloh",
-      "lat": 51.900581,
-      "lng": 8.4086823
-     },
-     "schiri": "Gütersloher TV III"
-    },
-    {
      "datum": "2026-10-31T13:00",
      "zeitOffen": false,
      "nr": "13",
@@ -10438,24 +10421,6 @@ window.SPIELDATEN = {
      "runde": "Achtel-Finale"
     },
     {
-     "datum": "2026-11-01T00:00",
-     "zeitOffen": false,
-     "nr": "9",
-     "heim": "TuS Brake",
-     "gast": "TPSV Bielefeld IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Almhalle 4",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
-      "ort": "Bielefeld",
-      "lat": 0.0,
-      "lng": 0.0
-     },
-     "schiri": "",
-     "runde": "Viertel-Finale"
-    },
-    {
      "datum": "2026-11-02T19:00",
      "zeitOffen": false,
      "nr": "10",
@@ -10501,12 +10466,30 @@ window.SPIELDATEN = {
      "gast": "TuS Brake II",
      "ergebnis": null,
      "halle": {
-      "name": "Ceciliengymnasium",
-      "strasse": "Niedermühlenkamp 5",
-      "plz": "33604",
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
       "ort": "Bielefeld",
-      "lat": 52.01603,
-      "lng": 8.54841
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-12T19:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 4",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 0.0,
+      "lng": 0.0
      },
      "schiri": "",
      "runde": "Viertel-Finale"
