@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-09T16:43",
+ "stand": "2026-11-09T23:45",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -7404,23 +7404,23 @@ window.SPIELDATEN = {
     },
     {
      "platz": 6,
+     "team": "SV Höxter",
+     "kurz": "SV Höxter",
+     "status": "",
+     "spiele": 4,
+     "siege": 1,
+     "saetze": "5:9",
+     "punkte": 4
+    },
+    {
+     "platz": 7,
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
-     "status": "",
+     "status": "rel-ab",
      "spiele": 4,
      "siege": 1,
      "saetze": "6:11",
      "punkte": 3
-    },
-    {
-     "platz": 7,
-     "team": "SV Höxter",
-     "kurz": "SV Höxter",
-     "status": "rel-ab",
-     "spiele": 3,
-     "siege": 0,
-     "saetze": "2:9",
-     "punkte": 1
     },
     {
      "platz": 8,
@@ -7437,9 +7437,9 @@ window.SPIELDATEN = {
      "team": "SC GW Paderborn II",
      "kurz": "SC GW Paderborn II",
      "status": "ab",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "2:12",
+     "saetze": "2:15",
      "punkte": 0
     }
    ],
@@ -8055,15 +8055,31 @@ window.SPIELDATEN = {
      "nr": "15",
      "heim": "SC GW Paderborn II",
      "gast": "SV Höxter",
-     "ergebnis": null,
-     "halle": {
-      "name": "Bielenberghalle",
-      "strasse": "An der Steinmühle 7",
-      "plz": "37671",
-      "ort": "Höxter",
-      "lat": 51.77478,
-      "lng": 9.37081
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       57,
+       76
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        24,
+        26
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "Bielefelder TG"
     },
     {
@@ -10464,15 +10480,31 @@ window.SPIELDATEN = {
      "nr": "12",
      "heim": "Bielefelder TG",
      "gast": "TuS Brake II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
-      "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       59
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        18
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "",
      "runde": "Viertel-Finale"
     },
@@ -10484,12 +10516,12 @@ window.SPIELDATEN = {
      "gast": "TPSV Bielefeld IV",
      "ergebnis": null,
      "halle": {
-      "name": "Almhalle 4",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
+      "name": "Carl Severing-Berufskolleg (Halle 2)",
+      "strasse": "Flachsstr. 1",
+      "plz": "33607",
       "ort": "Bielefeld",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 52.02355,
+      "lng": 8.5554
      },
      "schiri": "",
      "runde": "Viertel-Finale"
@@ -10498,7 +10530,7 @@ window.SPIELDATEN = {
      "datum": "2026-11-22T00:00",
      "zeitOffen": false,
      "nr": "14",
-     "heim": "Sieger Spiel 12",
+     "heim": "Bielefelder TG",
      "gast": "TuS Brake III",
      "ergebnis": null,
      "halle": null,
@@ -10624,15 +10656,35 @@ window.SPIELDATEN = {
      "nr": "11",
      "heim": "TuS Brake II",
      "gast": "TSVE Bielefeld II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
-      "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       92,
+       98
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        23,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "",
      "runde": "Viertel-Finale"
     }
