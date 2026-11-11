@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-09T23:45",
+ "stand": "2026-11-11T11:43",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -4378,6 +4378,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 4,
+     "team": "VG Lage II",
+     "kurz": "VG Lage II",
+     "status": "",
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "10:7",
+     "punkte": 8
+    },
+    {
+     "platz": 5,
      "team": "TuS Asemissen II",
      "kurz": "TuS Asemissen II",
      "status": "",
@@ -4385,16 +4395,6 @@ window.SPIELDATEN = {
      "siege": 2,
      "saetze": "9:7",
      "punkte": 7
-    },
-    {
-     "platz": 5,
-     "team": "VG Lage II",
-     "kurz": "VG Lage II",
-     "status": "",
-     "spiele": 3,
-     "siege": 1,
-     "saetze": "7:6",
-     "punkte": 5
     },
     {
      "platz": 6,
@@ -4411,9 +4411,9 @@ window.SPIELDATEN = {
      "team": "Tus Brake IV",
      "kurz": "Tus Brake IV",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "5:9",
+     "saetze": "6:12",
      "punkte": 2
     },
     {
@@ -4878,15 +4878,35 @@ window.SPIELDATEN = {
      "nr": "13",
      "heim": "Tus Brake IV",
      "gast": "VG Lage II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
-      "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       86,
+       96
+      ],
+      "details": [
+       [
+        21,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        23,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Asemissen II"
     },
     {
@@ -10533,7 +10553,14 @@ window.SPIELDATEN = {
      "heim": "Bielefelder TG",
      "gast": "TuS Brake III",
      "ergebnis": null,
-     "halle": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
      "schiri": "",
      "runde": "Halb-Finale"
     }
