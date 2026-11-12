@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-12T20:01",
+ "stand": "2026-11-12T20:16",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -10341,6 +10341,231 @@ window.SPIELDATEN = {
   }
  ],
  "pokale": [
+  {
+   "name": "Kreispokal Gütersloh/Bielefeld",
+   "gruppe": "Damen",
+   "url": "https://ergebnisdienst.volleyball.nrw/cms/home/erwachsene/pokal/kreispokal.xhtml?LeaguePresenter.view=matches&LeaguePresenter.matchSeriesId=116021652",
+   "spiele": [
+    {
+     "datum": "2026-09-28T19:45",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "TuS Brake III",
+     "gast": "SV Ubbedissen",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       60
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        26,
+        24
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-06T19:00",
+     "zeitOffen": false,
+     "nr": "1",
+     "heim": "TuS Brake",
+     "gast": "GTV II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       107,
+       91
+      ],
+      "details": [
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        15,
+        9
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-10-09T19:00",
+     "zeitOffen": false,
+     "nr": "4",
+     "heim": "TuS Brake II",
+     "gast": "GTV III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       39
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        25,
+        6
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Achtel-Finale"
+    },
+    {
+     "datum": "2026-11-02T19:00",
+     "zeitOffen": false,
+     "nr": "10",
+     "heim": "SC Halle II",
+     "gast": "TuS Brake III",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       64,
+       92
+      ],
+      "details": [
+       [
+        14,
+        25
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        9,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-09T19:30",
+     "zeitOffen": false,
+     "nr": "12",
+     "heim": "Bielefelder TG",
+     "gast": "TuS Brake II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       59
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        18
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-12T19:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Carl Severing-Berufskolleg (Halle 2)",
+      "strasse": "Flachsstr. 1",
+      "plz": "33607",
+      "ort": "Bielefeld",
+      "lat": 52.02355,
+      "lng": 8.5554
+     },
+     "schiri": "",
+     "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-22T00:00",
+     "zeitOffen": false,
+     "nr": "14",
+     "heim": "Bielefelder TG",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "",
+     "runde": "Halb-Finale"
+    }
+   ]
+  },
   {
    "name": "Kreispokal Gütersloh/Bielefeld",
    "gruppe": "Herren",
