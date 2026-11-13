@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-12T20:16",
+ "stand": "2026-11-13T06:17",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -13,10 +13,10 @@ window.SPIELDATEN = {
      "team": "SG Paderborn Volleyball",
      "kurz": "SG Paderborn Volleyball",
      "status": "auf",
-     "spiele": 4,
-     "siege": 4,
-     "saetze": "12:3",
-     "punkte": 12
+     "spiele": 5,
+     "siege": 5,
+     "saetze": "15:3",
+     "punkte": 15
     },
     {
      "platz": 2,
@@ -73,9 +73,9 @@ window.SPIELDATEN = {
      "team": "TuS Brake",
      "kurz": "TuS Brake",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "5:9",
+     "saetze": "5:12",
      "punkte": 4
     },
     {
@@ -918,15 +918,31 @@ window.SPIELDATEN = {
      "nr": "19",
      "heim": "SG Paderborn Volleyball",
      "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Pelizaeus-Gymnasium",
-      "strasse": "Gierswall 2",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.72085,
-      "lng": 8.76208
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       57
+      ],
+      "details": [
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        17
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -10534,17 +10550,51 @@ window.SPIELDATEN = {
      "nr": "9",
      "heim": "TuS Brake",
      "gast": "TPSV Bielefeld IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Carl Severing-Berufskolleg (Halle 2)",
-      "strasse": "Flachsstr. 1",
-      "plz": "33607",
-      "ort": "Bielefeld",
-      "lat": 52.02355,
-      "lng": 8.5554
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       42
+      ],
+      "details": [
+       [
+        25,
+        13
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        10
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "",
      "runde": "Viertel-Finale"
+    },
+    {
+     "datum": "2026-11-22T00:00",
+     "zeitOffen": false,
+     "nr": "13",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "",
+     "runde": "Halb-Finale"
     },
     {
      "datum": "2026-11-22T00:00",
@@ -10554,12 +10604,12 @@ window.SPIELDATEN = {
      "gast": "TuS Brake III",
      "ergebnis": null,
      "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
+      "name": "Ceciliengymnasium",
+      "strasse": "Niedermühlenkamp 5",
+      "plz": "33604",
       "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+      "lat": 52.01603,
+      "lng": 8.54841
      },
      "schiri": "",
      "runde": "Halb-Finale"
