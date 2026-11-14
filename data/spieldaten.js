@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-14T19:06",
+ "stand": "2026-11-14T20:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -30,6 +30,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 3,
+     "team": "Soester TV",
+     "kurz": "Soester TV",
+     "status": "",
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "12:5",
+     "punkte": 11
+    },
+    {
+     "platz": 4,
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "Telekom Post SV Bielefeld III",
      "status": "",
@@ -37,16 +47,6 @@ window.SPIELDATEN = {
      "siege": 3,
      "saetze": "10:6",
      "punkte": 9
-    },
-    {
-     "platz": 4,
-     "team": "Soester TV",
-     "kurz": "Soester TV",
-     "status": "",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "9:5",
-     "punkte": 8
     },
     {
      "platz": 5,
@@ -103,9 +103,9 @@ window.SPIELDATEN = {
      "team": "SG Levern-Rahden",
      "kurz": "SG Levern-Rahden",
      "status": "ab",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "2:12",
+     "saetze": "2:15",
      "punkte": 1
     }
    ],
@@ -951,15 +951,31 @@ window.SPIELDATEN = {
      "nr": "30",
      "heim": "SG Levern-Rahden",
      "gast": "Soester TV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Gymnasium Rahden",
-      "strasse": "Am Brullfeld 10",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.43708,
-      "lng": 8.61719
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       50,
+       75
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        10,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -2095,10 +2111,10 @@ window.SPIELDATEN = {
      "team": "SG Levern-Rahden II",
      "kurz": "SG Levern-Rahden II",
      "status": "auf",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 3,
-     "saetze": "9:5",
-     "punkte": 7
+     "saetze": "11:8",
+     "punkte": 8
     },
     {
      "platz": 2,
@@ -2135,10 +2151,10 @@ window.SPIELDATEN = {
      "team": "SV 1860 Minden II",
      "kurz": "SV 1860 Minden II",
      "status": "",
-     "spiele": 2,
-     "siege": 1,
-     "saetze": "4:4",
-     "punkte": 3
+     "spiele": 3,
+     "siege": 2,
+     "saetze": "7:6",
+     "punkte": 5
     },
     {
      "platz": 6,
@@ -2583,19 +2599,43 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-14T15:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "15",
      "heim": "SV 1860 Minden II",
      "gast": "SG Levern-Rahden II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Erich-Gutenberg-Berufskolleg",
-      "strasse": "Wedekindstr. 30-38",
-      "plz": "32257",
-      "ort": "Bünde",
-      "lat": 52.20809,
-      "lng": 8.5704
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       117,
+       115
+      ],
+      "details": [
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        36,
+        38
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        15,
+        10
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "BTW Bünde"
     },
     {
