@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-13T06:17",
+ "stand": "2026-11-14T19:06",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -2102,33 +2102,33 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
-     "team": "TuRa Löhne",
-     "kurz": "TuRa Löhne",
+     "team": "TSVE Bielefeld II",
+     "kurz": "TSVE Bielefeld II",
      "status": "rel-auf",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 2,
-     "saetze": "6:5",
-     "punkte": 6
+     "saetze": "9:7",
+     "punkte": 7
     },
     {
      "platz": 3,
-     "team": "TSVE Bielefeld II",
-     "kurz": "TSVE Bielefeld II",
+     "team": "TuRa Löhne",
+     "kurz": "TuRa Löhne",
      "status": "",
-     "spiele": 3,
-     "siege": 1,
-     "saetze": "6:6",
-     "punkte": 4
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "8:8",
+     "punkte": 7
     },
     {
      "platz": 4,
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
      "status": "",
-     "spiele": 1,
-     "siege": 1,
-     "saetze": "3:1",
-     "punkte": 3
+     "spiele": 2,
+     "siege": 2,
+     "saetze": "6:3",
+     "punkte": 5
     },
     {
      "platz": 5,
@@ -2155,9 +2155,9 @@ window.SPIELDATEN = {
      "team": "BTW Bünde",
      "kurz": "BTW Bünde",
      "status": "rel-ab",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "4:9",
+     "saetze": "5:12",
      "punkte": 1
     }
    ],
@@ -2509,15 +2509,39 @@ window.SPIELDATEN = {
      "nr": "13",
      "heim": "TuRa Löhne",
      "gast": "TuS Brake II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Realschule (neue Halle)",
-      "strasse": "Brunnenstraße",
-      "plz": "32584",
-      "ort": "Löhne",
-      "lat": 52.1876043,
-      "lng": 8.7017921
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       107,
+       107
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        13,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -2526,15 +2550,35 @@ window.SPIELDATEN = {
      "nr": "14",
      "heim": "BTW Bünde",
      "gast": "TSVE Bielefeld II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Erich-Gutenberg-Berufskolleg",
-      "strasse": "Wedekindstr. 30-38",
-      "plz": "32257",
-      "ort": "Bünde",
-      "lat": 52.20809,
-      "lng": 8.5704
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       87,
+       98
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SV 1860 Minden II"
     },
     {
@@ -4367,59 +4411,59 @@ window.SPIELDATEN = {
      "team": "1. VC Minden III",
      "kurz": "1. VC Minden III",
      "status": "auf",
-     "spiele": 4,
-     "siege": 4,
-     "saetze": "12:3",
-     "punkte": 11
+     "spiele": 5,
+     "siege": 5,
+     "saetze": "15:3",
+     "punkte": 14
     },
     {
      "platz": 2,
-     "team": "TuRa Löhne II",
-     "kurz": "TuRa Löhne II",
+     "team": "TuS Bonneberg III",
+     "kurz": "TuS Bonneberg III",
      "status": "rel-auf",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 4,
-     "saetze": "12:5",
-     "punkte": 10
+     "saetze": "14:7",
+     "punkte": 11
     },
     {
      "platz": 3,
-     "team": "TuS Bonneberg III",
-     "kurz": "TuS Bonneberg III",
-     "status": "",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "11:7",
-     "punkte": 8
-    },
-    {
-     "platz": 4,
      "team": "VG Lage II",
      "kurz": "VG Lage II",
      "status": "",
-     "spiele": 4,
-     "siege": 2,
-     "saetze": "10:7",
-     "punkte": 8
+     "spiele": 5,
+     "siege": 3,
+     "saetze": "13:7",
+     "punkte": 11
+    },
+    {
+     "platz": 4,
+     "team": "TuRa Löhne II",
+     "kurz": "TuRa Löhne II",
+     "status": "",
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "13:8",
+     "punkte": 10
     },
     {
      "platz": 5,
      "team": "TuS Asemissen II",
      "kurz": "TuS Asemissen II",
      "status": "",
-     "spiele": 4,
-     "siege": 2,
-     "saetze": "9:7",
-     "punkte": 7
+     "spiele": 5,
+     "siege": 3,
+     "saetze": "12:8",
+     "punkte": 10
     },
     {
      "platz": 6,
      "team": "ATSV Espelkamp II",
      "kurz": "ATSV Espelkamp II",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "4:11",
+     "saetze": "4:14",
      "punkte": 2
     },
     {
@@ -4427,9 +4471,9 @@ window.SPIELDATEN = {
      "team": "Tus Brake IV",
      "kurz": "Tus Brake IV",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "6:12",
+     "saetze": "6:15",
      "punkte": 2
     },
     {
@@ -4437,9 +4481,9 @@ window.SPIELDATEN = {
      "team": "TG Herford II",
      "kurz": "TG Herford II",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "0:12",
+     "saetze": "0:15",
      "punkte": 0
     }
    ],
@@ -5042,15 +5086,35 @@ window.SPIELDATEN = {
      "nr": "19",
      "heim": "TuS Asemissen II",
      "gast": "TuRa Löhne II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Asemissen",
-      "strasse": "Berliner Str. 10",
-      "plz": "33818",
-      "ort": "Leopoldshöhe",
-      "lat": 51.98455,
-      "lng": 8.67413
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       92,
+       86
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        16
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TG Herford II"
     },
     {
@@ -5059,49 +5123,97 @@ window.SPIELDATEN = {
      "nr": "17",
      "heim": "VG Lage II",
      "gast": "ATSV Espelkamp II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Werreanger I",
-      "strasse": "Breite Str. 30",
-      "plz": "32791",
-      "ort": "Lage",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       51
+      ],
+      "details": [
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        9
+       ],
+       [
+        25,
+        18
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "1. VC Minden III"
     },
     {
      "datum": "2026-11-14T15:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "20",
      "heim": "TG Herford II",
      "gast": "TuS Bonneberg III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Asemissen",
-      "strasse": "Berliner Str. 10",
-      "plz": "33818",
-      "ort": "Leopoldshöhe",
-      "lat": 51.98455,
-      "lng": 8.67413
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       46,
+       75
+      ],
+      "details": [
+       [
+        10,
+        25
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Asemissen II"
     },
     {
      "datum": "2026-11-14T16:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "18",
      "heim": "1. VC Minden III",
      "gast": "Tus Brake IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Werreanger I",
-      "strasse": "Breite Str. 30",
-      "plz": "32791",
-      "ort": "Lage",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       46
+      ],
+      "details": [
+       [
+        25,
+        8
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        19
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "VG Lage II"
     },
     {
@@ -5784,32 +5896,32 @@ window.SPIELDATEN = {
     },
     {
      "platz": 7,
+     "team": "Telekom Post SV Bielefeld III",
+     "kurz": "TPSV Bielefeld III",
+     "status": "rel-ab",
+     "spiele": 5,
+     "siege": 2,
+     "saetze": "6:11",
+     "punkte": 6
+    },
+    {
+     "platz": 8,
      "team": "TuS Brake",
      "kurz": "TuS Brake",
-     "status": "rel-ab",
+     "status": "ab",
      "spiele": 4,
      "siege": 2,
      "saetze": "6:8",
      "punkte": 5
     },
     {
-     "platz": 8,
-     "team": "Telekom Post SV Bielefeld III",
-     "kurz": "TPSV Bielefeld III",
-     "status": "ab",
-     "spiele": 4,
-     "siege": 1,
-     "saetze": "3:10",
-     "punkte": 3
-    },
-    {
      "platz": 9,
      "team": "TuS Brake III",
      "kurz": "TuS Brake III",
      "status": "ab",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "4:9",
+     "saetze": "5:12",
      "punkte": 1
     }
    ],
@@ -6483,19 +6595,39 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-14T16:15",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "24",
      "heim": "TuS Brake III",
      "gast": "TPSV Bielefeld III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Preußisch Ströhen",
-      "strasse": "Preußisch-Ströher-Allee 19",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.49888,
-      "lng": 8.64844
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       94,
+       100
+      ],
+      "details": [
+       [
+        25,
+        22
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        26,
+        28
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SSV Pr. Ströhen"
     },
     {
@@ -7403,10 +7535,10 @@ window.SPIELDATEN = {
      "team": "VfJ Helmern",
      "kurz": "VfJ Helmern",
      "status": "rel-auf",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:0",
-     "punkte": 9
+     "spiele": 4,
+     "siege": 4,
+     "saetze": "12:0",
+     "punkte": 12
     },
     {
      "platz": 3,
@@ -7420,6 +7552,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 4,
+     "team": "SV Ubbedissen",
+     "kurz": "SV Ubbedissen",
+     "status": "",
+     "spiele": 5,
+     "siege": 3,
+     "saetze": "11:10",
+     "punkte": 9
+    },
+    {
+     "platz": 5,
      "team": "TV Büren",
      "kurz": "TV Büren",
      "status": "",
@@ -7429,23 +7571,13 @@ window.SPIELDATEN = {
      "punkte": 8
     },
     {
-     "platz": 5,
-     "team": "SV Ubbedissen",
-     "kurz": "SV Ubbedissen",
-     "status": "",
-     "spiele": 4,
-     "siege": 2,
-     "saetze": "8:9",
-     "punkte": 6
-    },
-    {
      "platz": 6,
      "team": "SV Höxter",
      "kurz": "SV Höxter",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "5:9",
+     "saetze": "5:12",
      "punkte": 4
     },
     {
@@ -7453,9 +7585,9 @@ window.SPIELDATEN = {
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
      "status": "rel-ab",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "6:11",
+     "saetze": "7:14",
      "punkte": 3
     },
     {
@@ -8124,32 +8256,68 @@ window.SPIELDATEN = {
      "nr": "23",
      "heim": "SV Höxter",
      "gast": "VfJ Helmern",
-     "ergebnis": null,
-     "halle": {
-      "name": "Berufskolleg des Kreises Höxter",
-      "strasse": "Im Flor 35",
-      "plz": "37671",
-      "ort": "Höxter",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       59,
+       75
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SV Ubbedissen"
     },
     {
      "datum": "2026-11-14T15:00",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "24",
      "heim": "SV Ubbedissen",
      "gast": "TuS Brake II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Berufskolleg des Kreises Höxter",
-      "strasse": "Im Flor 35",
-      "plz": "37671",
-      "ort": "Höxter",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       97,
+       80
+      ],
+      "details": [
+       [
+        25,
+        14
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        17
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SV Höxter"
     },
     {
@@ -9047,59 +9215,59 @@ window.SPIELDATEN = {
      "team": "VfB Schloß Holte IV",
      "kurz": "VfB Schloß Holte IV",
      "status": "auf",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 4,
-     "saetze": "12:0",
-     "punkte": 12
+     "saetze": "14:3",
+     "punkte": 13
     },
     {
      "platz": 2,
      "team": "TuS Brake IV",
      "kurz": "TuS Brake IV",
      "status": "rel-auf",
-     "spiele": 3,
-     "siege": 3,
-     "saetze": "9:0",
-     "punkte": 9
+     "spiele": 4,
+     "siege": 4,
+     "saetze": "12:0",
+     "punkte": 12
     },
     {
      "platz": 3,
      "team": "SF Sennestadt II",
      "kurz": "SF Sennestadt II",
      "status": "",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "9:4",
-     "punkte": 9
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "12:4",
+     "punkte": 12
     },
     {
      "platz": 4,
      "team": "Gütersloher TV III",
      "kurz": "Gütersloher TV III",
      "status": "",
-     "spiele": 3,
-     "siege": 2,
-     "saetze": "6:3",
-     "punkte": 6
+     "spiele": 4,
+     "siege": 3,
+     "saetze": "9:5",
+     "punkte": 8
     },
     {
      "platz": 5,
      "team": "SF Sennestadt III",
      "kurz": "SF Sennestadt III",
      "status": "",
-     "spiele": 3,
-     "siege": 1,
-     "saetze": "4:6",
-     "punkte": 3
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "7:6",
+     "punkte": 6
     },
     {
      "platz": 6,
      "team": "Telekom Post SV Bielefeld V",
      "kurz": "TPSV Bielefeld V",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "3:9",
+     "saetze": "3:12",
      "punkte": 3
     },
     {
@@ -9107,9 +9275,9 @@ window.SPIELDATEN = {
      "team": "SC Halle III",
      "kurz": "SC Halle III",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "0:12",
+     "saetze": "0:15",
      "punkte": 0
     },
     {
@@ -9117,9 +9285,9 @@ window.SPIELDATEN = {
      "team": "Wiedenbrücker TV",
      "kurz": "Wiedenbrücker TV",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "saetze": "0:9",
+     "saetze": "0:12",
      "punkte": 0
     }
    ],
@@ -9596,32 +9764,72 @@ window.SPIELDATEN = {
      "nr": "19",
      "heim": "SF Sennestadt II",
      "gast": "Wiedenbrücker TV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hans-Ehrenberg-Schule",
-      "strasse": "Elbeallee 75",
-      "plz": "33689",
-      "ort": "Bielefeld",
-      "lat": 51.9476133,
-      "lng": 8.5867344
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       43
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        12
+       ],
+       [
+        25,
+        8
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "VfB Schloß Holte IV"
     },
     {
      "datum": "2026-11-14T14:15",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "20",
      "heim": "VfB Schloß Holte IV",
      "gast": "Gütersloher TV III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hans-Ehrenberg-Schule",
-      "strasse": "Elbeallee 75",
-      "plz": "33689",
-      "ort": "Bielefeld",
-      "lat": 51.9476133,
-      "lng": 8.5867344
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       98,
+       96
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        16
+       ],
+       [
+        6,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SF Sennestadt II"
     },
     {
@@ -9630,32 +9838,64 @@ window.SPIELDATEN = {
      "nr": "17",
      "heim": "TPSV Bielefeld V",
      "gast": "TuS Brake IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Almhalle 4",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
-      "ort": "Bielefeld",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       62,
+       77
+      ],
+      "details": [
+       [
+        14,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        27
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SF Sennestadt III"
     },
     {
      "datum": "2026-11-14T15:45",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "18",
      "heim": "SF Sennestadt III",
      "gast": "SC Halle III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Almhalle 4",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
-      "ort": "Bielefeld",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       53
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        22
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TPSV Bielefeld V"
     },
     {
