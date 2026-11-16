@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-16T11:18",
+ "stand": "2026-11-16T20:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -7496,23 +7496,6 @@ window.SPIELDATEN = {
      "schiri": "TPSV Bielefeld III"
     },
     {
-     "datum": "2027-02-13T12:15",
-     "zeitOffen": true,
-     "nr": "58",
-     "heim": "SuS Holzhausen II",
-     "gast": "OTSV Pr. Oldendorf",
-     "ergebnis": null,
-     "halle": {
-      "name": "Erich-Gutenberg-Berufskolleg",
-      "strasse": "Wedekindstr. 30-38",
-      "plz": "32257",
-      "ort": "Bünde",
-      "lat": 52.20809,
-      "lng": 8.5704
-     },
-     "schiri": "BTW Bünde"
-    },
-    {
      "datum": "2027-02-13T13:15",
      "zeitOffen": true,
      "nr": "60",
@@ -7545,6 +7528,23 @@ window.SPIELDATEN = {
       "lng": 8.5704
      },
      "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-02-14T12:15",
+     "zeitOffen": true,
+     "nr": "58",
+     "heim": "SuS Holzhausen II",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "BTW Bünde"
     },
     {
      "datum": "2027-02-20T15:30",
