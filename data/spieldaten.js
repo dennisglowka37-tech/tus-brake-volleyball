@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-15T23:10",
+ "stand": "2026-11-16T11:18",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -4683,7 +4683,1348 @@ window.SPIELDATEN = {
      "punkte": 0
     }
    ],
-   "spiele": []
+   "spiele": [
+    {
+     "datum": "2026-09-26T14:00",
+     "zeitOffen": false,
+     "nr": "3",
+     "heim": "ATSV Espelkamp II",
+     "gast": "1. VC Minden III",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       34,
+       75
+      ],
+      "details": [
+       [
+        11,
+        25
+       ],
+       [
+        13,
+        25
+       ],
+       [
+        10,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2026-09-26T14:00",
+     "zeitOffen": false,
+     "nr": "1",
+     "heim": "TuS Asemissen II",
+     "gast": "Tus Brake IV",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       89,
+       78
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        25,
+        17
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2026-09-26T15:30",
+     "zeitOffen": false,
+     "nr": "4",
+     "heim": "TuRa Löhne II",
+     "gast": "TG Herford II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       47
+      ],
+      "details": [
+       [
+        25,
+        14
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        18
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2026-09-26T15:30",
+     "zeitOffen": false,
+     "nr": "2",
+     "heim": "TuS Bonneberg III",
+     "gast": "VG Lage II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       108,
+       107
+      ],
+      "details": [
+       [
+        25,
+        22
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        16,
+        14
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2026-10-03T13:00",
+     "zeitOffen": false,
+     "nr": "5",
+     "heim": "TuRa Löhne II",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       111,
+       108
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        27,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        15,
+        12
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2026-10-03T14:30",
+     "zeitOffen": false,
+     "nr": "6",
+     "heim": "Tus Brake IV",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       88,
+       110
+      ],
+      "details": [
+       [
+        11,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        10,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2026-10-04T14:00",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "VG Lage II",
+     "gast": "TG Herford II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       46
+      ],
+      "details": [
+       [
+        25,
+        12
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        25,
+        21
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2026-10-04T15:30",
+     "zeitOffen": false,
+     "nr": "8",
+     "heim": "1. VC Minden III",
+     "gast": "TuS Asemissen II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       94,
+       94
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        28,
+        26
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        23
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2026-10-17T15:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TG Herford II",
+     "gast": "TuS Asemissen II",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       46,
+       75
+      ],
+      "details": [
+       [
+        9,
+        25
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2026-10-17T16:30",
+     "zeitOffen": false,
+     "nr": "10",
+     "heim": "TuRa Löhne II",
+     "gast": "Tus Brake IV",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       111,
+       108
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        17,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2026-10-17T17:00",
+     "zeitOffen": false,
+     "nr": "11",
+     "heim": "TuS Bonneberg III",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       59
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        18
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2026-10-17T18:30",
+     "zeitOffen": false,
+     "nr": "12",
+     "heim": "VG Lage II",
+     "gast": "1. VC Minden III",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       102,
+       111
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        10,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2026-10-31T12:00",
+     "zeitOffen": false,
+     "nr": "13",
+     "heim": "Tus Brake IV",
+     "gast": "VG Lage II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       86,
+       96
+      ],
+      "details": [
+       [
+        21,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        23,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2026-10-31T13:30",
+     "zeitOffen": false,
+     "nr": "14",
+     "heim": "TuS Asemissen II",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       91,
+       95
+      ],
+      "details": [
+       [
+        21,
+        25
+       ],
+       [
+        25,
+        11
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        12,
+        25
+       ],
+       [
+        8,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2026-10-31T14:00",
+     "zeitOffen": false,
+     "nr": "15",
+     "heim": "1. VC Minden III",
+     "gast": "TG Herford II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       0
+      ],
+      "details": [
+       [
+        25,
+        0
+       ],
+       [
+        25,
+        0
+       ],
+       [
+        25,
+        0
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2026-10-31T15:30",
+     "zeitOffen": false,
+     "nr": "16",
+     "heim": "ATSV Espelkamp II",
+     "gast": "TuRa Löhne II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       83,
+       98
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2026-11-14T14:00",
+     "zeitOffen": false,
+     "nr": "19",
+     "heim": "TuS Asemissen II",
+     "gast": "TuRa Löhne II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       92,
+       86
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        16
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2026-11-14T15:00",
+     "zeitOffen": false,
+     "nr": "17",
+     "heim": "VG Lage II",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       51
+      ],
+      "details": [
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        9
+       ],
+       [
+        25,
+        18
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2026-11-14T15:30",
+     "zeitOffen": false,
+     "nr": "20",
+     "heim": "TG Herford II",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       46,
+       75
+      ],
+      "details": [
+       [
+        10,
+        25
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2026-11-14T16:30",
+     "zeitOffen": false,
+     "nr": "18",
+     "heim": "1. VC Minden III",
+     "gast": "Tus Brake IV",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       46
+      ],
+      "details": [
+       [
+        25,
+        8
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        19
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2026-11-28T15:00",
+     "zeitOffen": false,
+     "nr": "23",
+     "heim": "TG Herford II",
+     "gast": "Tus Brake IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2026-11-28T16:30",
+     "zeitOffen": true,
+     "nr": "24",
+     "heim": "ATSV Espelkamp II",
+     "gast": "TuS Asemissen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2026-11-29T10:00",
+     "zeitOffen": false,
+     "nr": "21",
+     "heim": "TuS Bonneberg III",
+     "gast": "1. VC Minden III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2026-11-29T11:30",
+     "zeitOffen": true,
+     "nr": "22",
+     "heim": "VG Lage II",
+     "gast": "TuRa Löhne II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2026-12-12T14:00",
+     "zeitOffen": false,
+     "nr": "25",
+     "heim": "1. VC Minden III",
+     "gast": "TuRa Löhne II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2026-12-12T15:30",
+     "zeitOffen": true,
+     "nr": "26",
+     "heim": "TG Herford II",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2026-12-13T15:00",
+     "zeitOffen": false,
+     "nr": "27",
+     "heim": "Tus Brake IV",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2026-12-13T16:30",
+     "zeitOffen": true,
+     "nr": "28",
+     "heim": "TuS Asemissen II",
+     "gast": "VG Lage II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2026-12-19T14:00",
+     "zeitOffen": false,
+     "nr": "31",
+     "heim": "1. VC Minden III",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2026-12-19T14:00",
+     "zeitOffen": false,
+     "nr": "29",
+     "heim": "Tus Brake IV",
+     "gast": "TuS Asemissen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2026-12-19T15:30",
+     "zeitOffen": true,
+     "nr": "32",
+     "heim": "VG Lage II",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2026-12-19T15:30",
+     "zeitOffen": true,
+     "nr": "30",
+     "heim": "TG Herford II",
+     "gast": "TuRa Löhne II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2027-01-16T15:00",
+     "zeitOffen": false,
+     "nr": "35",
+     "heim": "TG Herford II",
+     "gast": "VG Lage II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2027-01-16T16:30",
+     "zeitOffen": true,
+     "nr": "36",
+     "heim": "ATSV Espelkamp II",
+     "gast": "Tus Brake IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2027-01-17T15:00",
+     "zeitOffen": false,
+     "nr": "33",
+     "heim": "TuS Bonneberg III",
+     "gast": "TuRa Löhne II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2027-01-17T16:30",
+     "zeitOffen": true,
+     "nr": "34",
+     "heim": "TuS Asemissen II",
+     "gast": "1. VC Minden III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2027-01-23T14:00",
+     "zeitOffen": false,
+     "nr": "39",
+     "heim": "ATSV Espelkamp II",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule am Auewald",
+      "strasse": "Koloniestraße 63",
+      "plz": "32339",
+      "ort": "Espelkamp",
+      "lat": 52.3812595,
+      "lng": 8.5986509
+     },
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2027-01-23T15:30",
+     "zeitOffen": true,
+     "nr": "40",
+     "heim": "Tus Brake IV",
+     "gast": "TuRa Löhne II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule am Auewald",
+      "strasse": "Koloniestraße 63",
+      "plz": "32339",
+      "ort": "Espelkamp",
+      "lat": 52.3812595,
+      "lng": 8.5986509
+     },
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2027-01-31T13:00",
+     "zeitOffen": false,
+     "nr": "37",
+     "heim": "TuS Asemissen II",
+     "gast": "TG Herford II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Asemissen",
+      "strasse": "Berliner Str. 10",
+      "plz": "33818",
+      "ort": "Leopoldshöhe",
+      "lat": 51.98455,
+      "lng": 8.67413
+     },
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2027-01-31T14:30",
+     "zeitOffen": true,
+     "nr": "38",
+     "heim": "1. VC Minden III",
+     "gast": "VG Lage II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Asemissen",
+      "strasse": "Berliner Str. 10",
+      "plz": "33818",
+      "ort": "Leopoldshöhe",
+      "lat": 51.98455,
+      "lng": 8.67413
+     },
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2027-02-13T15:00",
+     "zeitOffen": false,
+     "nr": "43",
+     "heim": "TG Herford II",
+     "gast": "1. VC Minden III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2027-02-13T15:00",
+     "zeitOffen": false,
+     "nr": "41",
+     "heim": "VG Lage II",
+     "gast": "Tus Brake IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Schulzentrum Werreanger II",
+      "strasse": "Breite Str. 30",
+      "plz": "32791",
+      "ort": "Lage",
+      "lat": 51.9848946,
+      "lng": 8.8022563
+     },
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2027-02-13T16:30",
+     "zeitOffen": true,
+     "nr": "44",
+     "heim": "TuRa Löhne II",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Mindener Straße",
+      "strasse": "Mindener Str. 98",
+      "plz": "32049",
+      "ort": "Herford",
+      "lat": 52.12595,
+      "lng": 8.68552
+     },
+     "schiri": "TG Herford II"
+    },
+    {
+     "datum": "2027-02-13T16:30",
+     "zeitOffen": true,
+     "nr": "42",
+     "heim": "TuS Bonneberg III",
+     "gast": "TuS Asemissen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Schulzentrum Werreanger II",
+      "strasse": "Breite Str. 30",
+      "plz": "32791",
+      "ort": "Lage",
+      "lat": 51.9848946,
+      "lng": 8.8022563
+     },
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2027-02-20T13:00",
+     "zeitOffen": false,
+     "nr": "47",
+     "heim": "TuRa Löhne II",
+     "gast": "TuS Asemissen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2027-02-20T14:00",
+     "zeitOffen": false,
+     "nr": "45",
+     "heim": "ATSV Espelkamp II",
+     "gast": "VG Lage II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule am Auewald",
+      "strasse": "Koloniestraße 63",
+      "plz": "32339",
+      "ort": "Espelkamp",
+      "lat": 52.3812595,
+      "lng": 8.5986509
+     },
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2027-02-20T14:30",
+     "zeitOffen": true,
+     "nr": "48",
+     "heim": "TuS Bonneberg III",
+     "gast": "TG Herford II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2027-02-20T15:30",
+     "zeitOffen": true,
+     "nr": "46",
+     "heim": "Tus Brake IV",
+     "gast": "1. VC Minden III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule am Auewald",
+      "strasse": "Koloniestraße 63",
+      "plz": "32339",
+      "ort": "Espelkamp",
+      "lat": 52.3812595,
+      "lng": 8.5986509
+     },
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2027-03-06T14:00",
+     "zeitOffen": false,
+     "nr": "49",
+     "heim": "1. VC Minden III",
+     "gast": "TuS Bonneberg III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "TuS Asemissen II"
+    },
+    {
+     "datum": "2027-03-06T15:30",
+     "zeitOffen": true,
+     "nr": "50",
+     "heim": "TuS Asemissen II",
+     "gast": "ATSV Espelkamp II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Otto-Michelsohn-Sportzentrum",
+      "strasse": "Königswall 10",
+      "plz": "32423",
+      "ort": "Minden",
+      "lat": 52.2884732,
+      "lng": 8.9101679
+     },
+     "schiri": "1. VC Minden III"
+    },
+    {
+     "datum": "2027-03-07T14:00",
+     "zeitOffen": false,
+     "nr": "51",
+     "heim": "Tus Brake IV",
+     "gast": "TG Herford II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuRa Löhne II"
+    },
+    {
+     "datum": "2027-03-07T15:30",
+     "zeitOffen": true,
+     "nr": "52",
+     "heim": "TuRa Löhne II",
+     "gast": "VG Lage II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "Tus Brake IV"
+    },
+    {
+     "datum": "2027-03-20T12:00",
+     "zeitOffen": false,
+     "nr": "55",
+     "heim": "TuS Bonneberg III",
+     "gast": "Tus Brake IV",
+     "ergebnis": null,
+     "halle": {
+      "name": "Weser-Gymnasium Vlotho",
+      "strasse": "Professor-Domagk-Str. 12",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16387,
+      "lng": 8.86974
+     },
+     "schiri": "VG Lage II"
+    },
+    {
+     "datum": "2027-03-20T13:30",
+     "zeitOffen": true,
+     "nr": "56",
+     "heim": "VG Lage II",
+     "gast": "TuS Asemissen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Weser-Gymnasium Vlotho",
+      "strasse": "Professor-Domagk-Str. 12",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16387,
+      "lng": 8.86974
+     },
+     "schiri": "TuS Bonneberg III"
+    },
+    {
+     "datum": "2027-03-21T13:00",
+     "zeitOffen": false,
+     "nr": "53",
+     "heim": "TuRa Löhne II",
+     "gast": "1. VC Minden III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "ATSV Espelkamp II"
+    },
+    {
+     "datum": "2027-03-21T14:30",
+     "zeitOffen": true,
+     "nr": "54",
+     "heim": "ATSV Espelkamp II",
+     "gast": "TG Herford II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Realschule (neue Halle)",
+      "strasse": "Brunnenstraße",
+      "plz": "32584",
+      "ort": "Löhne",
+      "lat": 52.1876043,
+      "lng": 8.7017921
+     },
+     "schiri": "TuRa Löhne II"
+    }
+   ]
   },
   {
    "name": "Bezirksliga 16 Frauen",
