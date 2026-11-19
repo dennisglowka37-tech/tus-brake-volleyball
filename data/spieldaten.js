@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-19T14:15",
+ "stand": "2026-11-19T22:24",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -3285,13 +3285,23 @@ window.SPIELDATEN = {
      "team": "TuS Quelle III",
      "kurz": "TuS Quelle III",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "saetze": "5:10",
-     "punkte": 4
+     "saetze": "7:13",
+     "punkte": 5
     },
     {
      "platz": 7,
+     "team": "Telekom Post SV Bielefeld VI",
+     "kurz": "Telekom Post SV Bielefeld VI",
+     "status": "",
+     "spiele": 4,
+     "siege": 1,
+     "saetze": "5:11",
+     "punkte": 3
+    },
+    {
+     "platz": 8,
      "team": "SV Ubbedissen",
      "kurz": "SV Ubbedissen 09",
      "status": "",
@@ -3299,16 +3309,6 @@ window.SPIELDATEN = {
      "siege": 1,
      "saetze": "5:12",
      "punkte": 3
-    },
-    {
-     "platz": 8,
-     "team": "Telekom Post SV Bielefeld VI",
-     "kurz": "Telekom Post SV Bielefeld VI",
-     "status": "",
-     "spiele": 3,
-     "siege": 0,
-     "saetze": "2:9",
-     "punkte": 1
     }
    ],
    "spiele": [
@@ -3973,15 +3973,39 @@ window.SPIELDATEN = {
      "nr": "5",
      "heim": "TuS Quelle III",
      "gast": "Telekom Post SV Bielefeld VI",
-     "ergebnis": null,
-     "halle": {
-      "name": "Almhalle 1-3",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
-      "ort": "Bielefeld",
-      "lat": 52.031204,
-      "lng": 8.5170244
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       101,
+       93
+      ],
+      "details": [
+       [
+        25,
+        13
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        11,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -6062,6 +6086,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 4,
+     "team": "TuS Brake",
+     "kurz": "TuS Brake",
+     "status": "",
+     "spiele": 6,
+     "siege": 3,
+     "saetze": "10:11",
+     "punkte": 8
+    },
+    {
+     "platz": 5,
      "team": "SuS Holzhausen II",
      "kurz": "SuS Holzhausen II",
      "status": "",
@@ -6071,7 +6105,7 @@ window.SPIELDATEN = {
      "punkte": 7
     },
     {
-     "platz": 5,
+     "platz": 6,
      "team": "MTV Hausberge",
      "kurz": "MTV Hausberge",
      "status": "",
@@ -6081,34 +6115,24 @@ window.SPIELDATEN = {
      "punkte": 6
     },
     {
-     "platz": 6,
+     "platz": 7,
      "team": "SSV Pr. Ströhen",
      "kurz": "SSV Pr. Ströhen",
-     "status": "",
-     "spiele": 4,
-     "siege": 2,
-     "saetze": "7:8",
-     "punkte": 6
-    },
-    {
-     "platz": 7,
-     "team": "Telekom Post SV Bielefeld III",
-     "kurz": "TPSV Bielefeld III",
      "status": "rel-ab",
      "spiele": 5,
      "siege": 2,
-     "saetze": "6:11",
+     "saetze": "7:11",
      "punkte": 6
     },
     {
      "platz": 8,
-     "team": "TuS Brake",
-     "kurz": "TuS Brake",
+     "team": "Telekom Post SV Bielefeld III",
+     "kurz": "TPSV Bielefeld III",
      "status": "ab",
      "spiele": 5,
      "siege": 2,
-     "saetze": "7:11",
-     "punkte": 5
+     "saetze": "6:11",
+     "punkte": 6
     },
     {
      "platz": 9,
@@ -6902,19 +6926,35 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-19T19:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "30",
      "heim": "SSV Pr. Ströhen",
      "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Preußisch Ströhen",
-      "strasse": "Preußisch-Ströher-Allee 19",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.49888,
-      "lng": 8.64844
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       50,
+       75
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        20,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
