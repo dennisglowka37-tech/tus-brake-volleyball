@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-16T20:01",
+ "stand": "2026-11-19T13:06",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -1157,23 +1157,6 @@ window.SPIELDATEN = {
      "schiri": ""
     },
     {
-     "datum": "2026-11-21T16:30",
-     "zeitOffen": false,
-     "nr": "32",
-     "heim": "Spvg. Steinhagen",
-     "gast": "Pivitsheide",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hörmann Sportzentrum",
-      "strasse": "Am Cronsbach 12",
-      "plz": "33803",
-      "ort": "Steinhagen",
-      "lat": 52.0022996,
-      "lng": 8.4274412
-     },
-     "schiri": ""
-    },
-    {
      "datum": "2026-11-21T18:00",
      "zeitOffen": false,
      "nr": "34",
@@ -1187,6 +1170,23 @@ window.SPIELDATEN = {
       "ort": "Soest",
       "lat": 51.5671268,
       "lng": 8.115648
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-11-21T18:00",
+     "zeitOffen": false,
+     "nr": "32",
+     "heim": "Spvg. Steinhagen",
+     "gast": "Pivitsheide",
+     "ergebnis": null,
+     "halle": {
+      "name": "Hörmann Sportzentrum",
+      "strasse": "Am Cronsbach 12",
+      "plz": "33803",
+      "ort": "Steinhagen",
+      "lat": 52.0022996,
+      "lng": 8.4274412
      },
      "schiri": ""
     },
@@ -5358,20 +5358,20 @@ window.SPIELDATEN = {
        3
       ],
       "baelle": [
-       46,
+       0,
        75
       ],
       "details": [
        [
-        10,
+        0,
         25
        ],
        [
-        18,
+        0,
         25
        ],
        [
-        18,
+        0,
         25
        ]
       ]
@@ -8712,6 +8712,23 @@ window.SPIELDATEN = {
      "schiri": "TV Büren"
     },
     {
+     "datum": "2026-11-25T19:45",
+     "zeitOffen": true,
+     "nr": "32",
+     "heim": "TV Büren",
+     "gast": "VfJ Helmern",
+     "ergebnis": null,
+     "halle": {
+      "name": "Mauritius Gymnasium",
+      "strasse": "Bahnhofstr. 10",
+      "plz": "33142",
+      "ort": "Büren",
+      "lat": 0.0,
+      "lng": 0.0
+     },
+     "schiri": "SV Ubbedissen"
+    },
+    {
      "datum": "2026-11-28T15:00",
      "zeitOffen": false,
      "nr": "29",
@@ -8761,23 +8778,6 @@ window.SPIELDATEN = {
       "lng": 8.55439
      },
      "schiri": "Bielefelder TG"
-    },
-    {
-     "datum": "2026-11-28T16:00",
-     "zeitOffen": true,
-     "nr": "32",
-     "heim": "TV Büren",
-     "gast": "VfJ Helmern",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Ubbedissen",
-      "strasse": "Pyrmonter Str. 9",
-      "plz": "33699",
-      "ort": "Bielefeld",
-      "lat": 51.9860104,
-      "lng": 8.6354429
-     },
-     "schiri": "SV Ubbedissen"
     },
     {
      "datum": "2026-12-08T18:30",
