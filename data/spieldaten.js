@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-19T13:06",
+ "stand": "2026-11-19T14:15",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -11091,11 +11091,11 @@ window.SPIELDATEN = {
      "runde": "Viertel-Finale"
     },
     {
-     "datum": "2026-11-22T00:00",
+     "datum": "2026-11-23T19:30",
      "zeitOffen": false,
-     "nr": "13",
-     "heim": "TuS Brake",
-     "gast": "TPSV Bielefeld III",
+     "nr": "14",
+     "heim": "Bielefelder TG",
+     "gast": "TuS Brake III",
      "ergebnis": null,
      "halle": {
       "name": "Grundschule Brake",
@@ -11109,11 +11109,11 @@ window.SPIELDATEN = {
      "runde": "Halb-Finale"
     },
     {
-     "datum": "2026-11-23T19:30",
+     "datum": "2026-11-30T19:45",
      "zeitOffen": false,
-     "nr": "14",
-     "heim": "Bielefelder TG",
-     "gast": "TuS Brake III",
+     "nr": "13",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld III",
      "ergebnis": null,
      "halle": {
       "name": "Grundschule Brake",
