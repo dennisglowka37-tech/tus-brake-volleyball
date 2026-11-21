@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-21T14:45",
+ "stand": "2026-11-21T18:56",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -33,10 +33,10 @@ window.SPIELDATEN = {
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "Telekom Post SV Bielefeld III",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 4,
-     "saetze": "13:6",
-     "punkte": 12
+     "saetze": "15:9",
+     "punkte": 13
     },
     {
      "platz": 4,
@@ -73,30 +73,30 @@ window.SPIELDATEN = {
      "team": "TV Brilon",
      "kurz": "TV Brilon",
      "status": "",
-     "spiele": 5,
-     "siege": 1,
-     "saetze": "10:13",
-     "punkte": 6
+     "spiele": 6,
+     "siege": 2,
+     "saetze": "13:15",
+     "punkte": 8
     },
     {
      "platz": 8,
      "team": "TuS Brake",
      "kurz": "TuS Brake",
      "status": "rel-ab",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 1,
-     "saetze": "6:15",
-     "punkte": 4
+     "saetze": "8:18",
+     "punkte": 5
     },
     {
      "platz": 9,
      "team": "TV Emsdetten",
      "kurz": "TV Emsdetten",
      "status": "ab",
-     "spiele": 6,
-     "siege": 1,
-     "saetze": "6:17",
-     "punkte": 2
+     "spiele": 7,
+     "siege": 2,
+     "saetze": "9:19",
+     "punkte": 4
     },
     {
      "platz": 10,
@@ -1128,15 +1128,39 @@ window.SPIELDATEN = {
      "nr": "31",
      "heim": "Telekom Post SV Bielefeld III",
      "gast": "TV Brilon",
-     "ergebnis": null,
-     "halle": {
-      "name": "Carl Severing-Berufskolleg (Halle 2)",
-      "strasse": "Flachsstr. 1",
-      "plz": "33607",
-      "ort": "Bielefeld",
-      "lat": 52.02355,
-      "lng": 8.5554
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       94,
+       112
+      ],
+      "details": [
+       [
+        27,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        11,
+        25
+       ],
+       [
+        13,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -1145,15 +1169,39 @@ window.SPIELDATEN = {
      "nr": "35",
      "heim": "TV Emsdetten",
      "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Martinum-Sporthalle",
-      "strasse": "Dahlmannsbusch 14",
-      "plz": "48282",
-      "ort": "Emsdetten",
-      "lat": 52.180012,
-      "lng": 7.5230967
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       97,
+       102
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        15,
+        9
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -2184,26 +2232,36 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
+     "team": "TuS Brake II",
+     "kurz": "TuS Brake II",
+     "status": "auf",
+     "spiele": 3,
+     "siege": 3,
+     "saetze": "9:4",
+     "punkte": 8
+    },
+    {
+     "platz": 2,
      "team": "SG Levern-Rahden II",
      "kurz": "SG Levern-Rahden II",
-     "status": "auf",
+     "status": "rel-auf",
      "spiele": 4,
      "siege": 3,
      "saetze": "11:8",
      "punkte": 8
     },
     {
-     "platz": 2,
+     "platz": 3,
      "team": "TSVE Bielefeld II",
      "kurz": "TSVE Bielefeld II",
-     "status": "rel-auf",
-     "spiele": 4,
+     "status": "",
+     "spiele": 5,
      "siege": 2,
-     "saetze": "9:7",
+     "saetze": "10:10",
      "punkte": 7
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "TuRa Löhne",
      "kurz": "TuRa Löhne",
      "status": "",
@@ -2213,7 +2271,7 @@ window.SPIELDATEN = {
      "punkte": 7
     },
     {
-     "platz": 4,
+     "platz": 5,
      "team": "TuS Bonneberg II",
      "kurz": "TuS Bonneberg II",
      "status": "",
@@ -2221,16 +2279,6 @@ window.SPIELDATEN = {
      "siege": 2,
      "saetze": "9:8",
      "punkte": 6
-    },
-    {
-     "platz": 5,
-     "team": "TuS Brake II",
-     "kurz": "TuS Brake II",
-     "status": "",
-     "spiele": 2,
-     "siege": 2,
-     "saetze": "6:3",
-     "punkte": 5
     },
     {
      "platz": 6,
@@ -2749,19 +2797,39 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-21T14:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "3",
      "heim": "TSVE Bielefeld II",
      "gast": "TuS Brake II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Vlotho",
-      "strasse": "Herforder Str. 8",
-      "plz": "32602",
-      "ort": "Vlotho",
-      "lat": 52.16529,
-      "lng": 8.85673
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       83,
+       86
+      ],
+      "details": [
+       [
+        15,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        11
+       ],
+       [
+        20,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Bonneberg II"
     },
     {
@@ -6082,53 +6150,53 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
-     "team": "TuS Bonneberg",
-     "kurz": "TuS Bonneberg",
+     "team": "BTW Bünde",
+     "kurz": "BTW Bünde",
      "status": "rel-auf",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "11:5",
-     "punkte": 9
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "14:9",
+     "punkte": 12
     },
     {
      "platz": 3,
-     "team": "BTW Bünde",
-     "kurz": "BTW Bünde",
-     "status": "",
-     "spiele": 5,
-     "siege": 3,
-     "saetze": "11:8",
-     "punkte": 9
-    },
-    {
-     "platz": 4,
      "team": "TuS Brake",
      "kurz": "TuS Brake",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
+     "siege": 4,
+     "saetze": "13:11",
+     "punkte": 11
+    },
+    {
+     "platz": 4,
+     "team": "TuS Bonneberg",
+     "kurz": "TuS Bonneberg",
+     "status": "",
+     "spiele": 5,
      "siege": 3,
-     "saetze": "10:11",
-     "punkte": 8
+     "saetze": "13:8",
+     "punkte": 10
     },
     {
      "platz": 5,
-     "team": "SuS Holzhausen II",
-     "kurz": "SuS Holzhausen II",
-     "status": "",
-     "spiele": 5,
-     "siege": 2,
-     "saetze": "10:11",
-     "punkte": 7
-    },
-    {
-     "platz": 6,
      "team": "MTV Hausberge",
      "kurz": "MTV Hausberge",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
+     "siege": 3,
+     "saetze": "10:10",
+     "punkte": 8
+    },
+    {
+     "platz": 6,
+     "team": "SuS Holzhausen II",
+     "kurz": "SuS Holzhausen II",
+     "status": "",
+     "spiele": 6,
      "siege": 2,
-     "saetze": "7:8",
-     "punkte": 6
+     "saetze": "10:14",
+     "punkte": 7
     },
     {
      "platz": 7,
@@ -6155,9 +6223,9 @@ window.SPIELDATEN = {
      "team": "TuS Brake III",
      "kurz": "TuS Brake III",
      "status": "ab",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "saetze": "5:12",
+     "saetze": "6:15",
      "punkte": 1
     }
    ],
@@ -6979,15 +7047,35 @@ window.SPIELDATEN = {
      "nr": "27",
      "heim": "BTW Bünde",
      "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Erich-Kästner-Gesamtschule",
-      "strasse": "Ravensberger Str. 31",
-      "plz": "32257",
-      "ort": "Bünde",
-      "lat": 52.2049336,
-      "lng": 8.561469
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       102,
+       83
+      ],
+      "details": [
+       [
+        29,
+        27
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        12
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Bonneberg"
     },
     {
@@ -6996,32 +7084,72 @@ window.SPIELDATEN = {
      "nr": "25",
      "heim": "SuS Holzhausen II",
      "gast": "TuS Brake",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Holzhausen",
-      "strasse": "Bahnhofstr. 16",
-      "plz": "32361",
-      "ort": "Preußisch Oldendorf",
-      "lat": 52.28858,
-      "lng": 8.53638
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       64,
+       75
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TPSV Bielefeld III"
     },
     {
      "datum": "2026-11-21T15:15",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "28",
      "heim": "TuS Bonneberg",
      "gast": "MTV Hausberge",
-     "ergebnis": null,
-     "halle": {
-      "name": "Erich-Kästner-Gesamtschule",
-      "strasse": "Ravensberger Str. 31",
-      "plz": "32257",
-      "ort": "Bünde",
-      "lat": 52.2049336,
-      "lng": 8.561469
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       103,
+       101
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        14
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        13,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "BTW Bünde"
     },
     {
@@ -7817,50 +7945,50 @@ window.SPIELDATEN = {
      "team": "Bielefelder TG",
      "kurz": "Bielefelder TG",
      "status": "auf",
-     "spiele": 5,
-     "siege": 5,
-     "saetze": "15:3",
-     "punkte": 14
+     "spiele": 6,
+     "siege": 6,
+     "saetze": "18:3",
+     "punkte": 17
     },
     {
      "platz": 2,
      "team": "VfJ Helmern",
      "kurz": "VfJ Helmern",
      "status": "rel-auf",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 4,
-     "saetze": "12:0",
+     "saetze": "12:3",
      "punkte": 12
     },
     {
      "platz": 3,
-     "team": "TV Büren",
-     "kurz": "TV Büren",
-     "status": "",
-     "spiele": 5,
-     "siege": 4,
-     "saetze": "12:5",
-     "punkte": 11
-    },
-    {
-     "platz": 4,
      "team": "SV Blau-Weiß Sande III",
      "kurz": "SV Blau-Weiß Sande III",
      "status": "",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "9:4",
-     "punkte": 9
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "12:4",
+     "punkte": 12
+    },
+    {
+     "platz": 4,
+     "team": "TV Büren",
+     "kurz": "TV Büren",
+     "status": "",
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "14:8",
+     "punkte": 12
     },
     {
      "platz": 5,
      "team": "SV Ubbedissen",
      "kurz": "SV Ubbedissen",
      "status": "",
-     "spiele": 5,
-     "siege": 3,
-     "saetze": "11:10",
-     "punkte": 9
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "14:12",
+     "punkte": 11
     },
     {
      "platz": 6,
@@ -7897,9 +8025,9 @@ window.SPIELDATEN = {
      "team": "SC GW Paderborn II",
      "kurz": "SC GW Paderborn II",
      "status": "ab",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 0,
-     "saetze": "3:18",
+     "saetze": "3:21",
      "punkte": 0
     }
    ],
@@ -8721,32 +8849,64 @@ window.SPIELDATEN = {
      "nr": "25",
      "heim": "SC GW Paderborn II",
      "gast": "SV Blau-Weiß Sande III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Lise-Meitner-Realschule",
-      "strasse": "Lise-Meitner-Str. 1",
-      "plz": "33104",
-      "ort": "Paderborn",
-      "lat": 51.7281184,
-      "lng": 8.7199642
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       44,
+       75
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        12,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "VfJ Helmern"
     },
     {
      "datum": "2026-11-21T15:00",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "26",
      "heim": "VfJ Helmern",
      "gast": "Bielefelder TG",
-     "ergebnis": null,
-     "halle": {
-      "name": "Lise-Meitner-Realschule",
-      "strasse": "Lise-Meitner-Str. 1",
-      "plz": "33104",
-      "ort": "Paderborn",
-      "lat": 51.7281184,
-      "lng": 8.7199642
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       49,
+       75
+      ],
+      "details": [
+       [
+        18,
+        25
+       ],
+       [
+        15,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SC GW Paderborn II"
     },
     {
@@ -8755,15 +8915,39 @@ window.SPIELDATEN = {
      "nr": "27",
      "heim": "TV Büren",
      "gast": "SV Ubbedissen",
-     "ergebnis": null,
-     "halle": {
-      "name": "Mauritius Gymnasium",
-      "strasse": "Bahnhofstr. 10",
-      "plz": "33142",
-      "ort": "Büren",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       102,
+       103
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        27
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        10,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Brake II"
     },
     {
