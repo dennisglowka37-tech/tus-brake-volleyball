@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-21T10:21",
+ "stand": "2026-11-21T14:45",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -2214,6 +2214,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 4,
+     "team": "TuS Bonneberg II",
+     "kurz": "TuS Bonneberg II",
+     "status": "",
+     "spiele": 4,
+     "siege": 2,
+     "saetze": "9:8",
+     "punkte": 6
+    },
+    {
+     "platz": 5,
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
      "status": "",
@@ -2223,24 +2233,14 @@ window.SPIELDATEN = {
      "punkte": 5
     },
     {
-     "platz": 5,
+     "platz": 6,
      "team": "SV 1860 Minden II",
      "kurz": "SV 1860 Minden II",
      "status": "",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 2,
-     "saetze": "7:6",
+     "saetze": "7:9",
      "punkte": 5
-    },
-    {
-     "platz": 6,
-     "team": "TuS Bonneberg II",
-     "kurz": "TuS Bonneberg II",
-     "status": "",
-     "spiele": 3,
-     "siege": 1,
-     "saetze": "6:8",
-     "punkte": 3
     },
     {
      "platz": 7,
@@ -2720,15 +2720,31 @@ window.SPIELDATEN = {
      "nr": "2",
      "heim": "TuS Bonneberg II",
      "gast": "SV 1860 Minden II",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Vlotho",
-      "strasse": "Herforder Str. 8",
-      "plz": "32602",
-      "ort": "Vlotho",
-      "lat": 52.16529,
-      "lng": 8.85673
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       65
+      ],
+      "details": [
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        25,
+        22
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TSVE Bielefeld II"
     },
     {
