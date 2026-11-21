@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-21T18:56",
+ "stand": "2026-11-21T20:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -6180,6 +6180,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 5,
+     "team": "Telekom Post SV Bielefeld III",
+     "kurz": "TPSV Bielefeld III",
+     "status": "",
+     "spiele": 6,
+     "siege": 3,
+     "saetze": "9:12",
+     "punkte": 9
+    },
+    {
+     "platz": 6,
      "team": "MTV Hausberge",
      "kurz": "MTV Hausberge",
      "status": "",
@@ -6189,33 +6199,23 @@ window.SPIELDATEN = {
      "punkte": 8
     },
     {
-     "platz": 6,
+     "platz": 7,
      "team": "SuS Holzhausen II",
      "kurz": "SuS Holzhausen II",
-     "status": "",
+     "status": "rel-ab",
      "spiele": 6,
      "siege": 2,
      "saetze": "10:14",
      "punkte": 7
     },
     {
-     "platz": 7,
+     "platz": 8,
      "team": "SSV Pr. Ströhen",
      "kurz": "SSV Pr. Ströhen",
-     "status": "rel-ab",
-     "spiele": 5,
-     "siege": 2,
-     "saetze": "7:11",
-     "punkte": 6
-    },
-    {
-     "platz": 8,
-     "team": "Telekom Post SV Bielefeld III",
-     "kurz": "TPSV Bielefeld III",
      "status": "ab",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 2,
-     "saetze": "6:11",
+     "saetze": "8:14",
      "punkte": 6
     },
     {
@@ -7154,19 +7154,39 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-21T16:15",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "26",
      "heim": "TPSV Bielefeld III",
      "gast": "SSV Pr. Ströhen",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Holzhausen",
-      "strasse": "Bahnhofstr. 16",
-      "plz": "32361",
-      "ort": "Preußisch Oldendorf",
-      "lat": 52.28858,
-      "lng": 8.53638
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       94,
+       80
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        22
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SuS Holzhausen II"
     },
     {
@@ -7995,30 +8015,30 @@ window.SPIELDATEN = {
      "team": "SV Höxter",
      "kurz": "SV Höxter",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 2,
-     "saetze": "8:12",
+     "saetze": "8:15",
      "punkte": 7
     },
     {
      "platz": 7,
+     "team": "TuS Brake II",
+     "kurz": "TuS Brake II",
+     "status": "rel-ab",
+     "spiele": 6,
+     "siege": 2,
+     "saetze": "10:14",
+     "punkte": 6
+    },
+    {
+     "platz": 8,
      "team": "VoR Paderborn IV",
      "kurz": "VoR Paderborn IV",
-     "status": "rel-ab",
+     "status": "ab",
      "spiele": 6,
      "siege": 1,
      "saetze": "5:16",
      "punkte": 4
-    },
-    {
-     "platz": 8,
-     "team": "TuS Brake II",
-     "kurz": "TuS Brake II",
-     "status": "ab",
-     "spiele": 5,
-     "siege": 1,
-     "saetze": "7:14",
-     "punkte": 3
     },
     {
      "platz": 9,
@@ -8952,19 +8972,35 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-21T16:00",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "28",
      "heim": "TuS Brake II",
      "gast": "SV Höxter",
-     "ergebnis": null,
-     "halle": {
-      "name": "Mauritius Gymnasium",
-      "strasse": "Bahnhofstr. 10",
-      "plz": "33142",
-      "ort": "Büren",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       45
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        8
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TV Büren"
     },
     {
