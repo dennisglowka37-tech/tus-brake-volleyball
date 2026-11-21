@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-19T22:24",
+ "stand": "2026-11-21T10:21",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -7851,19 +7851,19 @@ window.SPIELDATEN = {
      "team": "SV Höxter",
      "kurz": "SV Höxter",
      "status": "",
-     "spiele": 5,
-     "siege": 1,
-     "saetze": "5:12",
-     "punkte": 4
+     "spiele": 6,
+     "siege": 2,
+     "saetze": "8:12",
+     "punkte": 7
     },
     {
      "platz": 7,
      "team": "VoR Paderborn IV",
      "kurz": "VoR Paderborn IV",
      "status": "rel-ab",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 1,
-     "saetze": "5:13",
+     "saetze": "5:16",
      "punkte": 4
     },
     {
@@ -8672,15 +8672,31 @@ window.SPIELDATEN = {
      "nr": "3",
      "heim": "VoR Paderborn IV",
      "gast": "SV Höxter",
-     "ergebnis": null,
-     "halle": {
-      "name": "Fürstenberg Halle",
-      "strasse": "Ledeburstr. 8",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.720278,
-      "lng": 8.746611
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       62,
+       75
+      ],
+      "details": [
+       [
+        21,
+        25
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        22,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "VfJ Helmern"
     },
     {
@@ -9537,10 +9553,10 @@ window.SPIELDATEN = {
      "team": "TuS Brake IV",
      "kurz": "TuS Brake IV",
      "status": "rel-auf",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 4,
-     "saetze": "12:0",
-     "punkte": 12
+     "saetze": "14:3",
+     "punkte": 13
     },
     {
      "platz": 3,
@@ -9557,10 +9573,10 @@ window.SPIELDATEN = {
      "team": "Gütersloher TV III",
      "kurz": "Gütersloher TV III",
      "status": "",
-     "spiele": 4,
-     "siege": 3,
-     "saetze": "9:5",
-     "punkte": 8
+     "spiele": 5,
+     "siege": 4,
+     "saetze": "12:7",
+     "punkte": 10
     },
     {
      "platz": 5,
@@ -10216,15 +10232,39 @@ window.SPIELDATEN = {
      "nr": "11",
      "heim": "Gütersloher TV III",
      "gast": "TuS Brake IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Ost",
-      "strasse": "Am Anger 54",
-      "plz": "33332",
-      "ort": "Gütersloh",
-      "lat": 51.900581,
-      "lng": 8.4086823
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       96,
+       99
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        15,
+        11
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
