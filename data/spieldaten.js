@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-22T18:16",
+ "stand": "2026-11-22T20:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -23,10 +23,10 @@ window.SPIELDATEN = {
      "team": "RC Sorpesee",
      "kurz": "RC Sorpesee",
      "status": "rel-auf",
-     "spiele": 6,
-     "siege": 5,
-     "saetze": "17:9",
-     "punkte": 14
+     "spiele": 7,
+     "siege": 6,
+     "saetze": "20:9",
+     "punkte": 17
     },
     {
      "platz": 3,
@@ -103,9 +103,9 @@ window.SPIELDATEN = {
      "team": "SG Levern-Rahden",
      "kurz": "SG Levern-Rahden",
      "status": "ab",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 0,
-     "saetze": "2:15",
+     "saetze": "2:18",
      "punkte": 1
     }
    ],
@@ -1292,15 +1292,31 @@ window.SPIELDATEN = {
      "nr": "33",
      "heim": "RC Sorpesee",
      "gast": "SG Levern-Rahden",
-     "ergebnis": null,
-     "halle": {
-      "name": "Freie Schule am See",
-      "strasse": "Ringstraße 51",
-      "plz": "59846",
-      "ort": "Sundern",
-      "lat": 51.35443,
-      "lng": 7.95204
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       55
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        25,
+        16
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
