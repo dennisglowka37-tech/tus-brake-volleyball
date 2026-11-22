@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-21T20:01",
+ "stand": "2026-11-22T18:16",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -13,10 +13,10 @@ window.SPIELDATEN = {
      "team": "SG Paderborn Volleyball",
      "kurz": "SG Paderborn Volleyball",
      "status": "auf",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 6,
-     "saetze": "18:3",
-     "punkte": 18
+     "saetze": "20:6",
+     "punkte": 19
     },
     {
      "platz": 2,
@@ -30,6 +30,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 3,
+     "team": "Soester TV",
+     "kurz": "Soester TV",
+     "status": "",
+     "spiele": 6,
+     "siege": 5,
+     "saetze": "15:7",
+     "punkte": 13
+    },
+    {
+     "platz": 4,
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "Telekom Post SV Bielefeld III",
      "status": "",
@@ -39,34 +49,24 @@ window.SPIELDATEN = {
      "punkte": 13
     },
     {
-     "platz": 4,
-     "team": "Soester TV",
-     "kurz": "Soester TV",
-     "status": "",
-     "spiele": 5,
-     "siege": 4,
-     "saetze": "12:5",
-     "punkte": 11
-    },
-    {
      "platz": 5,
      "team": "Spvg. Steinhagen",
      "kurz": "Spvg. Steinhagen",
      "status": "",
-     "spiele": 5,
-     "siege": 3,
-     "saetze": "10:9",
-     "punkte": 8
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "13:11",
+     "punkte": 10
     },
     {
      "platz": 6,
      "team": "TV Pivitsheide",
      "kurz": "Pivitsheide",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 3,
-     "saetze": "12:14",
-     "punkte": 8
+     "saetze": "14:17",
+     "punkte": 9
     },
     {
      "platz": 7,
@@ -1210,15 +1210,39 @@ window.SPIELDATEN = {
      "nr": "34",
      "heim": "Soester TV",
      "gast": "SG Paderborn Volleyball",
-     "ergebnis": null,
-     "halle": {
-      "name": "Archigymnasium",
-      "strasse": "Niederbergheimen Str. 9",
-      "plz": "59494",
-      "ort": "Soest",
-      "lat": 51.5671268,
-      "lng": 8.115648
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       112,
+       98
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        15,
+        6
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -1227,15 +1251,39 @@ window.SPIELDATEN = {
      "nr": "32",
      "heim": "Spvg. Steinhagen",
      "gast": "Pivitsheide",
-     "ergebnis": null,
-     "halle": {
-      "name": "Hörmann Sportzentrum",
-      "strasse": "Am Cronsbach 12",
-      "plz": "33803",
-      "ort": "Steinhagen",
-      "lat": 52.0022996,
-      "lng": 8.4274412
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       106,
+       107
+      ],
+      "details": [
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        15,
+        13
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -6881,23 +6929,6 @@ window.SPIELDATEN = {
      "schiri": "TPSV Bielefeld III"
     },
     {
-     "datum": "2026-11-14T15:00",
-     "zeitOffen": false,
-     "nr": "23",
-     "heim": "SSV Pr. Ströhen",
-     "gast": "TuS Bonneberg",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Preußisch Ströhen",
-      "strasse": "Preußisch-Ströher-Allee 19",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.49888,
-      "lng": 8.64844
-     },
-     "schiri": "TuS Brake III"
-    },
-    {
      "datum": "2026-11-14T16:15",
      "zeitOffen": false,
      "nr": "24",
@@ -7188,6 +7219,23 @@ window.SPIELDATEN = {
      },
      "halle": null,
      "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2026-11-23T20:00",
+     "zeitOffen": false,
+     "nr": "23",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": "TuS Brake III"
     },
     {
      "datum": "2026-11-26T19:30",
