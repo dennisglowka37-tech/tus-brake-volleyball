@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-24T11:28",
+ "stand": "2026-11-24T14:16",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -9868,7 +9868,7 @@ window.SPIELDATEN = {
      "platz": 2,
      "team": "TuS Brake IV",
      "kurz": "TuS Brake IV",
-     "status": "rel-auf",
+     "status": "auf",
      "spiele": 5,
      "siege": 4,
      "saetze": "14:3",
@@ -9878,7 +9878,7 @@ window.SPIELDATEN = {
      "platz": 3,
      "team": "SF Sennestadt II",
      "kurz": "SF Sennestadt II",
-     "status": "",
+     "status": "rel-auf",
      "spiele": 5,
      "siege": 4,
      "saetze": "12:4",
