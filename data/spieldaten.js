@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-22T20:01",
+ "stand": "2026-11-24T11:28",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -6214,16 +6214,26 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "TuS Bonneberg",
+     "kurz": "TuS Bonneberg",
+     "status": "rel-auf",
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "16:8",
+     "punkte": 13
+    },
+    {
+     "platz": 3,
      "team": "BTW Bünde",
      "kurz": "BTW Bünde",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 6,
      "siege": 4,
      "saetze": "14:9",
      "punkte": 12
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "TuS Brake",
      "kurz": "TuS Brake",
      "status": "",
@@ -6231,16 +6241,6 @@ window.SPIELDATEN = {
      "siege": 4,
      "saetze": "13:11",
      "punkte": 11
-    },
-    {
-     "platz": 4,
-     "team": "TuS Bonneberg",
-     "kurz": "TuS Bonneberg",
-     "status": "",
-     "spiele": 5,
-     "siege": 3,
-     "saetze": "13:8",
-     "punkte": 10
     },
     {
      "platz": 5,
@@ -6277,9 +6277,9 @@ window.SPIELDATEN = {
      "team": "SSV Pr. Ströhen",
      "kurz": "SSV Pr. Ströhen",
      "status": "ab",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 2,
-     "saetze": "8:14",
+     "saetze": "8:17",
      "punkte": 6
     },
     {
@@ -7242,15 +7242,31 @@ window.SPIELDATEN = {
      "nr": "23",
      "heim": "SSV Pr. Ströhen",
      "gast": "TuS Bonneberg",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Preußisch Ströhen",
-      "strasse": "Preußisch-Ströher-Allee 19",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.49888,
-      "lng": 8.64844
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       54,
+       75
+      ],
+      "details": [
+       [
+        19,
+        25
+       ],
+       [
+        15,
+        25
+       ],
+       [
+        20,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TuS Brake III"
     },
     {
@@ -11476,15 +11492,31 @@ window.SPIELDATEN = {
      "nr": "14",
      "heim": "Bielefelder TG",
      "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Brake",
-      "strasse": "Am Bohnenkamp 15",
-      "plz": "33729",
-      "ort": "Bielefeld",
-      "lat": 52.07442,
-      "lng": 8.60256
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       55
+      ],
+      "details": [
+       [
+        25,
+        22
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        18
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "",
      "runde": "Halb-Finale"
     },
