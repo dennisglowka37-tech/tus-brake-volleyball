@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-26T09:20",
+ "stand": "2026-11-26T23:47",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -6244,6 +6244,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 5,
+     "team": "MTV Hausberge",
+     "kurz": "MTV Hausberge",
+     "status": "",
+     "spiele": 6,
+     "siege": 4,
+     "saetze": "13:12",
+     "punkte": 10
+    },
+    {
+     "platz": 6,
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "TPSV Bielefeld III",
      "status": "",
@@ -6251,16 +6261,6 @@ window.SPIELDATEN = {
      "siege": 3,
      "saetze": "9:12",
      "punkte": 9
-    },
-    {
-     "platz": 6,
-     "team": "MTV Hausberge",
-     "kurz": "MTV Hausberge",
-     "status": "",
-     "spiele": 5,
-     "siege": 3,
-     "saetze": "10:10",
-     "punkte": 8
     },
     {
      "platz": 7,
@@ -6287,10 +6287,10 @@ window.SPIELDATEN = {
      "team": "TuS Brake III",
      "kurz": "TuS Brake III",
      "status": "ab",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 0,
-     "saetze": "6:15",
-     "punkte": 1
+     "saetze": "8:18",
+     "punkte": 2
     }
    ],
    "spiele": [
@@ -7271,19 +7271,43 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-26T19:30",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "16",
      "heim": "MTV Hausberge",
      "gast": "TuS Brake III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Portaschule",
-      "strasse": "Zur Porta 73",
-      "plz": "32457",
-      "ort": "Porta Westfalica",
-      "lat": 52.25112,
-      "lng": 8.94201
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       105,
+       101
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        15,
+        13
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
