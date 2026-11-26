@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-24T14:16",
+ "stand": "2026-11-26T09:20",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -1361,12 +1361,12 @@ window.SPIELDATEN = {
      "gast": "Spvg. Steinhagen",
      "ergebnis": null,
      "halle": {
-      "name": "Gymnasium Rahden",
-      "strasse": "Am Brullfeld 10",
-      "plz": "32369",
-      "ort": "Rahden",
-      "lat": 52.43708,
-      "lng": 8.61719
+      "name": "2-fach Sporthalle Wehdem",
+      "strasse": "Mesenkämper Straße 11",
+      "plz": "32351",
+      "ort": "Stemwede",
+      "lat": 52.4335749,
+      "lng": 8.4586183
      },
      "schiri": ""
     },
@@ -8055,29 +8055,29 @@ window.SPIELDATEN = {
      "team": "VfJ Helmern",
      "kurz": "VfJ Helmern",
      "status": "rel-auf",
-     "spiele": 5,
-     "siege": 4,
-     "saetze": "12:3",
-     "punkte": 12
+     "spiele": 6,
+     "siege": 5,
+     "saetze": "15:5",
+     "punkte": 14
     },
     {
      "platz": 3,
+     "team": "TV Büren",
+     "kurz": "TV Büren",
+     "status": "",
+     "spiele": 7,
+     "siege": 4,
+     "saetze": "16:11",
+     "punkte": 13
+    },
+    {
+     "platz": 4,
      "team": "SV Blau-Weiß Sande III",
      "kurz": "SV Blau-Weiß Sande III",
      "status": "",
      "spiele": 5,
      "siege": 4,
      "saetze": "12:4",
-     "punkte": 12
-    },
-    {
-     "platz": 4,
-     "team": "TV Büren",
-     "kurz": "TV Büren",
-     "status": "",
-     "spiele": 6,
-     "siege": 4,
-     "saetze": "14:8",
      "punkte": 12
     },
     {
@@ -9085,19 +9085,43 @@ window.SPIELDATEN = {
     },
     {
      "datum": "2026-11-25T19:45",
-     "zeitOffen": true,
+     "zeitOffen": false,
      "nr": "32",
      "heim": "TV Büren",
      "gast": "VfJ Helmern",
-     "ergebnis": null,
-     "halle": {
-      "name": "Mauritius Gymnasium",
-      "strasse": "Bahnhofstr. 10",
-      "plz": "33142",
-      "ort": "Büren",
-      "lat": 0.0,
-      "lng": 0.0
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       91,
+       110
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        10,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SV Ubbedissen"
     },
     {
