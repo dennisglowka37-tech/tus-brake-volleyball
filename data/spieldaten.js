@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-27T10:43",
+ "stand": "2026-11-27T14:01",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -6293,7 +6293,1772 @@ window.SPIELDATEN = {
      "punkte": 2
     }
    ],
-   "spiele": []
+   "spiele": [
+    {
+     "datum": "2026-09-26T15:30",
+     "zeitOffen": false,
+     "nr": "1",
+     "heim": "TuS Brake III",
+     "gast": "TuS Brake",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       84,
+       104
+      ],
+      "details": [
+       [
+        10,
+        25
+       ],
+       [
+        15,
+        25
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        9,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2026-09-26T16:45",
+     "zeitOffen": false,
+     "nr": "2",
+     "heim": "BTW Bünde",
+     "gast": "MTV Hausberge",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       83,
+       90
+      ],
+      "details": [
+       [
+        15,
+        25
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        23,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2026-09-27T11:00",
+     "zeitOffen": false,
+     "nr": "3",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       76,
+       58
+      ],
+      "details": [
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        26,
+        24
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2026-09-27T12:15",
+     "zeitOffen": false,
+     "nr": "4",
+     "heim": "TuS Bonneberg",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       112,
+       109
+      ],
+      "details": [
+       [
+        25,
+        23
+       ],
+       [
+        24,
+        26
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        27,
+        25
+       ],
+       [
+        15,
+        10
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2026-10-01T19:45",
+     "zeitOffen": false,
+     "nr": "7",
+     "heim": "TPSV Bielefeld III",
+     "gast": "BTW Bünde",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       47,
+       75
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        7,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2026-10-03T16:00",
+     "zeitOffen": false,
+     "nr": "8",
+     "heim": "SuS Holzhausen II",
+     "gast": "TuS Brake III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       97,
+       75
+      ],
+      "details": [
+       [
+        25,
+        9
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        18
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2026-10-04T12:00",
+     "zeitOffen": false,
+     "nr": "5",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "MTV Hausberge",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       88,
+       90
+      ],
+      "details": [
+       [
+        25,
+        19
+       ],
+       [
+        13,
+        25
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        25,
+        23
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2026-10-04T13:15",
+     "zeitOffen": false,
+     "nr": "6",
+     "heim": "TuS Brake",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       62,
+       79
+      ],
+      "details": [
+       [
+        12,
+        25
+       ],
+       [
+        26,
+        28
+       ],
+       [
+        24,
+        26
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2026-10-15T19:30",
+     "zeitOffen": false,
+     "nr": "12",
+     "heim": "TuS Brake III",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       87,
+       88
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        22,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-10-17T12:00",
+     "zeitOffen": false,
+     "nr": "9",
+     "heim": "TuS Bonneberg",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       47
+      ],
+      "details": [
+       [
+        25,
+        16
+       ],
+       [
+        25,
+        17
+       ],
+       [
+        25,
+        14
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2026-10-17T13:15",
+     "zeitOffen": false,
+     "nr": "10",
+     "heim": "MTV Hausberge",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       66,
+       75
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        22,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2026-10-18T11:00",
+     "zeitOffen": false,
+     "nr": "11",
+     "heim": "BTW Bünde",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       78,
+       88
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        17,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2026-10-25T11:00",
+     "zeitOffen": false,
+     "nr": "13",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "TuS Bonneberg",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       98,
+       97
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        14
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        15,
+        11
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2026-10-25T12:15",
+     "zeitOffen": false,
+     "nr": "14",
+     "heim": "TPSV Bielefeld III",
+     "gast": "TuS Brake",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       47,
+       75
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        16,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2026-10-31T14:00",
+     "zeitOffen": false,
+     "nr": "19",
+     "heim": "MTV Hausberge",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       100,
+       78
+      ],
+      "details": [
+       [
+        25,
+        10
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        25,
+        27
+       ],
+       [
+        25,
+        19
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2026-10-31T14:30",
+     "zeitOffen": false,
+     "nr": "17",
+     "heim": "TPSV Bielefeld III",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       91,
+       73
+      ],
+      "details": [
+       [
+        25,
+        14
+       ],
+       [
+        25,
+        13
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        25,
+        21
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2026-10-31T15:15",
+     "zeitOffen": false,
+     "nr": "20",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "BTW Bünde",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       80,
+       95
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        15,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2026-10-31T15:45",
+     "zeitOffen": false,
+     "nr": "18",
+     "heim": "TuS Bonneberg",
+     "gast": "TuS Brake",
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       57
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        25,
+        19
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2026-11-14T16:15",
+     "zeitOffen": false,
+     "nr": "24",
+     "heim": "TuS Brake III",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       94,
+       100
+      ],
+      "details": [
+       [
+        25,
+        22
+       ],
+       [
+        22,
+        25
+       ],
+       [
+        21,
+        25
+       ],
+       [
+        26,
+        28
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2026-11-15T14:00",
+     "zeitOffen": false,
+     "nr": "21",
+     "heim": "TuS Brake",
+     "gast": "BTW Bünde",
+     "ergebnis": {
+      "saetze": [
+       1,
+       3
+      ],
+      "baelle": [
+       82,
+       95
+      ],
+      "details": [
+       [
+        25,
+        20
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2026-11-15T15:15",
+     "zeitOffen": false,
+     "nr": "22",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       99,
+       86
+      ],
+      "details": [
+       [
+        31,
+        29
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        18,
+        25
+       ],
+       [
+        25,
+        14
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2026-11-19T19:30",
+     "zeitOffen": false,
+     "nr": "30",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TuS Brake",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       50,
+       75
+      ],
+      "details": [
+       [
+        16,
+        25
+       ],
+       [
+        14,
+        25
+       ],
+       [
+        20,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-11-21T14:00",
+     "zeitOffen": false,
+     "nr": "27",
+     "heim": "BTW Bünde",
+     "gast": "TuS Brake III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       102,
+       83
+      ],
+      "details": [
+       [
+        29,
+        27
+       ],
+       [
+        25,
+        19
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        12
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2026-11-21T15:00",
+     "zeitOffen": false,
+     "nr": "25",
+     "heim": "SuS Holzhausen II",
+     "gast": "TuS Brake",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       64,
+       75
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        21,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2026-11-21T15:15",
+     "zeitOffen": false,
+     "nr": "28",
+     "heim": "TuS Bonneberg",
+     "gast": "MTV Hausberge",
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       103,
+       101
+      ],
+      "details": [
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        14
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        22
+       ],
+       [
+        13,
+        15
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2026-11-21T16:15",
+     "zeitOffen": false,
+     "nr": "26",
+     "heim": "TPSV Bielefeld III",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": {
+      "saetze": [
+       3,
+       1
+      ],
+      "baelle": [
+       94,
+       80
+      ],
+      "details": [
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        22
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2026-11-23T20:00",
+     "zeitOffen": false,
+     "nr": "23",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TuS Bonneberg",
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       54,
+       75
+      ],
+      "details": [
+       [
+        19,
+        25
+       ],
+       [
+        15,
+        25
+       ],
+       [
+        20,
+        25
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2026-11-26T19:30",
+     "zeitOffen": false,
+     "nr": "16",
+     "heim": "MTV Hausberge",
+     "gast": "TuS Brake III",
+     "ergebnis": {
+      "saetze": [
+       3,
+       2
+      ],
+      "baelle": [
+       105,
+       101
+      ],
+      "details": [
+       [
+        23,
+        25
+       ],
+       [
+        17,
+        25
+       ],
+       [
+        25,
+        15
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        15,
+        13
+       ]
+      ]
+     },
+     "halle": null,
+     "schiri": ""
+    },
+    {
+     "datum": "2026-11-28T15:30",
+     "zeitOffen": false,
+     "nr": "29",
+     "heim": "MTV Hausberge",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Portaschule",
+      "strasse": "Zur Porta 73",
+      "plz": "32457",
+      "ort": "Porta Westfalica",
+      "lat": 52.25112,
+      "lng": 8.94201
+     },
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2026-11-29T15:00",
+     "zeitOffen": false,
+     "nr": "31",
+     "heim": "TuS Brake III",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2026-11-29T16:15",
+     "zeitOffen": true,
+     "nr": "32",
+     "heim": "BTW Bünde",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2026-12-01T20:00",
+     "zeitOffen": false,
+     "nr": "15",
+     "heim": "SuS Holzhausen II",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Holzhausen",
+      "strasse": "Bahnhofstr. 16",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.28858,
+      "lng": 8.53638
+     },
+     "schiri": ""
+    },
+    {
+     "datum": "2026-12-12T12:00",
+     "zeitOffen": false,
+     "nr": "33",
+     "heim": "TuS Bonneberg",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2026-12-12T13:15",
+     "zeitOffen": true,
+     "nr": "34",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2026-12-13T15:00",
+     "zeitOffen": false,
+     "nr": "35",
+     "heim": "TuS Brake",
+     "gast": "MTV Hausberge",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2026-12-13T16:15",
+     "zeitOffen": true,
+     "nr": "36",
+     "heim": "TPSV Bielefeld III",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2026-12-19T14:00",
+     "zeitOffen": false,
+     "nr": "37",
+     "heim": "TuS Brake",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2026-12-19T15:00",
+     "zeitOffen": false,
+     "nr": "39",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2026-12-19T15:15",
+     "zeitOffen": true,
+     "nr": "38",
+     "heim": "MTV Hausberge",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2026-12-19T16:15",
+     "zeitOffen": true,
+     "nr": "40",
+     "heim": "SuS Holzhausen II",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2027-01-09T14:00",
+     "zeitOffen": false,
+     "nr": "43",
+     "heim": "BTW Bünde",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2027-01-09T14:00",
+     "zeitOffen": false,
+     "nr": "41",
+     "heim": "MTV Hausberge",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": null,
+     "halle": {
+      "name": "Portaschule",
+      "strasse": "Zur Porta 73",
+      "plz": "32457",
+      "ort": "Porta Westfalica",
+      "lat": 52.25112,
+      "lng": 8.94201
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-01-09T15:15",
+     "zeitOffen": true,
+     "nr": "44",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "TuS Brake",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-01-09T15:15",
+     "zeitOffen": true,
+     "nr": "42",
+     "heim": "TuS Brake III",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Portaschule",
+      "strasse": "Zur Porta 73",
+      "plz": "32457",
+      "ort": "Porta Westfalica",
+      "lat": 52.25112,
+      "lng": 8.94201
+     },
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2027-01-17T11:00",
+     "zeitOffen": false,
+     "nr": "47",
+     "heim": "SuS Holzhausen II",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Holzhausen",
+      "strasse": "Bahnhofstr. 16",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.28858,
+      "lng": 8.53638
+     },
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2027-01-17T12:00",
+     "zeitOffen": false,
+     "nr": "45",
+     "heim": "TPSV Bielefeld III",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 1-3",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 52.031204,
+      "lng": 8.5170244
+     },
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2027-01-17T12:15",
+     "zeitOffen": true,
+     "nr": "48",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "MTV Hausberge",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Holzhausen",
+      "strasse": "Bahnhofstr. 16",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.28858,
+      "lng": 8.53638
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-01-17T13:15",
+     "zeitOffen": true,
+     "nr": "46",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 1-3",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 52.031204,
+      "lng": 8.5170244
+     },
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2027-01-23T12:00",
+     "zeitOffen": false,
+     "nr": "49",
+     "heim": "TuS Bonneberg",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2027-01-23T13:15",
+     "zeitOffen": true,
+     "nr": "50",
+     "heim": "TuS Brake",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2027-01-23T15:00",
+     "zeitOffen": false,
+     "nr": "51",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2027-01-23T16:15",
+     "zeitOffen": true,
+     "nr": "52",
+     "heim": "TuS Brake III",
+     "gast": "MTV Hausberge",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Preußisch Ströhen",
+      "strasse": "Preußisch-Ströher-Allee 19",
+      "plz": "32369",
+      "ort": "Rahden",
+      "lat": 52.49888,
+      "lng": 8.64844
+     },
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2027-01-30T15:00",
+     "zeitOffen": false,
+     "nr": "55",
+     "heim": "SuS Holzhausen II",
+     "gast": "MTV Hausberge",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Holzhausen",
+      "strasse": "Bahnhofstr. 16",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.28858,
+      "lng": 8.53638
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2027-01-30T16:15",
+     "zeitOffen": true,
+     "nr": "56",
+     "heim": "TuS Brake",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Holzhausen",
+      "strasse": "Bahnhofstr. 16",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.28858,
+      "lng": 8.53638
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-01-31T11:00",
+     "zeitOffen": false,
+     "nr": "53",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sekundarschule Preußisch Oldendorf",
+      "strasse": "Offelter Weg 21",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.30574,
+      "lng": 8.50141
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-01-31T12:15",
+     "zeitOffen": true,
+     "nr": "54",
+     "heim": "BTW Bünde",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sekundarschule Preußisch Oldendorf",
+      "strasse": "Offelter Weg 21",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.30574,
+      "lng": 8.50141
+     },
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2027-02-13T12:00",
+     "zeitOffen": false,
+     "nr": "59",
+     "heim": "TuS Bonneberg",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2027-02-13T13:15",
+     "zeitOffen": true,
+     "nr": "60",
+     "heim": "TPSV Bielefeld III",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Vlotho",
+      "strasse": "Herforder Str. 8",
+      "plz": "32602",
+      "ort": "Vlotho",
+      "lat": 52.16529,
+      "lng": 8.85673
+     },
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2027-02-14T11:00",
+     "zeitOffen": false,
+     "nr": "57",
+     "heim": "BTW Bünde",
+     "gast": "TuS Brake",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-02-14T12:15",
+     "zeitOffen": true,
+     "nr": "58",
+     "heim": "SuS Holzhausen II",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Erich-Gutenberg-Berufskolleg",
+      "strasse": "Wedekindstr. 30-38",
+      "plz": "32257",
+      "ort": "Bünde",
+      "lat": 52.20809,
+      "lng": 8.5704
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-02-20T15:30",
+     "zeitOffen": false,
+     "nr": "61",
+     "heim": "TuS Brake",
+     "gast": "SuS Holzhausen II",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "SSV Pr. Ströhen"
+    },
+    {
+     "datum": "2027-02-20T16:30",
+     "zeitOffen": false,
+     "nr": "63",
+     "heim": "TuS Brake III",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2027-02-20T16:45",
+     "zeitOffen": true,
+     "nr": "62",
+     "heim": "SSV Pr. Ströhen",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2027-02-20T17:45",
+     "zeitOffen": true,
+     "nr": "64",
+     "heim": "MTV Hausberge",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake III"
+    },
+    {
+     "datum": "2027-03-06T14:30",
+     "zeitOffen": false,
+     "nr": "65",
+     "heim": "TPSV Bielefeld III",
+     "gast": "MTV Hausberge",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 4",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 0.0,
+      "lng": 0.0
+     },
+     "schiri": "TuS Brake"
+    },
+    {
+     "datum": "2027-03-06T15:45",
+     "zeitOffen": true,
+     "nr": "66",
+     "heim": "TuS Brake",
+     "gast": "SSV Pr. Ströhen",
+     "ergebnis": null,
+     "halle": {
+      "name": "Almhalle 4",
+      "strasse": "Melanchthonstr. 31",
+      "plz": "33615",
+      "ort": "Bielefeld",
+      "lat": 0.0,
+      "lng": 0.0
+     },
+     "schiri": "TPSV Bielefeld III"
+    },
+    {
+     "datum": "2027-03-07T11:00",
+     "zeitOffen": false,
+     "nr": "67",
+     "heim": "OTSV Pr. Oldendorf",
+     "gast": "TuS Brake III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sekundarschule Preußisch Oldendorf",
+      "strasse": "Offelter Weg 21",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.30574,
+      "lng": 8.50141
+     },
+     "schiri": "TuS Bonneberg"
+    },
+    {
+     "datum": "2027-03-07T12:15",
+     "zeitOffen": true,
+     "nr": "68",
+     "heim": "TuS Bonneberg",
+     "gast": "BTW Bünde",
+     "ergebnis": null,
+     "halle": {
+      "name": "Sekundarschule Preußisch Oldendorf",
+      "strasse": "Offelter Weg 21",
+      "plz": "32361",
+      "ort": "Preußisch Oldendorf",
+      "lat": 52.30574,
+      "lng": 8.50141
+     },
+     "schiri": "OTSV Pr. Oldendorf"
+    },
+    {
+     "datum": "2027-03-20T14:00",
+     "zeitOffen": false,
+     "nr": "71",
+     "heim": "MTV Hausberge",
+     "gast": "TuS Brake",
+     "ergebnis": null,
+     "halle": {
+      "name": "Portaschule",
+      "strasse": "Zur Porta 73",
+      "plz": "32457",
+      "ort": "Porta Westfalica",
+      "lat": 52.25112,
+      "lng": 8.94201
+     },
+     "schiri": "BTW Bünde"
+    },
+    {
+     "datum": "2027-03-20T15:15",
+     "zeitOffen": true,
+     "nr": "72",
+     "heim": "BTW Bünde",
+     "gast": "OTSV Pr. Oldendorf",
+     "ergebnis": null,
+     "halle": {
+      "name": "Portaschule",
+      "strasse": "Zur Porta 73",
+      "plz": "32457",
+      "ort": "Porta Westfalica",
+      "lat": 52.25112,
+      "lng": 8.94201
+     },
+     "schiri": "MTV Hausberge"
+    },
+    {
+     "datum": "2027-03-20T16:30",
+     "zeitOffen": false,
+     "nr": "69",
+     "heim": "TuS Brake III",
+     "gast": "TuS Bonneberg",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "SuS Holzhausen II"
+    },
+    {
+     "datum": "2027-03-20T17:45",
+     "zeitOffen": true,
+     "nr": "70",
+     "heim": "SuS Holzhausen II",
+     "gast": "TPSV Bielefeld III",
+     "ergebnis": null,
+     "halle": {
+      "name": "Grundschule Brake",
+      "strasse": "Am Bohnenkamp 15",
+      "plz": "33729",
+      "ort": "Bielefeld",
+      "lat": 52.07442,
+      "lng": 8.60256
+     },
+     "schiri": "TuS Brake III"
+    }
+   ]
   },
   {
    "name": "Bezirksliga 15 Frauen",
