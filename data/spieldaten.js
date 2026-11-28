@@ -1,7 +1,7 @@
 // Automatisch erzeugt von scripts/daten_aktualisieren.py – nicht von Hand bearbeiten.
 window.SPIELDATEN = {
  "saison": "2026/27",
- "stand": "2026-11-27T14:01",
+ "stand": "2026-11-28T17:49",
  "quelle": "https://ergebnisdienst.volleyball.nrw",
  "ligen": [
   {
@@ -10,23 +10,23 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
-     "team": "SG Paderborn Volleyball",
-     "kurz": "SG Paderborn Volleyball",
+     "team": "RC Sorpesee",
+     "kurz": "RC Sorpesee",
      "status": "auf",
-     "spiele": 7,
-     "siege": 6,
-     "saetze": "20:6",
-     "punkte": 19
+     "spiele": 8,
+     "siege": 7,
+     "saetze": "23:9",
+     "punkte": 20
     },
     {
      "platz": 2,
-     "team": "RC Sorpesee",
-     "kurz": "RC Sorpesee",
+     "team": "SG Paderborn Volleyball",
+     "kurz": "SG Paderborn Volleyball",
      "status": "rel-auf",
-     "spiele": 7,
+     "spiele": 8,
      "siege": 6,
      "saetze": "20:9",
-     "punkte": 17
+     "punkte": 19
     },
     {
      "platz": 3,
@@ -43,13 +43,23 @@ window.SPIELDATEN = {
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "Telekom Post SV Bielefeld III",
      "status": "",
-     "spiele": 7,
+     "spiele": 8,
      "siege": 4,
-     "saetze": "15:9",
+     "saetze": "15:12",
      "punkte": 13
     },
     {
      "platz": 5,
+     "team": "TV Pivitsheide",
+     "kurz": "Pivitsheide",
+     "status": "",
+     "spiele": 8,
+     "siege": 4,
+     "saetze": "17:17",
+     "punkte": 12
+    },
+    {
+     "platz": 6,
      "team": "Spvg. Steinhagen",
      "kurz": "Spvg. Steinhagen",
      "status": "",
@@ -57,16 +67,6 @@ window.SPIELDATEN = {
      "siege": 4,
      "saetze": "13:11",
      "punkte": 10
-    },
-    {
-     "platz": 6,
-     "team": "TV Pivitsheide",
-     "kurz": "Pivitsheide",
-     "status": "",
-     "spiele": 7,
-     "siege": 3,
-     "saetze": "14:17",
-     "punkte": 9
     },
     {
      "platz": 7,
@@ -1325,15 +1325,31 @@ window.SPIELDATEN = {
      "nr": "36",
      "heim": "Telekom Post SV Bielefeld III",
      "gast": "Pivitsheide",
-     "ergebnis": null,
-     "halle": {
-      "name": "Almhalle 1",
-      "strasse": "Melanchthonstr. 31",
-      "plz": "33615",
-      "ort": "Bielefeld",
-      "lat": 52.0310201,
-      "lng": 8.5175053
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       65,
+       75
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        20,
+        25
+       ],
+       [
+        23,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -1342,15 +1358,31 @@ window.SPIELDATEN = {
      "nr": "39",
      "heim": "SG Paderborn Volleyball",
      "gast": "RC Sorpesee",
-     "ergebnis": null,
-     "halle": {
-      "name": "Pelizaeus-Gymnasium",
-      "strasse": "Gierswall 2",
-      "plz": "33102",
-      "ort": "Paderborn",
-      "lat": 51.72085,
-      "lng": 8.76208
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       66,
+       77
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        19,
+        25
+       ],
+       [
+        25,
+        27
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -2296,42 +2328,42 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
+     "team": "TuRa Löhne",
+     "kurz": "TuRa Löhne",
+     "status": "auf",
+     "spiele": 5,
+     "siege": 3,
+     "saetze": "11:10",
+     "punkte": 9
+    },
+    {
+     "platz": 2,
      "team": "TuS Brake II",
      "kurz": "TuS Brake II",
-     "status": "auf",
+     "status": "rel-auf",
      "spiele": 3,
      "siege": 3,
      "saetze": "9:4",
      "punkte": 8
     },
     {
-     "platz": 2,
+     "platz": 3,
      "team": "SG Levern-Rahden II",
      "kurz": "SG Levern-Rahden II",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 4,
      "siege": 3,
      "saetze": "11:8",
      "punkte": 8
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "TSVE Bielefeld II",
      "kurz": "TSVE Bielefeld II",
      "status": "",
      "spiele": 5,
      "siege": 2,
      "saetze": "10:10",
-     "punkte": 7
-    },
-    {
-     "platz": 4,
-     "team": "TuRa Löhne",
-     "kurz": "TuRa Löhne",
-     "status": "",
-     "spiele": 4,
-     "siege": 2,
-     "saetze": "8:8",
      "punkte": 7
     },
     {
@@ -2349,10 +2381,10 @@ window.SPIELDATEN = {
      "team": "SV 1860 Minden II",
      "kurz": "SV 1860 Minden II",
      "status": "",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 2,
-     "saetze": "7:9",
-     "punkte": 5
+     "saetze": "9:12",
+     "punkte": 6
     },
     {
      "platz": 7,
@@ -2902,15 +2934,39 @@ window.SPIELDATEN = {
      "nr": "16",
      "heim": "SV 1860 Minden II",
      "gast": "TuRa Löhne",
-     "ergebnis": null,
-     "halle": {
-      "name": "Otto-Michelsohn-Sportzentrum",
-      "strasse": "Königswall 10",
-      "plz": "32423",
-      "ort": "Minden",
-      "lat": 52.2884732,
-      "lng": 8.9101679
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       93,
+       109
+      ],
+      "details": [
+       [
+        14,
+        25
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        26,
+        24
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        12,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": ""
     },
     {
@@ -4826,6 +4882,16 @@ window.SPIELDATEN = {
     },
     {
      "platz": 6,
+     "team": "Tus Brake IV",
+     "kurz": "Tus Brake IV",
+     "status": "",
+     "spiele": 6,
+     "siege": 1,
+     "saetze": "9:15",
+     "punkte": 5
+    },
+    {
+     "platz": 7,
      "team": "ATSV Espelkamp II",
      "kurz": "ATSV Espelkamp II",
      "status": "",
@@ -4835,23 +4901,13 @@ window.SPIELDATEN = {
      "punkte": 2
     },
     {
-     "platz": 7,
-     "team": "Tus Brake IV",
-     "kurz": "Tus Brake IV",
-     "status": "",
-     "spiele": 5,
-     "siege": 0,
-     "saetze": "6:15",
-     "punkte": 2
-    },
-    {
      "platz": 8,
      "team": "TG Herford II",
      "kurz": "TG Herford II",
      "status": "",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 0,
-     "saetze": "0:15",
+     "saetze": "0:18",
      "punkte": 0
     }
    ],
@@ -5590,15 +5646,31 @@ window.SPIELDATEN = {
      "nr": "23",
      "heim": "TG Herford II",
      "gast": "Tus Brake IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Mindener Straße",
-      "strasse": "Mindener Str. 98",
-      "plz": "32049",
-      "ort": "Herford",
-      "lat": 52.12595,
-      "lng": 8.68552
+     "ergebnis": {
+      "saetze": [
+       0,
+       3
+      ],
+      "baelle": [
+       54,
+       75
+      ],
+      "details": [
+       [
+        20,
+        25
+       ],
+       [
+        16,
+        25
+       ],
+       [
+        18,
+        25
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "ATSV Espelkamp II"
     },
     {
@@ -6214,16 +6286,26 @@ window.SPIELDATEN = {
     },
     {
      "platz": 2,
+     "team": "MTV Hausberge",
+     "kurz": "MTV Hausberge",
+     "status": "rel-auf",
+     "spiele": 7,
+     "siege": 5,
+     "saetze": "16:12",
+     "punkte": 13
+    },
+    {
+     "platz": 3,
      "team": "TuS Bonneberg",
      "kurz": "TuS Bonneberg",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 6,
      "siege": 4,
      "saetze": "16:8",
      "punkte": 13
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "BTW Bünde",
      "kurz": "BTW Bünde",
      "status": "",
@@ -6233,7 +6315,7 @@ window.SPIELDATEN = {
      "punkte": 12
     },
     {
-     "platz": 4,
+     "platz": 5,
      "team": "TuS Brake",
      "kurz": "TuS Brake",
      "status": "",
@@ -6243,23 +6325,13 @@ window.SPIELDATEN = {
      "punkte": 11
     },
     {
-     "platz": 5,
-     "team": "MTV Hausberge",
-     "kurz": "MTV Hausberge",
-     "status": "",
-     "spiele": 6,
-     "siege": 4,
-     "saetze": "13:12",
-     "punkte": 10
-    },
-    {
      "platz": 6,
      "team": "Telekom Post SV Bielefeld III",
      "kurz": "TPSV Bielefeld III",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 3,
-     "saetze": "9:12",
+     "saetze": "9:15",
      "punkte": 9
     },
     {
@@ -7316,15 +7388,31 @@ window.SPIELDATEN = {
      "nr": "29",
      "heim": "MTV Hausberge",
      "gast": "TPSV Bielefeld III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Portaschule",
-      "strasse": "Zur Porta 73",
-      "plz": "32457",
-      "ort": "Porta Westfalica",
-      "lat": 52.25112,
-      "lng": 8.94201
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       78,
+       60
+      ],
+      "details": [
+       [
+        25,
+        11
+       ],
+       [
+        25,
+        23
+       ],
+       [
+        28,
+        26
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SSV Pr. Ströhen"
     },
     {
@@ -8109,10 +8197,10 @@ window.SPIELDATEN = {
      "team": "SV Ubbedissen",
      "kurz": "SV Ubbedissen",
      "status": "",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 4,
-     "saetze": "14:12",
-     "punkte": 11
+     "saetze": "16:15",
+     "punkte": 12
     },
     {
      "platz": 6,
@@ -8139,10 +8227,10 @@ window.SPIELDATEN = {
      "team": "VoR Paderborn IV",
      "kurz": "VoR Paderborn IV",
      "status": "ab",
-     "spiele": 6,
-     "siege": 1,
-     "saetze": "5:16",
-     "punkte": 4
+     "spiele": 7,
+     "siege": 2,
+     "saetze": "8:18",
+     "punkte": 6
     },
     {
      "platz": 9,
@@ -9171,15 +9259,39 @@ window.SPIELDATEN = {
      "nr": "31",
      "heim": "SV Ubbedissen",
      "gast": "VoR Paderborn IV",
-     "ergebnis": null,
-     "halle": {
-      "name": "Grundschule Ubbedissen",
-      "strasse": "Pyrmonter Str. 9",
-      "plz": "33699",
-      "ort": "Bielefeld",
-      "lat": 51.9860104,
-      "lng": 8.6354429
+     "ergebnis": {
+      "saetze": [
+       2,
+       3
+      ],
+      "baelle": [
+       99,
+       106
+      ],
+      "details": [
+       [
+        22,
+        25
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        25,
+        20
+       ],
+       [
+        15,
+        25
+       ],
+       [
+        12,
+        15
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "TV Büren"
     },
     {
@@ -9904,6 +10016,16 @@ window.SPIELDATEN = {
    "tabelle": [
     {
      "platz": 1,
+     "team": "Gütersloher TV III",
+     "kurz": "Gütersloher TV III",
+     "status": "auf",
+     "spiele": 6,
+     "siege": 5,
+     "saetze": "15:7",
+     "punkte": 13
+    },
+    {
+     "platz": 2,
      "team": "VfB Schloß Holte IV",
      "kurz": "VfB Schloß Holte IV",
      "status": "auf",
@@ -9913,34 +10035,24 @@ window.SPIELDATEN = {
      "punkte": 13
     },
     {
-     "platz": 2,
+     "platz": 3,
      "team": "TuS Brake IV",
      "kurz": "TuS Brake IV",
-     "status": "auf",
+     "status": "rel-auf",
      "spiele": 5,
      "siege": 4,
      "saetze": "14:3",
      "punkte": 13
     },
     {
-     "platz": 3,
+     "platz": 4,
      "team": "SF Sennestadt II",
      "kurz": "SF Sennestadt II",
-     "status": "rel-auf",
+     "status": "",
      "spiele": 5,
      "siege": 4,
      "saetze": "12:4",
      "punkte": 12
-    },
-    {
-     "platz": 4,
-     "team": "Gütersloher TV III",
-     "kurz": "Gütersloher TV III",
-     "status": "",
-     "spiele": 5,
-     "siege": 4,
-     "saetze": "12:7",
-     "punkte": 10
     },
     {
      "platz": 5,
@@ -9967,9 +10079,9 @@ window.SPIELDATEN = {
      "team": "SC Halle III",
      "kurz": "SC Halle III",
      "status": "",
-     "spiele": 5,
+     "spiele": 6,
      "siege": 0,
-     "saetze": "0:15",
+     "saetze": "0:18",
      "punkte": 0
     },
     {
@@ -10637,15 +10749,31 @@ window.SPIELDATEN = {
      "nr": "21",
      "heim": "Gütersloher TV III",
      "gast": "SC Halle III",
-     "ergebnis": null,
-     "halle": {
-      "name": "Schulzentrum Ost",
-      "strasse": "Am Anger 54",
-      "plz": "33332",
-      "ort": "Gütersloh",
-      "lat": 51.900581,
-      "lng": 8.4086823
+     "ergebnis": {
+      "saetze": [
+       3,
+       0
+      ],
+      "baelle": [
+       75,
+       52
+      ],
+      "details": [
+       [
+        25,
+        17
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        25,
+        17
+       ]
+      ]
      },
+     "halle": null,
      "schiri": "SF Sennestadt II"
     },
     {
